@@ -2,9 +2,7 @@
 declare(strict_types=1);
 namespace App\Product\Presentation;
 
-use App\Product\Application\{
-    UseCase\GetProduct
-};
+use App\Product\Application\Dto;
 
 
 final class ProductMapper
@@ -12,12 +10,12 @@ final class ProductMapper
     /**
      * --
      * 
-     * @param GetProduct\Result $product
+     * @param Dto\ProductDto $product
      * 
      * @return Res\ProductRes
     */
     public static function toProductItem(
-        GetProduct\Result $product
+        Dto\ProductDto $product
     ): Res\ProductRes
     {
         $measure    = self::toProductMeasure($product);
@@ -44,12 +42,12 @@ final class ProductMapper
     /**
      * --
      *
-     * @param GetProduct\Result $product
+     * @param Dto\ProductDto $product
      *
      * @return Res\ProductMeasureRes
     */
     private static function toProductMeasure(
-        GetProduct\Result $product
+        Dto\ProductDto $product
     ): Res\ProductMeasureRes
     {
         return new Res\ProductMeasureRes(
@@ -62,12 +60,12 @@ final class ProductMapper
     /**
      * --
      *
-     * @param GetProduct\Result $product
+     * @param Dto\ProductDto $product
      *
      * @return Res\ProductDimensionsRes
     */
     private static function toProductDimensions(
-        GetProduct\Result $product
+        Dto\ProductDto $product
     ): Res\ProductDimensionsRes
     {
         return new Res\ProductDimensionsRes(
@@ -81,18 +79,18 @@ final class ProductMapper
     /**
      * --
      * 
-     * @param array $properties
+     * @param Dto\ProductPropertyDto $property
      * 
      * @return Res\ProductPropertyRes
     */
     private static function toProductProperty(
-        array $properties
+        Dto\ProductPropertyDto $property
     ): Res\ProductPropertyRes
     {
         return new Res\ProductPropertyRes(
-            name : $properties['name'],
-            code : $properties['code'],
-            value: $properties['value']
+            name : $property->name,
+            code : $property->code,
+            value: $property->value
         );
     }
 }

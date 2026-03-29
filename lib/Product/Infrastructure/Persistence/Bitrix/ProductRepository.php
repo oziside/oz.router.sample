@@ -45,7 +45,6 @@ final class ProductRepository implements Repository\ProductRepository
             ->setSelect([
                 // Iblock element
                 'ID',
-                'XML_ID',
                 'IBLOCK_ID',
                 'IBLOCK_SECTION_ID',
                 'ACTIVE',

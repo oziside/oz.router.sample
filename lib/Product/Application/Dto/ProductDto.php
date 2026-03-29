@@ -7,10 +7,9 @@ final class ProductDto
 {
     /**
      * @param list<ProductPropertyDto> $properties
-     */
+    */
     public function __construct(
         public readonly int $id,
-        public readonly string $uuid,
         public readonly int $sectionId,
         public readonly bool $active,
         public readonly int $sort,

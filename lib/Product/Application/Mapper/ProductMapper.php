@@ -28,7 +28,6 @@ final class ProductMapper
 
         return new Dto\ProductDto(
             id         : $product->getId(),
-            uuid       : $product->getUuid(),
             sectionId  : $product->getSectionId(),
             active     : $product->isActive(),
             sort       : $product->getSort(),

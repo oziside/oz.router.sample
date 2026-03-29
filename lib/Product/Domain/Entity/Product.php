@@ -15,7 +15,6 @@ final class Product
     */
     private function __construct(
         private readonly int $id,
-        private readonly VO\ProductUuid $uuid,
         private int $sectionId,
         private bool $active,
         private int $sort,
@@ -40,16 +39,6 @@ final class Product
     public function getId(): int
     {
         return $this->id;
-    }
-
-    /**
-     * Returns the UUID of the product.
-     * 
-     * @return string
-    */
-    public function getUuid(): string
-    {
-        return $this->uuid->getValue();
     }
 
     /**
@@ -189,7 +178,6 @@ final class Product
     */
     public static function restore(
         int $id,
-        VO\ProductUuid $uuid,
         int $sectionId,
         bool $active,
         int $sort,
@@ -204,7 +192,6 @@ final class Product
     {
         return new self(
             id: $id,
-            uuid: $uuid,
             sectionId: $sectionId,
             active: $active,
             sort: $sort,

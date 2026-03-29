@@ -34,10 +34,6 @@ final class ProductMapper
     {
         $productMeta = $productObject->getProductMeta();
 
-        $uuidVO = VO\ProductUuid::fromString(
-            $productObject->getXmlId()
-        );
-
         $nameVO = VO\ProductName::fromString(
             $productObject->getName()
         );
@@ -61,7 +57,6 @@ final class ProductMapper
 
         return Entity\Product::restore(
             id         : $productObject->getId(),
-            uuid       : $uuidVO,
             sectionId  : $productObject->getIblockSectionId(),
             active     : $productObject->getActive(),
             sort       : $productObject->getSort(),

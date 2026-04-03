@@ -53,11 +53,11 @@ if (file_exists($autoload))
 	},
 	"extra": {
 		"installer-paths": {
-			"../modules/{$name}/": ["type:bitrix-d7-module"]
+			"./modules/{$name}/": ["type:bitrix-d7-module"]
 		}
 	},
 	"repositories": {
-		"oz/router-sample": {
+		"oz/oz.router.sample": {
 			"type": "path",
 			"url": "./modules/oz.router.sample"
 		}
@@ -83,7 +83,7 @@ git clone git@github.com:oziside/oz.router.sample.git
 Установите зависимости:
 
 ```bash
-cd ../../
+cd ../
 composer install
 ```
 

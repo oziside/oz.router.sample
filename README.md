@@ -56,12 +56,6 @@ if (file_exists($autoload))
 			"./modules/{$name}/": ["type:bitrix-d7-module"]
 		}
 	},
-	"repositories": {
-		"oz/oz.router.sample": {
-			"type": "path",
-			"url": "./modules/oz.router.sample"
-		}
-	},
 	"config": {
 		"allow-plugins": {
 			"composer/installers": true
@@ -73,17 +67,10 @@ if (file_exists($autoload))
 
 ### Установка модуля
 
-Клонируйте репозиторий в директорию модулей:
-
-```bash
-cd local/modules
-git clone git@github.com:oziside/oz.router.sample.git
-```
-
 Установите зависимости:
 
 ```bash
-cd ../
+cd local
 composer install
 ```
 

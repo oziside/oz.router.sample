@@ -56,12 +56,6 @@ if (file_exists($autoload))
 			"./modules/{$name}/": ["type:bitrix-d7-module"]
 		}
 	},
-	"repositories": {
-		"oz/oz.router.sample": {
-			"type": "path",
-			"url": "./modules/oz.router.sample"
-		}
-	},
 	"config": {
 		"allow-plugins": {
 			"composer/installers": true
@@ -73,35 +67,12 @@ if (file_exists($autoload))
 
 ### Установка модуля
 
-Клонируйте репозиторий в директорию модулей:
-
-```bash
-cd local/modules
-git clone git@github.com:oziside/oz.router.sample.git
-```
-
 Установите зависимости:
 
 ```bash
-cd ../
+cd local
 composer install
 ```
 
 ### Активация модуля
-
 После установки выполните стандартную установку модулeй `oz.router` и `oz.router.sample` через административную панель 1С-Битрикс.
-
-### Базовые настройки
-1. Перейти в инфоблок, который является торговым каталогом. В поле "Символьный код API" установить значение `catalog`
-2. В настройках модуля `oz.router` проставить ссылки к файлам конфигурации роутинга и DI контейнера
-3. В файле `urlrewrite.php` добавить:
-
-```php
- array (
-    'CONDITION' => '#^/api#',
-    'RULE' => '',
-    'ID' => NULL,
-    'PATH' => '/bitrix/services/oz.api/index.php',
-    'SORT' => 200,
-  ),
-```

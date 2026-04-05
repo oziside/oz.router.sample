@@ -1,6 +1,9 @@
 <?php
 use Bitrix\{
     Main,
+    Iblock,
+    Catalog,
+    Main\Loader,
     Main\Localization\Loc
 };
 
@@ -71,18 +74,37 @@ class oz_router_sample extends CModule
 
     public function DoInstall(): void
     {
-        global $USER;
+        global $APPLICATION, $USER, $step;
+
+        $step = (int)$step;
 
         if ($USER->IsAdmin())
         {
-            if (!Main\ModuleManager::isModuleInstalled($this->MODULE_ID))
+            if ($step < 2)
             {
-                $this->InstallDB();
-                $this->InstallEvents();
-                $this->InstallFiles();
-
-                Main\ModuleManager::registerModule($this->MODULE_ID);
+                $GLOBALS['oz_router_sample_install_context'] = $this->getInstallContext();
+                $APPLICATION->IncludeAdminFile('', __DIR__ . '/step1.php');
             }
+            elseif ($step === 2)
+            {
+                $request = Main\Application::getInstance()->getContext()->getRequest();
+                
+                $catalogIblockId = $request->get('catalog_iblock_id') ?? 0;
+
+                if (!Main\ModuleManager::isModuleInstalled($this->MODULE_ID))
+                {
+                    if ($this->setConfig((int)$catalogIblockId))
+                    {
+                        $this->InstallDB();
+                        $this->InstallEvents();
+                        $this->InstallFiles();
+
+                        Main\ModuleManager::registerModule($this->MODULE_ID);
+                    }
+                }
+
+                $APPLICATION->IncludeAdminFile('',__DIR__ . '/step2.php');
+            }         
         }
     }
 
@@ -97,5 +119,115 @@ class oz_router_sample extends CModule
             $this->UnInstallEvents();
             $this->UnInstallFiles();
         }
+    }
+
+
+    /**
+     * Возвращает контекст для первого шага установки
+     * 
+     * @return array
+    */
+    private function getInstallContext(): array
+    {
+        if(!Loader::includeModule('catalog'))
+        {
+            return [
+                'status'  => 'error',
+                'message' => 'Для установки требуется установленный модуль "Торговый каталог" (catalog).'
+            ];
+        }
+
+        $catalogs = Catalog\CatalogIblockTable::getList([
+            'select' => [
+                'ID'       => 'IBLOCK_ID',
+                'NAME'     => 'IBLOCK.NAME',
+                'API_CODE' => 'IBLOCK.API_CODE',
+            ],
+            'filter' => [
+                '=PRODUCT_IBLOCK_ID' => 0,
+            ]
+        ])->fetchAll();
+
+
+        if(empty($catalogs))
+        {
+            return [
+                'status'  => 'error',
+                'message' => 'Не найдено ни одного торгового каталога.'
+            ];
+        }
+
+        return [
+            'status'   => 'ok',
+            'catalogs' => $catalogs,
+        ];
+    }
+
+
+    /**
+     * Устанавливает конфигурацию для 
+     * выбранного торгового каталога
+     * 
+     * @param int $iblockId
+     * 
+     * @return bool
+    */
+    private function setConfig(
+        int $iblockId
+    ): bool
+    {
+        global $APPLICATION;
+
+        if(!Loader::includeModule('iblock'))
+        {
+            $APPLICATION->ThrowException('Для установки требуется установленный модуль "Информационные блоки" (iblock).');
+            return false;
+        }
+
+        Iblock\IblockTable::update($iblockId, [
+            'API_CODE' => 'catalog'
+        ]);
+
+
+        return $this->setRouterConfig();
+    }
+
+
+    /**
+     * Устанавливает базовую конфигурацию модуля oz.router
+     * 
+     * @return bool
+    */
+    private function setRouterConfig(): bool
+    {
+        global $APPLICATION;
+
+        if(!Loader::includeModule('oz.router'))
+        {
+            $APPLICATION->ThrowException('Для установки требуется установленный модуль "API Router" (oz.router).');
+            return false;
+        }
+
+        $configPath   = '/local/modules/'. $this->MODULE_ID . '/config';
+        $routesConfig = $configPath.'/routes/api.php';
+        $diConfig     = $configPath.'/di.php';
+
+        if(!is_file($_SERVER['DOCUMENT_ROOT'] . $routesConfig))
+        {
+            $APPLICATION->ThrowException('Не найден файл конфигурации маршрутов:' .$routesConfig);
+            return false;
+        }
+
+        if(!is_file($_SERVER['DOCUMENT_ROOT'] . $diConfig))
+        {
+            $APPLICATION->ThrowException('Не найден файл конфигурации DI:' .$diConfig);
+            return false;
+        }
+
+        $config = Oz\Router\Module\Module::getConfig();
+        $config->setConfigRoutesFilePath($routesConfig);
+        $config->setConfigDIFilePath($diConfig);
+
+        return true;
     }
 }

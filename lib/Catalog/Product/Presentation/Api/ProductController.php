@@ -12,8 +12,6 @@ use App\Catalog\Product\Application\{
     UseCase\GetProduct
 };
 
-use App\Shared\Presentation\Api\Res as SharedRes;
-
 
 final class ProductController
 {
@@ -24,7 +22,7 @@ final class ProductController
 
     #[OA\Get(
         tags: ['Products'],
-        path: '/api/v1/product/{id}',
+        path: '/product/{id}',
         summary: 'Получение информации о товаре',
         operationId: 'getProduct',
         parameters: [

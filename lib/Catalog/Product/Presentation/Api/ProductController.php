@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\Catalog\Product\Presentation;
+namespace App\Catalog\Product\Presentation\Api;
 
 use OpenApi\Attributes as OA;
 
@@ -12,6 +12,8 @@ use App\Catalog\Product\Application\{
     UseCase\GetProduct
 };
 
+use App\Shared\Presentation\Api\Res as SharedRes;
+
 
 final class ProductController
 {
@@ -21,8 +23,8 @@ final class ProductController
 
 
     #[OA\Get(
-        tags: ['Product Controller'],
-        path: '/v1/product/{id}',
+        tags: ['Products'],
+        path: '/api/v1/product/{id}',
         summary: 'Получение информации о товаре',
         operationId: 'getProduct',
         parameters: [
@@ -30,12 +32,16 @@ final class ProductController
                 name    : 'id',
                 in      : 'path',
                 required: true,
-                schema  : new OA\Schema(type: 'integer')
+                schema  : new OA\Schema(
+                    type: 'integer',
+                    minimum: 1
+                )
             )
         ],
         responses: [
             new OA\Response(
                 response: 200,
+                description: 'Товар найден',
                 content: new OA\JsonContent(ref: Res\ProductRes::class)
             )
         ]

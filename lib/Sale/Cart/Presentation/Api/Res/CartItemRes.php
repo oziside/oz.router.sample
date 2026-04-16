@@ -8,6 +8,7 @@ use Oz\Router\Attribute\JsonResource;
 
 #[OA\Schema(
     required: [
+        'id',
         'productId',
         'name',
         'price',
@@ -20,6 +21,14 @@ use Oz\Router\Attribute\JsonResource;
 final class CartItemRes
 {
     public function __construct(
+        #[OA\Property(
+            description: "ID позиции корзины",
+            minimum: 1,
+            example: 42
+        )]
+        public int $id,
+
+
         #[OA\Property(
             description: "ID Товара",
             minimum: 1,

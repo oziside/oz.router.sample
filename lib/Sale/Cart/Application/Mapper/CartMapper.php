@@ -41,8 +41,9 @@ final class CartMapper
     ): Dto\CartItemDto
     {
         return new Dto\CartItemDto(
+            id: $item->getId(),
             productId: $item->getProductId(),
-            quantity : $item->getQuantity(),
+            quantity: $item->getQuantity(),
             productName: $item->getProductName(),
             price: $item->getPrice(),
             discountPrice: $item->getDiscountPrice(),

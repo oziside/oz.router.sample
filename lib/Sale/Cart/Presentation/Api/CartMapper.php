@@ -43,6 +43,7 @@ final class CartMapper
         );
 
         return new Res\CartItemRes(
+            id       : $dto->id,
             productId: $dto->productId,
             name     : $dto->productName,
             price    : $priceRes,

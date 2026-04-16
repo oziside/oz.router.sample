@@ -4,6 +4,7 @@ namespace App\Sale\Cart\Infrastructure\Persistence\Bitrix;
 
 use App\Sale\Cart\Domain\Aggregate;
 use App\Sale\Cart\Domain\Entity;
+use App\Sale\Cart\Domain\ValueObject as VO;
 use Bitrix\Sale\Basket;
 
 
@@ -25,15 +26,17 @@ final class CartMapper
         /** @var \Bitrix\Sale\BasketItemBase $basketItem */
         foreach ($basket as $basketItem)
         {
+            $currency = $basketItem->getCurrency();
+
             $items[] = Entity\CartItem::restore(
-                productId    : $basketItem->getProductId(),
-                quantity     : $basketItem->getQuantity(),
-                productName  : (string)$basketItem->getField('NAME'),
-                price        : $basketItem->getPrice(),
-                discountPrice: $basketItem->getDiscountPrice(),
-                measureName  : (string)$basketItem->getField('MEASURE_NAME'),
-                currency     : $basketItem->getCurrency(),
-                weight       : (float)$basketItem->getWeight()
+                id          : VO\CartItemId::fromInt($basketItem->getId()),
+                productId   : VO\ProductId::fromInt($basketItem->getProductId()),
+                quantity    : VO\Quantity::fromFloat($basketItem->getQuantity()),
+                productName : VO\ProductName::fromString((string)$basketItem->getField('NAME')),
+                unitPrice   : VO\Money::fromAmountAndCurrency($basketItem->getPrice(), $currency),
+                unitDiscount: VO\Money::fromAmountAndCurrency($basketItem->getDiscountPrice(), $currency),
+                measureName : VO\MeasureName::fromString((string)$basketItem->getField('MEASURE_NAME')),
+                weight      : VO\Weight::fromFloat((float)$basketItem->getWeight())
             );
         }
 

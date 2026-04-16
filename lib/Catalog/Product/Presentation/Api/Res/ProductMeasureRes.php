@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\Catalog\Product\Presentation\Res;
+namespace App\Catalog\Product\Presentation\Api\Res;
 
 
 use OpenApi\Attributes as OA;

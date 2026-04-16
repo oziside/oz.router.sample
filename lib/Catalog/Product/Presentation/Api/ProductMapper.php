@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\Catalog\Product\Presentation;
+namespace App\Catalog\Product\Presentation\Api;
 
 use App\Catalog\Product\Application\Dto;
 

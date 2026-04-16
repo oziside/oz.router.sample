@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-namespace App\Catalog\Product\Presentation\Res;
+namespace App\Catalog\Product\Presentation\Api\Res;
 
 use OpenApi\Attributes as OA;
 use Oz\Router\Attribute\JsonResource;
@@ -33,6 +33,23 @@ final class ProductPropertyRes
         
         #[OA\Property(
             description: 'Значение свойства',
+            oneOf: [
+                new OA\Schema(type: 'string'),
+                new OA\Schema(type: 'integer'),
+                new OA\Schema(type: 'number', format: 'float'),
+                new OA\Schema(type: 'boolean'),
+                new OA\Schema(
+                    type: 'array',
+                    items: new OA\Items(
+                        oneOf: [
+                            new OA\Schema(type: 'string'),
+                            new OA\Schema(type: 'integer'),
+                            new OA\Schema(type: 'number', format: 'float'),
+                            new OA\Schema(type: 'boolean'),
+                        ]
+                    )
+                ),
+            ],
             example: 'Красный'
         )]
         public readonly string|int|float|bool|array $value

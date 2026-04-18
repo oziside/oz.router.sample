@@ -3,6 +3,7 @@ declare(strict_types=1);
 namespace App\Shared\Presentation\Cli;
 
 use App\Shared\Infrastructure\OpenApi\OpenApiGenerator;
+use InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -59,18 +60,19 @@ final class GenerateOpenApiCommand extends Command
         OutputInterface $output
     ): int
     {
-        $projectRoot = dirname(__DIR__, 4);
-        $outputPath  = $this->resolvePath($projectRoot, $input->getOption('output'));
-        $scanRoots   = $this->resolvePaths($projectRoot, $input->getOption('scan-path'));
-
-
-        $sources = $this->findSourceFiles(
-            scanRoots: $scanRoots,
-            pathPattern: $input->getOption('path-pattern'),
-        );
-    
         try
         {
+            $projectRoot = dirname(__DIR__, 4);
+            $format      = $this->getStringOption($input, 'format');
+            $outputPath  = $this->resolvePath($projectRoot, $this->getStringOption($input, 'output'));
+            $pathPattern = $this->getStringOption($input, 'path-pattern');
+            $scanRoots   = $this->resolvePaths($projectRoot, $this->getStringListOption($input, 'scan-path'));
+
+            $sources = $this->findSourceFiles(
+                scanRoots: $scanRoots,
+                pathPattern: $pathPattern,
+            );
+
             $output->writeln(sprintf(
                 '<comment>Scanning OpenAPI sources: %s</comment>',
                 implode(', ', $scanRoots)
@@ -80,8 +82,10 @@ final class GenerateOpenApiCommand extends Command
                 ->generate(
                     sources: $sources,
                     outputPath: $outputPath,
-                    format: $input->getOption('format')
+                    format: $format
                 );
+
+            $output->writeln(sprintf('<info>OpenAPI schema generated: %s</info>', $outputPath));
         }
         catch (Throwable $exception)
         {
@@ -92,8 +96,6 @@ final class GenerateOpenApiCommand extends Command
 
             return Command::FAILURE;
         }
-
-        $output->writeln(sprintf('<info>OpenAPI schema generated: %s</info>', $outputPath));
 
         return Command::SUCCESS;
     }
@@ -149,24 +151,23 @@ final class GenerateOpenApiCommand extends Command
      * Resolves a list of input paths against the project root.
      *
      * @param string $projectRoot
-     * @param list<string>|mixed $paths
+     * @param list<string> $paths
      * 
      * @return list<string>
     */
     private function resolvePaths(
         string $projectRoot,
-        mixed $paths
+        array $paths
     ): array
     {
-        if (!is_array($paths))
+        $resolvedPaths = [];
+
+        foreach ($paths as $path)
         {
-            return [];
+            $resolvedPaths[] = $this->resolvePath($projectRoot, $path);
         }
 
-        return array_map(
-            fn (string $path): string => $this->resolvePath($projectRoot, $path),
-            $paths
-        );
+        return $resolvedPaths;
     }
 
 
@@ -197,5 +198,61 @@ final class GenerateOpenApiCommand extends Command
         }
 
         return rtrim($projectRoot, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . $path;
+    }
+
+
+    /**
+     * @param InputInterface $input
+     * @param string $name
+     *
+     * @return string
+    */
+    private function getStringOption(
+        InputInterface $input,
+        string $name
+    ): string
+    {
+        $value = $input->getOption($name);
+
+        if (!is_string($value))
+        {
+            throw new InvalidArgumentException(sprintf('Option "%s" must be a string.', $name));
+        }
+
+        return $value;
+    }
+
+
+    /**
+     * @param InputInterface $input
+     * @param string $name
+     *
+     * @return list<string>
+    */
+    private function getStringListOption(
+        InputInterface $input,
+        string $name
+    ): array
+    {
+        $value = $input->getOption($name);
+
+        if (!is_array($value))
+        {
+            throw new InvalidArgumentException(sprintf('Option "%s" must be a list of strings.', $name));
+        }
+
+        $strings = [];
+
+        foreach ($value as $item)
+        {
+            if (!is_string($item))
+            {
+                throw new InvalidArgumentException(sprintf('Option "%s" must be a list of strings.', $name));
+            }
+
+            $strings[] = $item;
+        }
+
+        return $strings;
     }
 }

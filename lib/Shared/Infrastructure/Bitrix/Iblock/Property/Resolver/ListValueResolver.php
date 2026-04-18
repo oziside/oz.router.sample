@@ -47,6 +47,11 @@ final class ListValueResolver
                 continue;
             }
 
+            if (!is_scalar($value) && !$value instanceof \Stringable)
+            {
+                continue;
+            }
+
             $value = trim((string)$value);
 
             if ($value === '')

@@ -42,6 +42,11 @@ final class OpenApiGenerator
 
         $openApi = (new Generator())->generate($sources);
 
+        if ($openApi === null)
+        {
+            throw new RuntimeException('Unable to generate OpenAPI schema: no OpenAPI annotations were found.');
+        }
+
         $contents = match ($format)
         {
             self::FORMAT_JSON => $openApi->toJson(),

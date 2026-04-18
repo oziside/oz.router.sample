@@ -46,6 +46,16 @@ final class NumberValueResolver
                 continue;
             }
 
+            if (!is_scalar($value) && !$value instanceof \Stringable)
+            {
+                continue;
+            }
+
+            if (is_bool($value))
+            {
+                continue;
+            }
+
             if (is_string($value))
             {
                 $value = trim($value);
@@ -71,11 +81,11 @@ final class NumberValueResolver
     /**
      * Casts a value to a numeric type.
      *
-     * @param mixed $value
+     * @param int|float|string|\Stringable $value
      *
      * @return int|float
     */
-    private function castNumeric(mixed $value): int|float
+    private function castNumeric(int|float|string|\Stringable $value): int|float
     {
         if (is_int($value))
         {

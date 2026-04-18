@@ -6,7 +6,7 @@ namespace App\Catalog\Product\Application\Dto;
 final class ProductPropertyDto
 {
     /**
-     * @param string|int|float|bool|array $value
+     * @param string|int|float|bool|list<string|int|float|bool> $value
     */
     public function __construct(
         public readonly string $name,

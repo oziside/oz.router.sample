@@ -16,6 +16,9 @@ use Oz\Router\Attribute\JsonResource;
 #[JsonResource]
 final class ProductPropertyRes
 {
+    /**
+     * @param string|int|float|bool|list<string|int|float|bool> $value
+     */
     public function __construct(
         #[OA\Property(
             description: 'Наименование свойства',

@@ -28,7 +28,7 @@ final class CartMapper
     /**
      * --
      * 
-     * @param Dto\CartItemDto $item
+     * @param Dto\CartItemDto $dto
      * 
      * @return Res\CartItemRes
     */

@@ -21,6 +21,9 @@ use Oz\Router\Attribute\JsonResource;
 #[JsonResource]
 final class ProductRes
 {
+    /**
+     * @param list<ProductPropertyRes> $properties
+     */
     public function __construct(
         #[OA\Property(
             description: 'Название товара',

@@ -7,6 +7,9 @@ use InvalidArgumentException;
 
 final class PropertyValue
 {
+    /**
+     * @param string|int|float|bool|list<string|int|float|bool> $value
+     */
     private function __construct(
         private string|int|float|bool|array $value
     )

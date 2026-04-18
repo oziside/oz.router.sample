@@ -9,7 +9,7 @@ use App\Shared\Infrastructure\Bitrix\Site\CurrentSiteProvider;
 use App\Shared\Infrastructure\Bitrix\Visitor\CurrentVisitorProvider;
 
 use Bitrix\Main;
-use Bitrix\Sale\Basket;
+use Bitrix\Sale\BasketBase;
 use Bitrix\Catalog\Product\Basket as CatalogBasket;
 
 use RuntimeException;
@@ -78,8 +78,6 @@ final class CartRepository implements Repository\CartRepository
     /**
      * Removes a product from the cart
      * 
-     * @param int $productId
-     * 
      * @return void
     */
     public function removeProduct(
@@ -112,8 +110,6 @@ final class CartRepository implements Repository\CartRepository
     /**
      * Removes all products from the cart
      * 
-     * @param int $productId
-     * 
      * @return void
     */
     public function clear(): void
@@ -137,13 +133,13 @@ final class CartRepository implements Repository\CartRepository
     /**
      * Loads current visitor cart
      * 
-     * @return Basket
+     * @return BasketBase
     */
-    private function loadCurrentBasket(): Basket
+    private function loadCurrentBasket(): BasketBase
     {
         Module\ModuleLoader::requireSale();
 
-        $basket = Basket::loadItemsForFUser(
+        $basket = BasketBase::loadItemsForFUser(
             $this->currentVisitor->getVisitorId(),
             $this->currentSite->getSiteId()
         );

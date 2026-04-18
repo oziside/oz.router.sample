@@ -39,7 +39,7 @@ final class PropertyValueNormalizer
     /**
      * Returns the list of available resolvers.
      * 
-     * @return list<StringValueResolver|NumberValueResolver|ListValueResolver>
+     * @return list<Resolver\StringValueResolver|Resolver\NumberValueResolver|Resolver\ListValueResolver>
     */
     private function getResolvers(): array
     {

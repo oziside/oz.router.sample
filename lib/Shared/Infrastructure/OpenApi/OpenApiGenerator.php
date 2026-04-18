@@ -71,7 +71,7 @@ final class OpenApiGenerator
      * 
      * @param string $format
      * 
-     * @return string
+     * @return self::FORMAT_JSON|self::FORMAT_YAML
     */
     private function normalizeFormat(
         string $format

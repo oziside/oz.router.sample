@@ -15,6 +15,9 @@ use Oz\Router\Attribute\JsonResource;
 #[JsonResource]
 final class FullCartRes
 {
+    /**
+     * @param list<CartItemRes> $list
+     */
     public function __construct(
         #[OA\Property(
             description: "Список товаров",

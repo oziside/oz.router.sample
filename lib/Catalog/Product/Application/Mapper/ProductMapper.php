@@ -50,7 +50,7 @@ final class ProductMapper
      * 
      * @param list<VO\ProductProperty> $properties
      *
-     * @return list<ProductPropertyDto>
+     * @return list<Dto\ProductPropertyDto>
     */
     public static function toPropertyDtoList(array $properties): array
     {

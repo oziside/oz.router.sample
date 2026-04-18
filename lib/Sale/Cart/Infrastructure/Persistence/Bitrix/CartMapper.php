@@ -5,7 +5,7 @@ namespace App\Sale\Cart\Infrastructure\Persistence\Bitrix;
 use App\Sale\Cart\Domain\Aggregate;
 use App\Sale\Cart\Domain\Entity;
 use App\Sale\Cart\Domain\ValueObject as VO;
-use Bitrix\Sale\Basket;
+use Bitrix\Sale\BasketBase;
 
 
 final class CartMapper
@@ -13,12 +13,12 @@ final class CartMapper
     /**
      * --
      * 
-     * @param Basket $basket
+     * @param BasketBase $basket
      * 
      * @return Aggregate\Cart
     */
     public static function toCartEntity(
-        Basket $basket
+        BasketBase $basket
     ): Aggregate\Cart
     {
         $items = [];

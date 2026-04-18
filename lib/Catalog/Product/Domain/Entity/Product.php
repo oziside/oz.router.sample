@@ -174,6 +174,8 @@ final class Product
     /**
      * Restores an existing product instance.
      * 
+     * @param list<VO\ProductProperty> $properties
+     *
      * @return self
     */
     public static function restore(

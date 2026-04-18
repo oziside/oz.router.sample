@@ -19,7 +19,7 @@ final class ProductProperty
      * 
      * @param string $name
      * @param string $code
-     * @param string|int|float|bool|array $value
+     * @param string|int|float|bool|list<string|int|float|bool> $value
      * 
      * @return self
     */

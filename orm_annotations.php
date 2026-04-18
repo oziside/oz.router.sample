@@ -9,8 +9,8 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -24,16 +24,16 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetTimestampX()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \int getModifiedBy()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setModifiedBy(\int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
+	 * @method int getModifiedBy()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setModifiedBy(int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
 	 * @method bool hasModifiedBy()
 	 * @method bool isModifiedByFilled()
 	 * @method bool isModifiedByChanged()
-	 * @method \int remindActualModifiedBy()
-	 * @method \int requireModifiedBy()
+	 * @method int remindActualModifiedBy()
+	 * @method int requireModifiedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetModifiedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetModifiedBy()
-	 * @method \int fillModifiedBy()
+	 * @method int fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime getDateCreate()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDateCreate(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $dateCreate)
 	 * @method bool hasDateCreate()
@@ -44,46 +44,46 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetDateCreate()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetDateCreate()
 	 * @method \Bitrix\Main\Type\DateTime fillDateCreate()
-	 * @method \int getCreatedBy()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setCreatedBy(\int|\Bitrix\Main\DB\SqlExpression $createdBy)
+	 * @method int getCreatedBy()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setCreatedBy(int|\Bitrix\Main\DB\SqlExpression $createdBy)
 	 * @method bool hasCreatedBy()
 	 * @method bool isCreatedByFilled()
 	 * @method bool isCreatedByChanged()
-	 * @method \int remindActualCreatedBy()
-	 * @method \int requireCreatedBy()
+	 * @method int remindActualCreatedBy()
+	 * @method int requireCreatedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetCreatedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetCreatedBy()
-	 * @method \int fillCreatedBy()
-	 * @method \int getIblockId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setIblockId(\int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method int fillCreatedBy()
+	 * @method int getIblockId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
 	 * @method bool hasIblockId()
 	 * @method bool isIblockIdFilled()
 	 * @method bool isIblockIdChanged()
-	 * @method \int remindActualIblockId()
-	 * @method \int requireIblockId()
+	 * @method int remindActualIblockId()
+	 * @method int requireIblockId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetIblockId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetIblockId()
-	 * @method \int fillIblockId()
-	 * @method \int getIblockSectionId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setIblockSectionId(\int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
+	 * @method int fillIblockId()
+	 * @method int getIblockSectionId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setIblockSectionId(int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
 	 * @method bool hasIblockSectionId()
 	 * @method bool isIblockSectionIdFilled()
 	 * @method bool isIblockSectionIdChanged()
-	 * @method \int remindActualIblockSectionId()
-	 * @method \int requireIblockSectionId()
+	 * @method int remindActualIblockSectionId()
+	 * @method int requireIblockSectionId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetIblockSectionId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetIblockSectionId()
-	 * @method \int fillIblockSectionId()
-	 * @method \boolean getActive()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method int fillIblockSectionId()
+	 * @method bool getActive()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetActive()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetActive()
-	 * @method \boolean fillActive()
+	 * @method bool fillActive()
 	 * @method \Bitrix\Main\Type\DateTime getActiveFrom()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setActiveFrom(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $activeFrom)
 	 * @method bool hasActiveFrom()
@@ -104,136 +104,136 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetActiveTo()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetActiveTo()
 	 * @method \Bitrix\Main\Type\DateTime fillActiveTo()
-	 * @method \int getSort()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method int getSort()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetSort()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetSort()
-	 * @method \int fillSort()
-	 * @method \string getName()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method int fillSort()
+	 * @method string getName()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetName()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetName()
-	 * @method \string fillName()
-	 * @method \int getPreviewPicture()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewPicture(\int|\Bitrix\Main\DB\SqlExpression $previewPicture)
+	 * @method string fillName()
+	 * @method int getPreviewPicture()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewPicture(int|\Bitrix\Main\DB\SqlExpression $previewPicture)
 	 * @method bool hasPreviewPicture()
 	 * @method bool isPreviewPictureFilled()
 	 * @method bool isPreviewPictureChanged()
-	 * @method \int remindActualPreviewPicture()
-	 * @method \int requirePreviewPicture()
+	 * @method int remindActualPreviewPicture()
+	 * @method int requirePreviewPicture()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetPreviewPicture()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetPreviewPicture()
-	 * @method \int fillPreviewPicture()
-	 * @method \string getPreviewText()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewText(\string|\Bitrix\Main\DB\SqlExpression $previewText)
+	 * @method int fillPreviewPicture()
+	 * @method string getPreviewText()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewText(string|\Bitrix\Main\DB\SqlExpression $previewText)
 	 * @method bool hasPreviewText()
 	 * @method bool isPreviewTextFilled()
 	 * @method bool isPreviewTextChanged()
-	 * @method \string remindActualPreviewText()
-	 * @method \string requirePreviewText()
+	 * @method string remindActualPreviewText()
+	 * @method string requirePreviewText()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetPreviewText()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetPreviewText()
-	 * @method \string fillPreviewText()
-	 * @method \string getPreviewTextType()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewTextType(\string|\Bitrix\Main\DB\SqlExpression $previewTextType)
+	 * @method string fillPreviewText()
+	 * @method string getPreviewTextType()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setPreviewTextType(string|\Bitrix\Main\DB\SqlExpression $previewTextType)
 	 * @method bool hasPreviewTextType()
 	 * @method bool isPreviewTextTypeFilled()
 	 * @method bool isPreviewTextTypeChanged()
-	 * @method \string remindActualPreviewTextType()
-	 * @method \string requirePreviewTextType()
+	 * @method string remindActualPreviewTextType()
+	 * @method string requirePreviewTextType()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetPreviewTextType()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetPreviewTextType()
-	 * @method \string fillPreviewTextType()
-	 * @method \int getDetailPicture()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailPicture(\int|\Bitrix\Main\DB\SqlExpression $detailPicture)
+	 * @method string fillPreviewTextType()
+	 * @method int getDetailPicture()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailPicture(int|\Bitrix\Main\DB\SqlExpression $detailPicture)
 	 * @method bool hasDetailPicture()
 	 * @method bool isDetailPictureFilled()
 	 * @method bool isDetailPictureChanged()
-	 * @method \int remindActualDetailPicture()
-	 * @method \int requireDetailPicture()
+	 * @method int remindActualDetailPicture()
+	 * @method int requireDetailPicture()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetDetailPicture()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetDetailPicture()
-	 * @method \int fillDetailPicture()
-	 * @method \string getDetailText()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailText(\string|\Bitrix\Main\DB\SqlExpression $detailText)
+	 * @method int fillDetailPicture()
+	 * @method string getDetailText()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailText(string|\Bitrix\Main\DB\SqlExpression $detailText)
 	 * @method bool hasDetailText()
 	 * @method bool isDetailTextFilled()
 	 * @method bool isDetailTextChanged()
-	 * @method \string remindActualDetailText()
-	 * @method \string requireDetailText()
+	 * @method string remindActualDetailText()
+	 * @method string requireDetailText()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetDetailText()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetDetailText()
-	 * @method \string fillDetailText()
-	 * @method \string getDetailTextType()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailTextType(\string|\Bitrix\Main\DB\SqlExpression $detailTextType)
+	 * @method string fillDetailText()
+	 * @method string getDetailTextType()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setDetailTextType(string|\Bitrix\Main\DB\SqlExpression $detailTextType)
 	 * @method bool hasDetailTextType()
 	 * @method bool isDetailTextTypeFilled()
 	 * @method bool isDetailTextTypeChanged()
-	 * @method \string remindActualDetailTextType()
-	 * @method \string requireDetailTextType()
+	 * @method string remindActualDetailTextType()
+	 * @method string requireDetailTextType()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetDetailTextType()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetDetailTextType()
-	 * @method \string fillDetailTextType()
-	 * @method \string getSearchableContent()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setSearchableContent(\string|\Bitrix\Main\DB\SqlExpression $searchableContent)
+	 * @method string fillDetailTextType()
+	 * @method string getSearchableContent()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setSearchableContent(string|\Bitrix\Main\DB\SqlExpression $searchableContent)
 	 * @method bool hasSearchableContent()
 	 * @method bool isSearchableContentFilled()
 	 * @method bool isSearchableContentChanged()
-	 * @method \string remindActualSearchableContent()
-	 * @method \string requireSearchableContent()
+	 * @method string remindActualSearchableContent()
+	 * @method string requireSearchableContent()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetSearchableContent()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetSearchableContent()
-	 * @method \string fillSearchableContent()
-	 * @method \int getWfStatusId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfStatusId(\int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
+	 * @method string fillSearchableContent()
+	 * @method int getWfStatusId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfStatusId(int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
 	 * @method bool hasWfStatusId()
 	 * @method bool isWfStatusIdFilled()
 	 * @method bool isWfStatusIdChanged()
-	 * @method \int remindActualWfStatusId()
-	 * @method \int requireWfStatusId()
+	 * @method int remindActualWfStatusId()
+	 * @method int requireWfStatusId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfStatusId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfStatusId()
-	 * @method \int fillWfStatusId()
-	 * @method \int getWfParentElementId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfParentElementId(\int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
+	 * @method int fillWfStatusId()
+	 * @method int getWfParentElementId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfParentElementId(int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
 	 * @method bool hasWfParentElementId()
 	 * @method bool isWfParentElementIdFilled()
 	 * @method bool isWfParentElementIdChanged()
-	 * @method \int remindActualWfParentElementId()
-	 * @method \int requireWfParentElementId()
+	 * @method int remindActualWfParentElementId()
+	 * @method int requireWfParentElementId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfParentElementId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfParentElementId()
-	 * @method \int fillWfParentElementId()
-	 * @method \string getWfNew()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfNew(\string|\Bitrix\Main\DB\SqlExpression $wfNew)
+	 * @method int fillWfParentElementId()
+	 * @method string getWfNew()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfNew(string|\Bitrix\Main\DB\SqlExpression $wfNew)
 	 * @method bool hasWfNew()
 	 * @method bool isWfNewFilled()
 	 * @method bool isWfNewChanged()
-	 * @method \string remindActualWfNew()
-	 * @method \string requireWfNew()
+	 * @method string remindActualWfNew()
+	 * @method string requireWfNew()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfNew()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfNew()
-	 * @method \string fillWfNew()
-	 * @method \int getWfLockedBy()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfLockedBy(\int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
+	 * @method string fillWfNew()
+	 * @method int getWfLockedBy()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfLockedBy(int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
 	 * @method bool hasWfLockedBy()
 	 * @method bool isWfLockedByFilled()
 	 * @method bool isWfLockedByChanged()
-	 * @method \int remindActualWfLockedBy()
-	 * @method \int requireWfLockedBy()
+	 * @method int remindActualWfLockedBy()
+	 * @method int requireWfLockedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfLockedBy()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfLockedBy()
-	 * @method \int fillWfLockedBy()
+	 * @method int fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime getWfDateLock()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfDateLock(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $wfDateLock)
 	 * @method bool hasWfDateLock()
@@ -244,76 +244,76 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfDateLock()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfDateLock()
 	 * @method \Bitrix\Main\Type\DateTime fillWfDateLock()
-	 * @method \string getWfComments()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfComments(\string|\Bitrix\Main\DB\SqlExpression $wfComments)
+	 * @method string getWfComments()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setWfComments(string|\Bitrix\Main\DB\SqlExpression $wfComments)
 	 * @method bool hasWfComments()
 	 * @method bool isWfCommentsFilled()
 	 * @method bool isWfCommentsChanged()
-	 * @method \string remindActualWfComments()
-	 * @method \string requireWfComments()
+	 * @method string remindActualWfComments()
+	 * @method string requireWfComments()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetWfComments()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetWfComments()
-	 * @method \string fillWfComments()
-	 * @method \boolean getInSections()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setInSections(\boolean|\Bitrix\Main\DB\SqlExpression $inSections)
+	 * @method string fillWfComments()
+	 * @method bool getInSections()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setInSections(bool|\Bitrix\Main\DB\SqlExpression $inSections)
 	 * @method bool hasInSections()
 	 * @method bool isInSectionsFilled()
 	 * @method bool isInSectionsChanged()
-	 * @method \boolean remindActualInSections()
-	 * @method \boolean requireInSections()
+	 * @method bool remindActualInSections()
+	 * @method bool requireInSections()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetInSections()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetInSections()
-	 * @method \boolean fillInSections()
-	 * @method \string getXmlId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setXmlId(\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method bool fillInSections()
+	 * @method string getXmlId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setXmlId(string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method \string remindActualXmlId()
-	 * @method \string requireXmlId()
+	 * @method string remindActualXmlId()
+	 * @method string requireXmlId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetXmlId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetXmlId()
-	 * @method \string fillXmlId()
-	 * @method \string getCode()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setCode(\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method string fillXmlId()
+	 * @method string getCode()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setCode(string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method \string remindActualCode()
-	 * @method \string requireCode()
+	 * @method string remindActualCode()
+	 * @method string requireCode()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetCode()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetCode()
-	 * @method \string fillCode()
-	 * @method \string getTags()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setTags(\string|\Bitrix\Main\DB\SqlExpression $tags)
+	 * @method string fillCode()
+	 * @method string getTags()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setTags(string|\Bitrix\Main\DB\SqlExpression $tags)
 	 * @method bool hasTags()
 	 * @method bool isTagsFilled()
 	 * @method bool isTagsChanged()
-	 * @method \string remindActualTags()
-	 * @method \string requireTags()
+	 * @method string remindActualTags()
+	 * @method string requireTags()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetTags()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetTags()
-	 * @method \string fillTags()
-	 * @method \string getTmpId()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setTmpId(\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method string fillTags()
+	 * @method string getTmpId()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setTmpId(string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method \string remindActualTmpId()
-	 * @method \string requireTmpId()
+	 * @method string remindActualTmpId()
+	 * @method string requireTmpId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetTmpId()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetTmpId()
-	 * @method \string fillTmpId()
-	 * @method \int getShowCounter()
-	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setShowCounter(\int|\Bitrix\Main\DB\SqlExpression $showCounter)
+	 * @method string fillTmpId()
+	 * @method int getShowCounter()
+	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setShowCounter(int|\Bitrix\Main\DB\SqlExpression $showCounter)
 	 * @method bool hasShowCounter()
 	 * @method bool isShowCounterFilled()
 	 * @method bool isShowCounterChanged()
-	 * @method \int remindActualShowCounter()
-	 * @method \int requireShowCounter()
+	 * @method int remindActualShowCounter()
+	 * @method int requireShowCounter()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject resetShowCounter()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject unsetShowCounter()
-	 * @method \int fillShowCounter()
+	 * @method int fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime getShowCounterStart()
 	 * @method \App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM\ProductObject setShowCounterStart(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $showCounterStart)
 	 * @method bool hasShowCounterStart()
@@ -437,67 +437,67 @@ namespace App\Catalog\Product\Infrastructure\Persistence\Bitrix\ORM {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \int[] getModifiedByList()
-	 * @method \int[] fillModifiedBy()
+	 * @method int[] getModifiedByList()
+	 * @method int[] fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getDateCreateList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillDateCreate()
-	 * @method \int[] getCreatedByList()
-	 * @method \int[] fillCreatedBy()
-	 * @method \int[] getIblockIdList()
-	 * @method \int[] fillIblockId()
-	 * @method \int[] getIblockSectionIdList()
-	 * @method \int[] fillIblockSectionId()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
+	 * @method int[] getCreatedByList()
+	 * @method int[] fillCreatedBy()
+	 * @method int[] getIblockIdList()
+	 * @method int[] fillIblockId()
+	 * @method int[] getIblockSectionIdList()
+	 * @method int[] fillIblockSectionId()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveFromList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveFrom()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveToList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveTo()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \int[] getPreviewPictureList()
-	 * @method \int[] fillPreviewPicture()
-	 * @method \string[] getPreviewTextList()
-	 * @method \string[] fillPreviewText()
-	 * @method \string[] getPreviewTextTypeList()
-	 * @method \string[] fillPreviewTextType()
-	 * @method \int[] getDetailPictureList()
-	 * @method \int[] fillDetailPicture()
-	 * @method \string[] getDetailTextList()
-	 * @method \string[] fillDetailText()
-	 * @method \string[] getDetailTextTypeList()
-	 * @method \string[] fillDetailTextType()
-	 * @method \string[] getSearchableContentList()
-	 * @method \string[] fillSearchableContent()
-	 * @method \int[] getWfStatusIdList()
-	 * @method \int[] fillWfStatusId()
-	 * @method \int[] getWfParentElementIdList()
-	 * @method \int[] fillWfParentElementId()
-	 * @method \string[] getWfNewList()
-	 * @method \string[] fillWfNew()
-	 * @method \int[] getWfLockedByList()
-	 * @method \int[] fillWfLockedBy()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method int[] getPreviewPictureList()
+	 * @method int[] fillPreviewPicture()
+	 * @method string[] getPreviewTextList()
+	 * @method string[] fillPreviewText()
+	 * @method string[] getPreviewTextTypeList()
+	 * @method string[] fillPreviewTextType()
+	 * @method int[] getDetailPictureList()
+	 * @method int[] fillDetailPicture()
+	 * @method string[] getDetailTextList()
+	 * @method string[] fillDetailText()
+	 * @method string[] getDetailTextTypeList()
+	 * @method string[] fillDetailTextType()
+	 * @method string[] getSearchableContentList()
+	 * @method string[] fillSearchableContent()
+	 * @method int[] getWfStatusIdList()
+	 * @method int[] fillWfStatusId()
+	 * @method int[] getWfParentElementIdList()
+	 * @method int[] fillWfParentElementId()
+	 * @method string[] getWfNewList()
+	 * @method string[] fillWfNew()
+	 * @method int[] getWfLockedByList()
+	 * @method int[] fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getWfDateLockList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillWfDateLock()
-	 * @method \string[] getWfCommentsList()
-	 * @method \string[] fillWfComments()
-	 * @method \boolean[] getInSectionsList()
-	 * @method \boolean[] fillInSections()
-	 * @method \string[] getXmlIdList()
-	 * @method \string[] fillXmlId()
-	 * @method \string[] getCodeList()
-	 * @method \string[] fillCode()
-	 * @method \string[] getTagsList()
-	 * @method \string[] fillTags()
-	 * @method \string[] getTmpIdList()
-	 * @method \string[] fillTmpId()
-	 * @method \int[] getShowCounterList()
-	 * @method \int[] fillShowCounter()
+	 * @method string[] getWfCommentsList()
+	 * @method string[] fillWfComments()
+	 * @method bool[] getInSectionsList()
+	 * @method bool[] fillInSections()
+	 * @method string[] getXmlIdList()
+	 * @method string[] fillXmlId()
+	 * @method string[] getCodeList()
+	 * @method string[] fillCode()
+	 * @method string[] getTagsList()
+	 * @method string[] fillTags()
+	 * @method string[] getTmpIdList()
+	 * @method string[] fillTmpId()
+	 * @method int[] getShowCounterList()
+	 * @method int[] fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime[] getShowCounterStartList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillShowCounterStart()
 	 * @method \Bitrix\Iblock\Iblock[] getIblockList()
@@ -601,8 +601,8 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Iblock setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Iblock setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -616,316 +616,316 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\Iblock resetTimestampX()
 	 * @method \Bitrix\Iblock\Iblock unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \string getIblockTypeId()
-	 * @method \Bitrix\Iblock\Iblock setIblockTypeId(\string|\Bitrix\Main\DB\SqlExpression $iblockTypeId)
+	 * @method string getIblockTypeId()
+	 * @method \Bitrix\Iblock\Iblock setIblockTypeId(string|\Bitrix\Main\DB\SqlExpression $iblockTypeId)
 	 * @method bool hasIblockTypeId()
 	 * @method bool isIblockTypeIdFilled()
 	 * @method bool isIblockTypeIdChanged()
-	 * @method \string remindActualIblockTypeId()
-	 * @method \string requireIblockTypeId()
+	 * @method string remindActualIblockTypeId()
+	 * @method string requireIblockTypeId()
 	 * @method \Bitrix\Iblock\Iblock resetIblockTypeId()
 	 * @method \Bitrix\Iblock\Iblock unsetIblockTypeId()
-	 * @method \string fillIblockTypeId()
-	 * @method \string getLid()
-	 * @method \Bitrix\Iblock\Iblock setLid(\string|\Bitrix\Main\DB\SqlExpression $lid)
+	 * @method string fillIblockTypeId()
+	 * @method string getLid()
+	 * @method \Bitrix\Iblock\Iblock setLid(string|\Bitrix\Main\DB\SqlExpression $lid)
 	 * @method bool hasLid()
 	 * @method bool isLidFilled()
 	 * @method bool isLidChanged()
-	 * @method \string remindActualLid()
-	 * @method \string requireLid()
+	 * @method string remindActualLid()
+	 * @method string requireLid()
 	 * @method \Bitrix\Iblock\Iblock resetLid()
 	 * @method \Bitrix\Iblock\Iblock unsetLid()
-	 * @method \string fillLid()
-	 * @method \string getCode()
-	 * @method \Bitrix\Iblock\Iblock setCode(\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method string fillLid()
+	 * @method string getCode()
+	 * @method \Bitrix\Iblock\Iblock setCode(string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method \string remindActualCode()
-	 * @method \string requireCode()
+	 * @method string remindActualCode()
+	 * @method string requireCode()
 	 * @method \Bitrix\Iblock\Iblock resetCode()
 	 * @method \Bitrix\Iblock\Iblock unsetCode()
-	 * @method \string fillCode()
-	 * @method \string getApiCode()
-	 * @method \Bitrix\Iblock\Iblock setApiCode(\string|\Bitrix\Main\DB\SqlExpression $apiCode)
+	 * @method string fillCode()
+	 * @method string getApiCode()
+	 * @method \Bitrix\Iblock\Iblock setApiCode(string|\Bitrix\Main\DB\SqlExpression $apiCode)
 	 * @method bool hasApiCode()
 	 * @method bool isApiCodeFilled()
 	 * @method bool isApiCodeChanged()
-	 * @method \string remindActualApiCode()
-	 * @method \string requireApiCode()
+	 * @method string remindActualApiCode()
+	 * @method string requireApiCode()
 	 * @method \Bitrix\Iblock\Iblock resetApiCode()
 	 * @method \Bitrix\Iblock\Iblock unsetApiCode()
-	 * @method \string fillApiCode()
-	 * @method \boolean getRestOn()
-	 * @method \Bitrix\Iblock\Iblock setRestOn(\boolean|\Bitrix\Main\DB\SqlExpression $restOn)
+	 * @method string fillApiCode()
+	 * @method bool getRestOn()
+	 * @method \Bitrix\Iblock\Iblock setRestOn(bool|\Bitrix\Main\DB\SqlExpression $restOn)
 	 * @method bool hasRestOn()
 	 * @method bool isRestOnFilled()
 	 * @method bool isRestOnChanged()
-	 * @method \boolean remindActualRestOn()
-	 * @method \boolean requireRestOn()
+	 * @method bool remindActualRestOn()
+	 * @method bool requireRestOn()
 	 * @method \Bitrix\Iblock\Iblock resetRestOn()
 	 * @method \Bitrix\Iblock\Iblock unsetRestOn()
-	 * @method \boolean fillRestOn()
-	 * @method \string getName()
-	 * @method \Bitrix\Iblock\Iblock setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method bool fillRestOn()
+	 * @method string getName()
+	 * @method \Bitrix\Iblock\Iblock setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \Bitrix\Iblock\Iblock resetName()
 	 * @method \Bitrix\Iblock\Iblock unsetName()
-	 * @method \string fillName()
-	 * @method \boolean getActive()
-	 * @method \Bitrix\Iblock\Iblock setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method string fillName()
+	 * @method bool getActive()
+	 * @method \Bitrix\Iblock\Iblock setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \Bitrix\Iblock\Iblock resetActive()
 	 * @method \Bitrix\Iblock\Iblock unsetActive()
-	 * @method \boolean fillActive()
-	 * @method \int getSort()
-	 * @method \Bitrix\Iblock\Iblock setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method bool fillActive()
+	 * @method int getSort()
+	 * @method \Bitrix\Iblock\Iblock setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \Bitrix\Iblock\Iblock resetSort()
 	 * @method \Bitrix\Iblock\Iblock unsetSort()
-	 * @method \int fillSort()
-	 * @method \string getListPageUrl()
-	 * @method \Bitrix\Iblock\Iblock setListPageUrl(\string|\Bitrix\Main\DB\SqlExpression $listPageUrl)
+	 * @method int fillSort()
+	 * @method string getListPageUrl()
+	 * @method \Bitrix\Iblock\Iblock setListPageUrl(string|\Bitrix\Main\DB\SqlExpression $listPageUrl)
 	 * @method bool hasListPageUrl()
 	 * @method bool isListPageUrlFilled()
 	 * @method bool isListPageUrlChanged()
-	 * @method \string remindActualListPageUrl()
-	 * @method \string requireListPageUrl()
+	 * @method string remindActualListPageUrl()
+	 * @method string requireListPageUrl()
 	 * @method \Bitrix\Iblock\Iblock resetListPageUrl()
 	 * @method \Bitrix\Iblock\Iblock unsetListPageUrl()
-	 * @method \string fillListPageUrl()
-	 * @method \string getDetailPageUrl()
-	 * @method \Bitrix\Iblock\Iblock setDetailPageUrl(\string|\Bitrix\Main\DB\SqlExpression $detailPageUrl)
+	 * @method string fillListPageUrl()
+	 * @method string getDetailPageUrl()
+	 * @method \Bitrix\Iblock\Iblock setDetailPageUrl(string|\Bitrix\Main\DB\SqlExpression $detailPageUrl)
 	 * @method bool hasDetailPageUrl()
 	 * @method bool isDetailPageUrlFilled()
 	 * @method bool isDetailPageUrlChanged()
-	 * @method \string remindActualDetailPageUrl()
-	 * @method \string requireDetailPageUrl()
+	 * @method string remindActualDetailPageUrl()
+	 * @method string requireDetailPageUrl()
 	 * @method \Bitrix\Iblock\Iblock resetDetailPageUrl()
 	 * @method \Bitrix\Iblock\Iblock unsetDetailPageUrl()
-	 * @method \string fillDetailPageUrl()
-	 * @method \string getSectionPageUrl()
-	 * @method \Bitrix\Iblock\Iblock setSectionPageUrl(\string|\Bitrix\Main\DB\SqlExpression $sectionPageUrl)
+	 * @method string fillDetailPageUrl()
+	 * @method string getSectionPageUrl()
+	 * @method \Bitrix\Iblock\Iblock setSectionPageUrl(string|\Bitrix\Main\DB\SqlExpression $sectionPageUrl)
 	 * @method bool hasSectionPageUrl()
 	 * @method bool isSectionPageUrlFilled()
 	 * @method bool isSectionPageUrlChanged()
-	 * @method \string remindActualSectionPageUrl()
-	 * @method \string requireSectionPageUrl()
+	 * @method string remindActualSectionPageUrl()
+	 * @method string requireSectionPageUrl()
 	 * @method \Bitrix\Iblock\Iblock resetSectionPageUrl()
 	 * @method \Bitrix\Iblock\Iblock unsetSectionPageUrl()
-	 * @method \string fillSectionPageUrl()
-	 * @method \string getCanonicalPageUrl()
-	 * @method \Bitrix\Iblock\Iblock setCanonicalPageUrl(\string|\Bitrix\Main\DB\SqlExpression $canonicalPageUrl)
+	 * @method string fillSectionPageUrl()
+	 * @method string getCanonicalPageUrl()
+	 * @method \Bitrix\Iblock\Iblock setCanonicalPageUrl(string|\Bitrix\Main\DB\SqlExpression $canonicalPageUrl)
 	 * @method bool hasCanonicalPageUrl()
 	 * @method bool isCanonicalPageUrlFilled()
 	 * @method bool isCanonicalPageUrlChanged()
-	 * @method \string remindActualCanonicalPageUrl()
-	 * @method \string requireCanonicalPageUrl()
+	 * @method string remindActualCanonicalPageUrl()
+	 * @method string requireCanonicalPageUrl()
 	 * @method \Bitrix\Iblock\Iblock resetCanonicalPageUrl()
 	 * @method \Bitrix\Iblock\Iblock unsetCanonicalPageUrl()
-	 * @method \string fillCanonicalPageUrl()
-	 * @method \int getPicture()
-	 * @method \Bitrix\Iblock\Iblock setPicture(\int|\Bitrix\Main\DB\SqlExpression $picture)
+	 * @method string fillCanonicalPageUrl()
+	 * @method int getPicture()
+	 * @method \Bitrix\Iblock\Iblock setPicture(int|\Bitrix\Main\DB\SqlExpression $picture)
 	 * @method bool hasPicture()
 	 * @method bool isPictureFilled()
 	 * @method bool isPictureChanged()
-	 * @method \int remindActualPicture()
-	 * @method \int requirePicture()
+	 * @method int remindActualPicture()
+	 * @method int requirePicture()
 	 * @method \Bitrix\Iblock\Iblock resetPicture()
 	 * @method \Bitrix\Iblock\Iblock unsetPicture()
-	 * @method \int fillPicture()
-	 * @method \string getDescription()
-	 * @method \Bitrix\Iblock\Iblock setDescription(\string|\Bitrix\Main\DB\SqlExpression $description)
+	 * @method int fillPicture()
+	 * @method string getDescription()
+	 * @method \Bitrix\Iblock\Iblock setDescription(string|\Bitrix\Main\DB\SqlExpression $description)
 	 * @method bool hasDescription()
 	 * @method bool isDescriptionFilled()
 	 * @method bool isDescriptionChanged()
-	 * @method \string remindActualDescription()
-	 * @method \string requireDescription()
+	 * @method string remindActualDescription()
+	 * @method string requireDescription()
 	 * @method \Bitrix\Iblock\Iblock resetDescription()
 	 * @method \Bitrix\Iblock\Iblock unsetDescription()
-	 * @method \string fillDescription()
-	 * @method \string getDescriptionType()
-	 * @method \Bitrix\Iblock\Iblock setDescriptionType(\string|\Bitrix\Main\DB\SqlExpression $descriptionType)
+	 * @method string fillDescription()
+	 * @method string getDescriptionType()
+	 * @method \Bitrix\Iblock\Iblock setDescriptionType(string|\Bitrix\Main\DB\SqlExpression $descriptionType)
 	 * @method bool hasDescriptionType()
 	 * @method bool isDescriptionTypeFilled()
 	 * @method bool isDescriptionTypeChanged()
-	 * @method \string remindActualDescriptionType()
-	 * @method \string requireDescriptionType()
+	 * @method string remindActualDescriptionType()
+	 * @method string requireDescriptionType()
 	 * @method \Bitrix\Iblock\Iblock resetDescriptionType()
 	 * @method \Bitrix\Iblock\Iblock unsetDescriptionType()
-	 * @method \string fillDescriptionType()
-	 * @method \string getXmlId()
-	 * @method \Bitrix\Iblock\Iblock setXmlId(\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method string fillDescriptionType()
+	 * @method string getXmlId()
+	 * @method \Bitrix\Iblock\Iblock setXmlId(string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method \string remindActualXmlId()
-	 * @method \string requireXmlId()
+	 * @method string remindActualXmlId()
+	 * @method string requireXmlId()
 	 * @method \Bitrix\Iblock\Iblock resetXmlId()
 	 * @method \Bitrix\Iblock\Iblock unsetXmlId()
-	 * @method \string fillXmlId()
-	 * @method \string getTmpId()
-	 * @method \Bitrix\Iblock\Iblock setTmpId(\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method string fillXmlId()
+	 * @method string getTmpId()
+	 * @method \Bitrix\Iblock\Iblock setTmpId(string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method \string remindActualTmpId()
-	 * @method \string requireTmpId()
+	 * @method string remindActualTmpId()
+	 * @method string requireTmpId()
 	 * @method \Bitrix\Iblock\Iblock resetTmpId()
 	 * @method \Bitrix\Iblock\Iblock unsetTmpId()
-	 * @method \string fillTmpId()
-	 * @method \boolean getIndexElement()
-	 * @method \Bitrix\Iblock\Iblock setIndexElement(\boolean|\Bitrix\Main\DB\SqlExpression $indexElement)
+	 * @method string fillTmpId()
+	 * @method bool getIndexElement()
+	 * @method \Bitrix\Iblock\Iblock setIndexElement(bool|\Bitrix\Main\DB\SqlExpression $indexElement)
 	 * @method bool hasIndexElement()
 	 * @method bool isIndexElementFilled()
 	 * @method bool isIndexElementChanged()
-	 * @method \boolean remindActualIndexElement()
-	 * @method \boolean requireIndexElement()
+	 * @method bool remindActualIndexElement()
+	 * @method bool requireIndexElement()
 	 * @method \Bitrix\Iblock\Iblock resetIndexElement()
 	 * @method \Bitrix\Iblock\Iblock unsetIndexElement()
-	 * @method \boolean fillIndexElement()
-	 * @method \boolean getIndexSection()
-	 * @method \Bitrix\Iblock\Iblock setIndexSection(\boolean|\Bitrix\Main\DB\SqlExpression $indexSection)
+	 * @method bool fillIndexElement()
+	 * @method bool getIndexSection()
+	 * @method \Bitrix\Iblock\Iblock setIndexSection(bool|\Bitrix\Main\DB\SqlExpression $indexSection)
 	 * @method bool hasIndexSection()
 	 * @method bool isIndexSectionFilled()
 	 * @method bool isIndexSectionChanged()
-	 * @method \boolean remindActualIndexSection()
-	 * @method \boolean requireIndexSection()
+	 * @method bool remindActualIndexSection()
+	 * @method bool requireIndexSection()
 	 * @method \Bitrix\Iblock\Iblock resetIndexSection()
 	 * @method \Bitrix\Iblock\Iblock unsetIndexSection()
-	 * @method \boolean fillIndexSection()
-	 * @method \boolean getWorkflow()
-	 * @method \Bitrix\Iblock\Iblock setWorkflow(\boolean|\Bitrix\Main\DB\SqlExpression $workflow)
+	 * @method bool fillIndexSection()
+	 * @method bool getWorkflow()
+	 * @method \Bitrix\Iblock\Iblock setWorkflow(bool|\Bitrix\Main\DB\SqlExpression $workflow)
 	 * @method bool hasWorkflow()
 	 * @method bool isWorkflowFilled()
 	 * @method bool isWorkflowChanged()
-	 * @method \boolean remindActualWorkflow()
-	 * @method \boolean requireWorkflow()
+	 * @method bool remindActualWorkflow()
+	 * @method bool requireWorkflow()
 	 * @method \Bitrix\Iblock\Iblock resetWorkflow()
 	 * @method \Bitrix\Iblock\Iblock unsetWorkflow()
-	 * @method \boolean fillWorkflow()
-	 * @method \boolean getBizproc()
-	 * @method \Bitrix\Iblock\Iblock setBizproc(\boolean|\Bitrix\Main\DB\SqlExpression $bizproc)
+	 * @method bool fillWorkflow()
+	 * @method bool getBizproc()
+	 * @method \Bitrix\Iblock\Iblock setBizproc(bool|\Bitrix\Main\DB\SqlExpression $bizproc)
 	 * @method bool hasBizproc()
 	 * @method bool isBizprocFilled()
 	 * @method bool isBizprocChanged()
-	 * @method \boolean remindActualBizproc()
-	 * @method \boolean requireBizproc()
+	 * @method bool remindActualBizproc()
+	 * @method bool requireBizproc()
 	 * @method \Bitrix\Iblock\Iblock resetBizproc()
 	 * @method \Bitrix\Iblock\Iblock unsetBizproc()
-	 * @method \boolean fillBizproc()
-	 * @method \string getSectionChooser()
-	 * @method \Bitrix\Iblock\Iblock setSectionChooser(\string|\Bitrix\Main\DB\SqlExpression $sectionChooser)
+	 * @method bool fillBizproc()
+	 * @method string getSectionChooser()
+	 * @method \Bitrix\Iblock\Iblock setSectionChooser(string|\Bitrix\Main\DB\SqlExpression $sectionChooser)
 	 * @method bool hasSectionChooser()
 	 * @method bool isSectionChooserFilled()
 	 * @method bool isSectionChooserChanged()
-	 * @method \string remindActualSectionChooser()
-	 * @method \string requireSectionChooser()
+	 * @method string remindActualSectionChooser()
+	 * @method string requireSectionChooser()
 	 * @method \Bitrix\Iblock\Iblock resetSectionChooser()
 	 * @method \Bitrix\Iblock\Iblock unsetSectionChooser()
-	 * @method \string fillSectionChooser()
-	 * @method \string getListMode()
-	 * @method \Bitrix\Iblock\Iblock setListMode(\string|\Bitrix\Main\DB\SqlExpression $listMode)
+	 * @method string fillSectionChooser()
+	 * @method string getListMode()
+	 * @method \Bitrix\Iblock\Iblock setListMode(string|\Bitrix\Main\DB\SqlExpression $listMode)
 	 * @method bool hasListMode()
 	 * @method bool isListModeFilled()
 	 * @method bool isListModeChanged()
-	 * @method \string remindActualListMode()
-	 * @method \string requireListMode()
+	 * @method string remindActualListMode()
+	 * @method string requireListMode()
 	 * @method \Bitrix\Iblock\Iblock resetListMode()
 	 * @method \Bitrix\Iblock\Iblock unsetListMode()
-	 * @method \string fillListMode()
-	 * @method \string getRightsMode()
-	 * @method \Bitrix\Iblock\Iblock setRightsMode(\string|\Bitrix\Main\DB\SqlExpression $rightsMode)
+	 * @method string fillListMode()
+	 * @method string getRightsMode()
+	 * @method \Bitrix\Iblock\Iblock setRightsMode(string|\Bitrix\Main\DB\SqlExpression $rightsMode)
 	 * @method bool hasRightsMode()
 	 * @method bool isRightsModeFilled()
 	 * @method bool isRightsModeChanged()
-	 * @method \string remindActualRightsMode()
-	 * @method \string requireRightsMode()
+	 * @method string remindActualRightsMode()
+	 * @method string requireRightsMode()
 	 * @method \Bitrix\Iblock\Iblock resetRightsMode()
 	 * @method \Bitrix\Iblock\Iblock unsetRightsMode()
-	 * @method \string fillRightsMode()
-	 * @method \boolean getSectionProperty()
-	 * @method \Bitrix\Iblock\Iblock setSectionProperty(\boolean|\Bitrix\Main\DB\SqlExpression $sectionProperty)
+	 * @method string fillRightsMode()
+	 * @method bool getSectionProperty()
+	 * @method \Bitrix\Iblock\Iblock setSectionProperty(bool|\Bitrix\Main\DB\SqlExpression $sectionProperty)
 	 * @method bool hasSectionProperty()
 	 * @method bool isSectionPropertyFilled()
 	 * @method bool isSectionPropertyChanged()
-	 * @method \boolean remindActualSectionProperty()
-	 * @method \boolean requireSectionProperty()
+	 * @method bool remindActualSectionProperty()
+	 * @method bool requireSectionProperty()
 	 * @method \Bitrix\Iblock\Iblock resetSectionProperty()
 	 * @method \Bitrix\Iblock\Iblock unsetSectionProperty()
-	 * @method \boolean fillSectionProperty()
-	 * @method \string getPropertyIndex()
-	 * @method \Bitrix\Iblock\Iblock setPropertyIndex(\string|\Bitrix\Main\DB\SqlExpression $propertyIndex)
+	 * @method bool fillSectionProperty()
+	 * @method string getPropertyIndex()
+	 * @method \Bitrix\Iblock\Iblock setPropertyIndex(string|\Bitrix\Main\DB\SqlExpression $propertyIndex)
 	 * @method bool hasPropertyIndex()
 	 * @method bool isPropertyIndexFilled()
 	 * @method bool isPropertyIndexChanged()
-	 * @method \string remindActualPropertyIndex()
-	 * @method \string requirePropertyIndex()
+	 * @method string remindActualPropertyIndex()
+	 * @method string requirePropertyIndex()
 	 * @method \Bitrix\Iblock\Iblock resetPropertyIndex()
 	 * @method \Bitrix\Iblock\Iblock unsetPropertyIndex()
-	 * @method \string fillPropertyIndex()
-	 * @method \string getVersion()
-	 * @method \Bitrix\Iblock\Iblock setVersion(\string|\Bitrix\Main\DB\SqlExpression $version)
+	 * @method string fillPropertyIndex()
+	 * @method string getVersion()
+	 * @method \Bitrix\Iblock\Iblock setVersion(string|\Bitrix\Main\DB\SqlExpression $version)
 	 * @method bool hasVersion()
 	 * @method bool isVersionFilled()
 	 * @method bool isVersionChanged()
-	 * @method \string remindActualVersion()
-	 * @method \string requireVersion()
+	 * @method string remindActualVersion()
+	 * @method string requireVersion()
 	 * @method \Bitrix\Iblock\Iblock resetVersion()
 	 * @method \Bitrix\Iblock\Iblock unsetVersion()
-	 * @method \string fillVersion()
-	 * @method \int getLastConvElement()
-	 * @method \Bitrix\Iblock\Iblock setLastConvElement(\int|\Bitrix\Main\DB\SqlExpression $lastConvElement)
+	 * @method string fillVersion()
+	 * @method int getLastConvElement()
+	 * @method \Bitrix\Iblock\Iblock setLastConvElement(int|\Bitrix\Main\DB\SqlExpression $lastConvElement)
 	 * @method bool hasLastConvElement()
 	 * @method bool isLastConvElementFilled()
 	 * @method bool isLastConvElementChanged()
-	 * @method \int remindActualLastConvElement()
-	 * @method \int requireLastConvElement()
+	 * @method int remindActualLastConvElement()
+	 * @method int requireLastConvElement()
 	 * @method \Bitrix\Iblock\Iblock resetLastConvElement()
 	 * @method \Bitrix\Iblock\Iblock unsetLastConvElement()
-	 * @method \int fillLastConvElement()
-	 * @method \int getSocnetGroupId()
-	 * @method \Bitrix\Iblock\Iblock setSocnetGroupId(\int|\Bitrix\Main\DB\SqlExpression $socnetGroupId)
+	 * @method int fillLastConvElement()
+	 * @method int getSocnetGroupId()
+	 * @method \Bitrix\Iblock\Iblock setSocnetGroupId(int|\Bitrix\Main\DB\SqlExpression $socnetGroupId)
 	 * @method bool hasSocnetGroupId()
 	 * @method bool isSocnetGroupIdFilled()
 	 * @method bool isSocnetGroupIdChanged()
-	 * @method \int remindActualSocnetGroupId()
-	 * @method \int requireSocnetGroupId()
+	 * @method int remindActualSocnetGroupId()
+	 * @method int requireSocnetGroupId()
 	 * @method \Bitrix\Iblock\Iblock resetSocnetGroupId()
 	 * @method \Bitrix\Iblock\Iblock unsetSocnetGroupId()
-	 * @method \int fillSocnetGroupId()
-	 * @method \string getEditFileBefore()
-	 * @method \Bitrix\Iblock\Iblock setEditFileBefore(\string|\Bitrix\Main\DB\SqlExpression $editFileBefore)
+	 * @method int fillSocnetGroupId()
+	 * @method string getEditFileBefore()
+	 * @method \Bitrix\Iblock\Iblock setEditFileBefore(string|\Bitrix\Main\DB\SqlExpression $editFileBefore)
 	 * @method bool hasEditFileBefore()
 	 * @method bool isEditFileBeforeFilled()
 	 * @method bool isEditFileBeforeChanged()
-	 * @method \string remindActualEditFileBefore()
-	 * @method \string requireEditFileBefore()
+	 * @method string remindActualEditFileBefore()
+	 * @method string requireEditFileBefore()
 	 * @method \Bitrix\Iblock\Iblock resetEditFileBefore()
 	 * @method \Bitrix\Iblock\Iblock unsetEditFileBefore()
-	 * @method \string fillEditFileBefore()
-	 * @method \string getEditFileAfter()
-	 * @method \Bitrix\Iblock\Iblock setEditFileAfter(\string|\Bitrix\Main\DB\SqlExpression $editFileAfter)
+	 * @method string fillEditFileBefore()
+	 * @method string getEditFileAfter()
+	 * @method \Bitrix\Iblock\Iblock setEditFileAfter(string|\Bitrix\Main\DB\SqlExpression $editFileAfter)
 	 * @method bool hasEditFileAfter()
 	 * @method bool isEditFileAfterFilled()
 	 * @method bool isEditFileAfterChanged()
-	 * @method \string remindActualEditFileAfter()
-	 * @method \string requireEditFileAfter()
+	 * @method string remindActualEditFileAfter()
+	 * @method string requireEditFileAfter()
 	 * @method \Bitrix\Iblock\Iblock resetEditFileAfter()
 	 * @method \Bitrix\Iblock\Iblock unsetEditFileAfter()
-	 * @method \string fillEditFileAfter()
+	 * @method string fillEditFileAfter()
 	 * @method \Bitrix\Iblock\EO_Type getType()
 	 * @method \Bitrix\Iblock\EO_Type remindActualType()
 	 * @method \Bitrix\Iblock\EO_Type requireType()
@@ -936,16 +936,16 @@ namespace Bitrix\Iblock {
 	 * @method bool isTypeFilled()
 	 * @method bool isTypeChanged()
 	 * @method \Bitrix\Iblock\EO_Type fillType()
-	 * @method \boolean getFulltextIndex()
-	 * @method \Bitrix\Iblock\Iblock setFulltextIndex(\boolean|\Bitrix\Main\DB\SqlExpression $fulltextIndex)
+	 * @method bool getFulltextIndex()
+	 * @method \Bitrix\Iblock\Iblock setFulltextIndex(bool|\Bitrix\Main\DB\SqlExpression $fulltextIndex)
 	 * @method bool hasFulltextIndex()
 	 * @method bool isFulltextIndexFilled()
 	 * @method bool isFulltextIndexChanged()
-	 * @method \boolean remindActualFulltextIndex()
-	 * @method \boolean requireFulltextIndex()
+	 * @method bool remindActualFulltextIndex()
+	 * @method bool requireFulltextIndex()
 	 * @method \Bitrix\Iblock\Iblock resetFulltextIndex()
 	 * @method \Bitrix\Iblock\Iblock unsetFulltextIndex()
-	 * @method \boolean fillFulltextIndex()
+	 * @method bool fillFulltextIndex()
 	 * @method \Bitrix\Iblock\EO_Property_Collection getProperties()
 	 * @method \Bitrix\Iblock\EO_Property_Collection requireProperties()
 	 * @method \Bitrix\Iblock\EO_Property_Collection fillProperties()
@@ -1000,76 +1000,76 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \string[] getIblockTypeIdList()
-	 * @method \string[] fillIblockTypeId()
-	 * @method \string[] getLidList()
-	 * @method \string[] fillLid()
-	 * @method \string[] getCodeList()
-	 * @method \string[] fillCode()
-	 * @method \string[] getApiCodeList()
-	 * @method \string[] fillApiCode()
-	 * @method \boolean[] getRestOnList()
-	 * @method \boolean[] fillRestOn()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method \string[] getListPageUrlList()
-	 * @method \string[] fillListPageUrl()
-	 * @method \string[] getDetailPageUrlList()
-	 * @method \string[] fillDetailPageUrl()
-	 * @method \string[] getSectionPageUrlList()
-	 * @method \string[] fillSectionPageUrl()
-	 * @method \string[] getCanonicalPageUrlList()
-	 * @method \string[] fillCanonicalPageUrl()
-	 * @method \int[] getPictureList()
-	 * @method \int[] fillPicture()
-	 * @method \string[] getDescriptionList()
-	 * @method \string[] fillDescription()
-	 * @method \string[] getDescriptionTypeList()
-	 * @method \string[] fillDescriptionType()
-	 * @method \string[] getXmlIdList()
-	 * @method \string[] fillXmlId()
-	 * @method \string[] getTmpIdList()
-	 * @method \string[] fillTmpId()
-	 * @method \boolean[] getIndexElementList()
-	 * @method \boolean[] fillIndexElement()
-	 * @method \boolean[] getIndexSectionList()
-	 * @method \boolean[] fillIndexSection()
-	 * @method \boolean[] getWorkflowList()
-	 * @method \boolean[] fillWorkflow()
-	 * @method \boolean[] getBizprocList()
-	 * @method \boolean[] fillBizproc()
-	 * @method \string[] getSectionChooserList()
-	 * @method \string[] fillSectionChooser()
-	 * @method \string[] getListModeList()
-	 * @method \string[] fillListMode()
-	 * @method \string[] getRightsModeList()
-	 * @method \string[] fillRightsMode()
-	 * @method \boolean[] getSectionPropertyList()
-	 * @method \boolean[] fillSectionProperty()
-	 * @method \string[] getPropertyIndexList()
-	 * @method \string[] fillPropertyIndex()
-	 * @method \string[] getVersionList()
-	 * @method \string[] fillVersion()
-	 * @method \int[] getLastConvElementList()
-	 * @method \int[] fillLastConvElement()
-	 * @method \int[] getSocnetGroupIdList()
-	 * @method \int[] fillSocnetGroupId()
-	 * @method \string[] getEditFileBeforeList()
-	 * @method \string[] fillEditFileBefore()
-	 * @method \string[] getEditFileAfterList()
-	 * @method \string[] fillEditFileAfter()
+	 * @method string[] getIblockTypeIdList()
+	 * @method string[] fillIblockTypeId()
+	 * @method string[] getLidList()
+	 * @method string[] fillLid()
+	 * @method string[] getCodeList()
+	 * @method string[] fillCode()
+	 * @method string[] getApiCodeList()
+	 * @method string[] fillApiCode()
+	 * @method bool[] getRestOnList()
+	 * @method bool[] fillRestOn()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method string[] getListPageUrlList()
+	 * @method string[] fillListPageUrl()
+	 * @method string[] getDetailPageUrlList()
+	 * @method string[] fillDetailPageUrl()
+	 * @method string[] getSectionPageUrlList()
+	 * @method string[] fillSectionPageUrl()
+	 * @method string[] getCanonicalPageUrlList()
+	 * @method string[] fillCanonicalPageUrl()
+	 * @method int[] getPictureList()
+	 * @method int[] fillPicture()
+	 * @method string[] getDescriptionList()
+	 * @method string[] fillDescription()
+	 * @method string[] getDescriptionTypeList()
+	 * @method string[] fillDescriptionType()
+	 * @method string[] getXmlIdList()
+	 * @method string[] fillXmlId()
+	 * @method string[] getTmpIdList()
+	 * @method string[] fillTmpId()
+	 * @method bool[] getIndexElementList()
+	 * @method bool[] fillIndexElement()
+	 * @method bool[] getIndexSectionList()
+	 * @method bool[] fillIndexSection()
+	 * @method bool[] getWorkflowList()
+	 * @method bool[] fillWorkflow()
+	 * @method bool[] getBizprocList()
+	 * @method bool[] fillBizproc()
+	 * @method string[] getSectionChooserList()
+	 * @method string[] fillSectionChooser()
+	 * @method string[] getListModeList()
+	 * @method string[] fillListMode()
+	 * @method string[] getRightsModeList()
+	 * @method string[] fillRightsMode()
+	 * @method bool[] getSectionPropertyList()
+	 * @method bool[] fillSectionProperty()
+	 * @method string[] getPropertyIndexList()
+	 * @method string[] fillPropertyIndex()
+	 * @method string[] getVersionList()
+	 * @method string[] fillVersion()
+	 * @method int[] getLastConvElementList()
+	 * @method int[] fillLastConvElement()
+	 * @method int[] getSocnetGroupIdList()
+	 * @method int[] fillSocnetGroupId()
+	 * @method string[] getEditFileBeforeList()
+	 * @method string[] fillEditFileBefore()
+	 * @method string[] getEditFileAfterList()
+	 * @method string[] fillEditFileAfter()
 	 * @method \Bitrix\Iblock\EO_Type[] getTypeList()
 	 * @method \Bitrix\Iblock\EO_Iblock_Collection getTypeCollection()
 	 * @method \Bitrix\Iblock\EO_Type_Collection fillType()
-	 * @method \boolean[] getFulltextIndexList()
-	 * @method \boolean[] fillFulltextIndex()
+	 * @method bool[] getFulltextIndexList()
+	 * @method bool[] fillFulltextIndex()
 	 * @method \Bitrix\Iblock\EO_Property_Collection[] getPropertiesList()
 	 * @method \Bitrix\Iblock\EO_Property_Collection getPropertiesCollection()
 	 * @method \Bitrix\Iblock\EO_Property_Collection fillProperties()
@@ -1153,8 +1153,8 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Property setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Property setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -1168,226 +1168,226 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\Property resetTimestampX()
 	 * @method \Bitrix\Iblock\Property unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \int getIblockId()
-	 * @method \Bitrix\Iblock\Property setIblockId(\int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method int getIblockId()
+	 * @method \Bitrix\Iblock\Property setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
 	 * @method bool hasIblockId()
 	 * @method bool isIblockIdFilled()
 	 * @method bool isIblockIdChanged()
-	 * @method \int remindActualIblockId()
-	 * @method \int requireIblockId()
+	 * @method int remindActualIblockId()
+	 * @method int requireIblockId()
 	 * @method \Bitrix\Iblock\Property resetIblockId()
 	 * @method \Bitrix\Iblock\Property unsetIblockId()
-	 * @method \int fillIblockId()
-	 * @method \string getName()
-	 * @method \Bitrix\Iblock\Property setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method int fillIblockId()
+	 * @method string getName()
+	 * @method \Bitrix\Iblock\Property setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \Bitrix\Iblock\Property resetName()
 	 * @method \Bitrix\Iblock\Property unsetName()
-	 * @method \string fillName()
-	 * @method \boolean getActive()
-	 * @method \Bitrix\Iblock\Property setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method string fillName()
+	 * @method bool getActive()
+	 * @method \Bitrix\Iblock\Property setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \Bitrix\Iblock\Property resetActive()
 	 * @method \Bitrix\Iblock\Property unsetActive()
-	 * @method \boolean fillActive()
-	 * @method \int getSort()
-	 * @method \Bitrix\Iblock\Property setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method bool fillActive()
+	 * @method int getSort()
+	 * @method \Bitrix\Iblock\Property setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \Bitrix\Iblock\Property resetSort()
 	 * @method \Bitrix\Iblock\Property unsetSort()
-	 * @method \int fillSort()
-	 * @method null|\string getCode()
-	 * @method \Bitrix\Iblock\Property setCode(null|\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method int fillSort()
+	 * @method null|string getCode()
+	 * @method \Bitrix\Iblock\Property setCode(null|string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method null|\string remindActualCode()
-	 * @method null|\string requireCode()
+	 * @method null|string remindActualCode()
+	 * @method null|string requireCode()
 	 * @method \Bitrix\Iblock\Property resetCode()
 	 * @method \Bitrix\Iblock\Property unsetCode()
-	 * @method null|\string fillCode()
-	 * @method null|\string getDefaultValue()
-	 * @method \Bitrix\Iblock\Property setDefaultValue(null|\string|\Bitrix\Main\DB\SqlExpression $defaultValue)
+	 * @method null|string fillCode()
+	 * @method null|string getDefaultValue()
+	 * @method \Bitrix\Iblock\Property setDefaultValue(null|string|\Bitrix\Main\DB\SqlExpression $defaultValue)
 	 * @method bool hasDefaultValue()
 	 * @method bool isDefaultValueFilled()
 	 * @method bool isDefaultValueChanged()
-	 * @method null|\string remindActualDefaultValue()
-	 * @method null|\string requireDefaultValue()
+	 * @method null|string remindActualDefaultValue()
+	 * @method null|string requireDefaultValue()
 	 * @method \Bitrix\Iblock\Property resetDefaultValue()
 	 * @method \Bitrix\Iblock\Property unsetDefaultValue()
-	 * @method null|\string fillDefaultValue()
-	 * @method \string getPropertyType()
-	 * @method \Bitrix\Iblock\Property setPropertyType(\string|\Bitrix\Main\DB\SqlExpression $propertyType)
+	 * @method null|string fillDefaultValue()
+	 * @method string getPropertyType()
+	 * @method \Bitrix\Iblock\Property setPropertyType(string|\Bitrix\Main\DB\SqlExpression $propertyType)
 	 * @method bool hasPropertyType()
 	 * @method bool isPropertyTypeFilled()
 	 * @method bool isPropertyTypeChanged()
-	 * @method \string remindActualPropertyType()
-	 * @method \string requirePropertyType()
+	 * @method string remindActualPropertyType()
+	 * @method string requirePropertyType()
 	 * @method \Bitrix\Iblock\Property resetPropertyType()
 	 * @method \Bitrix\Iblock\Property unsetPropertyType()
-	 * @method \string fillPropertyType()
-	 * @method \int getRowCount()
-	 * @method \Bitrix\Iblock\Property setRowCount(\int|\Bitrix\Main\DB\SqlExpression $rowCount)
+	 * @method string fillPropertyType()
+	 * @method int getRowCount()
+	 * @method \Bitrix\Iblock\Property setRowCount(int|\Bitrix\Main\DB\SqlExpression $rowCount)
 	 * @method bool hasRowCount()
 	 * @method bool isRowCountFilled()
 	 * @method bool isRowCountChanged()
-	 * @method \int remindActualRowCount()
-	 * @method \int requireRowCount()
+	 * @method int remindActualRowCount()
+	 * @method int requireRowCount()
 	 * @method \Bitrix\Iblock\Property resetRowCount()
 	 * @method \Bitrix\Iblock\Property unsetRowCount()
-	 * @method \int fillRowCount()
-	 * @method \int getColCount()
-	 * @method \Bitrix\Iblock\Property setColCount(\int|\Bitrix\Main\DB\SqlExpression $colCount)
+	 * @method int fillRowCount()
+	 * @method int getColCount()
+	 * @method \Bitrix\Iblock\Property setColCount(int|\Bitrix\Main\DB\SqlExpression $colCount)
 	 * @method bool hasColCount()
 	 * @method bool isColCountFilled()
 	 * @method bool isColCountChanged()
-	 * @method \int remindActualColCount()
-	 * @method \int requireColCount()
+	 * @method int remindActualColCount()
+	 * @method int requireColCount()
 	 * @method \Bitrix\Iblock\Property resetColCount()
 	 * @method \Bitrix\Iblock\Property unsetColCount()
-	 * @method \int fillColCount()
-	 * @method \string getListType()
-	 * @method \Bitrix\Iblock\Property setListType(\string|\Bitrix\Main\DB\SqlExpression $listType)
+	 * @method int fillColCount()
+	 * @method string getListType()
+	 * @method \Bitrix\Iblock\Property setListType(string|\Bitrix\Main\DB\SqlExpression $listType)
 	 * @method bool hasListType()
 	 * @method bool isListTypeFilled()
 	 * @method bool isListTypeChanged()
-	 * @method \string remindActualListType()
-	 * @method \string requireListType()
+	 * @method string remindActualListType()
+	 * @method string requireListType()
 	 * @method \Bitrix\Iblock\Property resetListType()
 	 * @method \Bitrix\Iblock\Property unsetListType()
-	 * @method \string fillListType()
-	 * @method \boolean getMultiple()
-	 * @method \Bitrix\Iblock\Property setMultiple(\boolean|\Bitrix\Main\DB\SqlExpression $multiple)
+	 * @method string fillListType()
+	 * @method bool getMultiple()
+	 * @method \Bitrix\Iblock\Property setMultiple(bool|\Bitrix\Main\DB\SqlExpression $multiple)
 	 * @method bool hasMultiple()
 	 * @method bool isMultipleFilled()
 	 * @method bool isMultipleChanged()
-	 * @method \boolean remindActualMultiple()
-	 * @method \boolean requireMultiple()
+	 * @method bool remindActualMultiple()
+	 * @method bool requireMultiple()
 	 * @method \Bitrix\Iblock\Property resetMultiple()
 	 * @method \Bitrix\Iblock\Property unsetMultiple()
-	 * @method \boolean fillMultiple()
-	 * @method null|\string getXmlId()
-	 * @method \Bitrix\Iblock\Property setXmlId(null|\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method bool fillMultiple()
+	 * @method null|string getXmlId()
+	 * @method \Bitrix\Iblock\Property setXmlId(null|string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method null|\string remindActualXmlId()
-	 * @method null|\string requireXmlId()
+	 * @method null|string remindActualXmlId()
+	 * @method null|string requireXmlId()
 	 * @method \Bitrix\Iblock\Property resetXmlId()
 	 * @method \Bitrix\Iblock\Property unsetXmlId()
-	 * @method null|\string fillXmlId()
-	 * @method null|\string getFileType()
-	 * @method \Bitrix\Iblock\Property setFileType(null|\string|\Bitrix\Main\DB\SqlExpression $fileType)
+	 * @method null|string fillXmlId()
+	 * @method null|string getFileType()
+	 * @method \Bitrix\Iblock\Property setFileType(null|string|\Bitrix\Main\DB\SqlExpression $fileType)
 	 * @method bool hasFileType()
 	 * @method bool isFileTypeFilled()
 	 * @method bool isFileTypeChanged()
-	 * @method null|\string remindActualFileType()
-	 * @method null|\string requireFileType()
+	 * @method null|string remindActualFileType()
+	 * @method null|string requireFileType()
 	 * @method \Bitrix\Iblock\Property resetFileType()
 	 * @method \Bitrix\Iblock\Property unsetFileType()
-	 * @method null|\string fillFileType()
-	 * @method null|\int getMultipleCnt()
-	 * @method \Bitrix\Iblock\Property setMultipleCnt(null|\int|\Bitrix\Main\DB\SqlExpression $multipleCnt)
+	 * @method null|string fillFileType()
+	 * @method null|int getMultipleCnt()
+	 * @method \Bitrix\Iblock\Property setMultipleCnt(null|int|\Bitrix\Main\DB\SqlExpression $multipleCnt)
 	 * @method bool hasMultipleCnt()
 	 * @method bool isMultipleCntFilled()
 	 * @method bool isMultipleCntChanged()
-	 * @method null|\int remindActualMultipleCnt()
-	 * @method null|\int requireMultipleCnt()
+	 * @method null|int remindActualMultipleCnt()
+	 * @method null|int requireMultipleCnt()
 	 * @method \Bitrix\Iblock\Property resetMultipleCnt()
 	 * @method \Bitrix\Iblock\Property unsetMultipleCnt()
-	 * @method null|\int fillMultipleCnt()
-	 * @method null|\string getTmpId()
-	 * @method \Bitrix\Iblock\Property setTmpId(null|\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method null|int fillMultipleCnt()
+	 * @method null|string getTmpId()
+	 * @method \Bitrix\Iblock\Property setTmpId(null|string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method null|\string remindActualTmpId()
-	 * @method null|\string requireTmpId()
+	 * @method null|string remindActualTmpId()
+	 * @method null|string requireTmpId()
 	 * @method \Bitrix\Iblock\Property resetTmpId()
 	 * @method \Bitrix\Iblock\Property unsetTmpId()
-	 * @method null|\string fillTmpId()
-	 * @method null|\int getLinkIblockId()
-	 * @method \Bitrix\Iblock\Property setLinkIblockId(null|\int|\Bitrix\Main\DB\SqlExpression $linkIblockId)
+	 * @method null|string fillTmpId()
+	 * @method null|int getLinkIblockId()
+	 * @method \Bitrix\Iblock\Property setLinkIblockId(null|int|\Bitrix\Main\DB\SqlExpression $linkIblockId)
 	 * @method bool hasLinkIblockId()
 	 * @method bool isLinkIblockIdFilled()
 	 * @method bool isLinkIblockIdChanged()
-	 * @method null|\int remindActualLinkIblockId()
-	 * @method null|\int requireLinkIblockId()
+	 * @method null|int remindActualLinkIblockId()
+	 * @method null|int requireLinkIblockId()
 	 * @method \Bitrix\Iblock\Property resetLinkIblockId()
 	 * @method \Bitrix\Iblock\Property unsetLinkIblockId()
-	 * @method null|\int fillLinkIblockId()
-	 * @method \boolean getWithDescription()
-	 * @method \Bitrix\Iblock\Property setWithDescription(\boolean|\Bitrix\Main\DB\SqlExpression $withDescription)
+	 * @method null|int fillLinkIblockId()
+	 * @method bool getWithDescription()
+	 * @method \Bitrix\Iblock\Property setWithDescription(bool|\Bitrix\Main\DB\SqlExpression $withDescription)
 	 * @method bool hasWithDescription()
 	 * @method bool isWithDescriptionFilled()
 	 * @method bool isWithDescriptionChanged()
-	 * @method \boolean remindActualWithDescription()
-	 * @method \boolean requireWithDescription()
+	 * @method bool remindActualWithDescription()
+	 * @method bool requireWithDescription()
 	 * @method \Bitrix\Iblock\Property resetWithDescription()
 	 * @method \Bitrix\Iblock\Property unsetWithDescription()
-	 * @method \boolean fillWithDescription()
-	 * @method \boolean getSearchable()
-	 * @method \Bitrix\Iblock\Property setSearchable(\boolean|\Bitrix\Main\DB\SqlExpression $searchable)
+	 * @method bool fillWithDescription()
+	 * @method bool getSearchable()
+	 * @method \Bitrix\Iblock\Property setSearchable(bool|\Bitrix\Main\DB\SqlExpression $searchable)
 	 * @method bool hasSearchable()
 	 * @method bool isSearchableFilled()
 	 * @method bool isSearchableChanged()
-	 * @method \boolean remindActualSearchable()
-	 * @method \boolean requireSearchable()
+	 * @method bool remindActualSearchable()
+	 * @method bool requireSearchable()
 	 * @method \Bitrix\Iblock\Property resetSearchable()
 	 * @method \Bitrix\Iblock\Property unsetSearchable()
-	 * @method \boolean fillSearchable()
-	 * @method \boolean getFiltrable()
-	 * @method \Bitrix\Iblock\Property setFiltrable(\boolean|\Bitrix\Main\DB\SqlExpression $filtrable)
+	 * @method bool fillSearchable()
+	 * @method bool getFiltrable()
+	 * @method \Bitrix\Iblock\Property setFiltrable(bool|\Bitrix\Main\DB\SqlExpression $filtrable)
 	 * @method bool hasFiltrable()
 	 * @method bool isFiltrableFilled()
 	 * @method bool isFiltrableChanged()
-	 * @method \boolean remindActualFiltrable()
-	 * @method \boolean requireFiltrable()
+	 * @method bool remindActualFiltrable()
+	 * @method bool requireFiltrable()
 	 * @method \Bitrix\Iblock\Property resetFiltrable()
 	 * @method \Bitrix\Iblock\Property unsetFiltrable()
-	 * @method \boolean fillFiltrable()
-	 * @method \boolean getIsRequired()
-	 * @method \Bitrix\Iblock\Property setIsRequired(\boolean|\Bitrix\Main\DB\SqlExpression $isRequired)
+	 * @method bool fillFiltrable()
+	 * @method bool getIsRequired()
+	 * @method \Bitrix\Iblock\Property setIsRequired(bool|\Bitrix\Main\DB\SqlExpression $isRequired)
 	 * @method bool hasIsRequired()
 	 * @method bool isIsRequiredFilled()
 	 * @method bool isIsRequiredChanged()
-	 * @method \boolean remindActualIsRequired()
-	 * @method \boolean requireIsRequired()
+	 * @method bool remindActualIsRequired()
+	 * @method bool requireIsRequired()
 	 * @method \Bitrix\Iblock\Property resetIsRequired()
 	 * @method \Bitrix\Iblock\Property unsetIsRequired()
-	 * @method \boolean fillIsRequired()
-	 * @method \string getVersion()
-	 * @method \Bitrix\Iblock\Property setVersion(\string|\Bitrix\Main\DB\SqlExpression $version)
+	 * @method bool fillIsRequired()
+	 * @method string getVersion()
+	 * @method \Bitrix\Iblock\Property setVersion(string|\Bitrix\Main\DB\SqlExpression $version)
 	 * @method bool hasVersion()
 	 * @method bool isVersionFilled()
 	 * @method bool isVersionChanged()
-	 * @method \string remindActualVersion()
-	 * @method \string requireVersion()
+	 * @method string remindActualVersion()
+	 * @method string requireVersion()
 	 * @method \Bitrix\Iblock\Property resetVersion()
 	 * @method \Bitrix\Iblock\Property unsetVersion()
-	 * @method \string fillVersion()
-	 * @method null|\string getUserType()
-	 * @method \Bitrix\Iblock\Property setUserType(null|\string|\Bitrix\Main\DB\SqlExpression $userType)
+	 * @method string fillVersion()
+	 * @method null|string getUserType()
+	 * @method \Bitrix\Iblock\Property setUserType(null|string|\Bitrix\Main\DB\SqlExpression $userType)
 	 * @method bool hasUserType()
 	 * @method bool isUserTypeFilled()
 	 * @method bool isUserTypeChanged()
-	 * @method null|\string remindActualUserType()
-	 * @method null|\string requireUserType()
+	 * @method null|string remindActualUserType()
+	 * @method null|string requireUserType()
 	 * @method \Bitrix\Iblock\Property resetUserType()
 	 * @method \Bitrix\Iblock\Property unsetUserType()
-	 * @method null|\string fillUserType()
+	 * @method null|string fillUserType()
 	 * @method null|array getUserTypeSettingsList()
 	 * @method \Bitrix\Iblock\Property setUserTypeSettingsList(null|array|\Bitrix\Main\DB\SqlExpression $userTypeSettingsList)
 	 * @method bool hasUserTypeSettingsList()
@@ -1398,26 +1398,26 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\Property resetUserTypeSettingsList()
 	 * @method \Bitrix\Iblock\Property unsetUserTypeSettingsList()
 	 * @method null|array fillUserTypeSettingsList()
-	 * @method null|\string getUserTypeSettings()
-	 * @method \Bitrix\Iblock\Property setUserTypeSettings(null|\string|\Bitrix\Main\DB\SqlExpression $userTypeSettings)
+	 * @method null|string getUserTypeSettings()
+	 * @method \Bitrix\Iblock\Property setUserTypeSettings(null|string|\Bitrix\Main\DB\SqlExpression $userTypeSettings)
 	 * @method bool hasUserTypeSettings()
 	 * @method bool isUserTypeSettingsFilled()
 	 * @method bool isUserTypeSettingsChanged()
-	 * @method null|\string remindActualUserTypeSettings()
-	 * @method null|\string requireUserTypeSettings()
+	 * @method null|string remindActualUserTypeSettings()
+	 * @method null|string requireUserTypeSettings()
 	 * @method \Bitrix\Iblock\Property resetUserTypeSettings()
 	 * @method \Bitrix\Iblock\Property unsetUserTypeSettings()
-	 * @method null|\string fillUserTypeSettings()
-	 * @method null|\string getHint()
-	 * @method \Bitrix\Iblock\Property setHint(null|\string|\Bitrix\Main\DB\SqlExpression $hint)
+	 * @method null|string fillUserTypeSettings()
+	 * @method null|string getHint()
+	 * @method \Bitrix\Iblock\Property setHint(null|string|\Bitrix\Main\DB\SqlExpression $hint)
 	 * @method bool hasHint()
 	 * @method bool isHintFilled()
 	 * @method bool isHintChanged()
-	 * @method null|\string remindActualHint()
-	 * @method null|\string requireHint()
+	 * @method null|string remindActualHint()
+	 * @method null|string requireHint()
 	 * @method \Bitrix\Iblock\Property resetHint()
 	 * @method \Bitrix\Iblock\Property unsetHint()
-	 * @method null|\string fillHint()
+	 * @method null|string fillHint()
 	 * @method \Bitrix\Iblock\Iblock getLinkIblock()
 	 * @method \Bitrix\Iblock\Iblock remindActualLinkIblock()
 	 * @method \Bitrix\Iblock\Iblock requireLinkIblock()
@@ -1481,59 +1481,59 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \int[] getIblockIdList()
-	 * @method \int[] fillIblockId()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method null|\string[] getCodeList()
-	 * @method null|\string[] fillCode()
-	 * @method null|\string[] getDefaultValueList()
-	 * @method null|\string[] fillDefaultValue()
-	 * @method \string[] getPropertyTypeList()
-	 * @method \string[] fillPropertyType()
-	 * @method \int[] getRowCountList()
-	 * @method \int[] fillRowCount()
-	 * @method \int[] getColCountList()
-	 * @method \int[] fillColCount()
-	 * @method \string[] getListTypeList()
-	 * @method \string[] fillListType()
-	 * @method \boolean[] getMultipleList()
-	 * @method \boolean[] fillMultiple()
-	 * @method null|\string[] getXmlIdList()
-	 * @method null|\string[] fillXmlId()
-	 * @method null|\string[] getFileTypeList()
-	 * @method null|\string[] fillFileType()
-	 * @method null|\int[] getMultipleCntList()
-	 * @method null|\int[] fillMultipleCnt()
-	 * @method null|\string[] getTmpIdList()
-	 * @method null|\string[] fillTmpId()
-	 * @method null|\int[] getLinkIblockIdList()
-	 * @method null|\int[] fillLinkIblockId()
-	 * @method \boolean[] getWithDescriptionList()
-	 * @method \boolean[] fillWithDescription()
-	 * @method \boolean[] getSearchableList()
-	 * @method \boolean[] fillSearchable()
-	 * @method \boolean[] getFiltrableList()
-	 * @method \boolean[] fillFiltrable()
-	 * @method \boolean[] getIsRequiredList()
-	 * @method \boolean[] fillIsRequired()
-	 * @method \string[] getVersionList()
-	 * @method \string[] fillVersion()
-	 * @method null|\string[] getUserTypeList()
-	 * @method null|\string[] fillUserType()
+	 * @method int[] getIblockIdList()
+	 * @method int[] fillIblockId()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method null|string[] getCodeList()
+	 * @method null|string[] fillCode()
+	 * @method null|string[] getDefaultValueList()
+	 * @method null|string[] fillDefaultValue()
+	 * @method string[] getPropertyTypeList()
+	 * @method string[] fillPropertyType()
+	 * @method int[] getRowCountList()
+	 * @method int[] fillRowCount()
+	 * @method int[] getColCountList()
+	 * @method int[] fillColCount()
+	 * @method string[] getListTypeList()
+	 * @method string[] fillListType()
+	 * @method bool[] getMultipleList()
+	 * @method bool[] fillMultiple()
+	 * @method null|string[] getXmlIdList()
+	 * @method null|string[] fillXmlId()
+	 * @method null|string[] getFileTypeList()
+	 * @method null|string[] fillFileType()
+	 * @method null|int[] getMultipleCntList()
+	 * @method null|int[] fillMultipleCnt()
+	 * @method null|string[] getTmpIdList()
+	 * @method null|string[] fillTmpId()
+	 * @method null|int[] getLinkIblockIdList()
+	 * @method null|int[] fillLinkIblockId()
+	 * @method bool[] getWithDescriptionList()
+	 * @method bool[] fillWithDescription()
+	 * @method bool[] getSearchableList()
+	 * @method bool[] fillSearchable()
+	 * @method bool[] getFiltrableList()
+	 * @method bool[] fillFiltrable()
+	 * @method bool[] getIsRequiredList()
+	 * @method bool[] fillIsRequired()
+	 * @method string[] getVersionList()
+	 * @method string[] fillVersion()
+	 * @method null|string[] getUserTypeList()
+	 * @method null|string[] fillUserType()
 	 * @method null|array[] getUserTypeSettingsListList()
 	 * @method null|array[] fillUserTypeSettingsList()
-	 * @method null|\string[] getUserTypeSettingsList()
-	 * @method null|\string[] fillUserTypeSettings()
-	 * @method null|\string[] getHintList()
-	 * @method null|\string[] fillHint()
+	 * @method null|string[] getUserTypeSettingsList()
+	 * @method null|string[] fillUserTypeSettings()
+	 * @method null|string[] getHintList()
+	 * @method null|string[] fillHint()
 	 * @method \Bitrix\Iblock\Iblock[] getLinkIblockList()
 	 * @method \Bitrix\Iblock\EO_Property_Collection getLinkIblockCollection()
 	 * @method \Bitrix\Iblock\EO_Iblock_Collection fillLinkIblock()
@@ -1620,8 +1620,8 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -1635,16 +1635,16 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTimestampX()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \int getModifiedBy()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setModifiedBy(\int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
+	 * @method int getModifiedBy()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setModifiedBy(int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
 	 * @method bool hasModifiedBy()
 	 * @method bool isModifiedByFilled()
 	 * @method bool isModifiedByChanged()
-	 * @method \int remindActualModifiedBy()
-	 * @method \int requireModifiedBy()
+	 * @method int remindActualModifiedBy()
+	 * @method int requireModifiedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetModifiedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetModifiedBy()
-	 * @method \int fillModifiedBy()
+	 * @method int fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime getDateCreate()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDateCreate(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $dateCreate)
 	 * @method bool hasDateCreate()
@@ -1655,46 +1655,46 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetDateCreate()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetDateCreate()
 	 * @method \Bitrix\Main\Type\DateTime fillDateCreate()
-	 * @method \int getCreatedBy()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setCreatedBy(\int|\Bitrix\Main\DB\SqlExpression $createdBy)
+	 * @method int getCreatedBy()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setCreatedBy(int|\Bitrix\Main\DB\SqlExpression $createdBy)
 	 * @method bool hasCreatedBy()
 	 * @method bool isCreatedByFilled()
 	 * @method bool isCreatedByChanged()
-	 * @method \int remindActualCreatedBy()
-	 * @method \int requireCreatedBy()
+	 * @method int remindActualCreatedBy()
+	 * @method int requireCreatedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetCreatedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetCreatedBy()
-	 * @method \int fillCreatedBy()
-	 * @method \int getIblockId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setIblockId(\int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method int fillCreatedBy()
+	 * @method int getIblockId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
 	 * @method bool hasIblockId()
 	 * @method bool isIblockIdFilled()
 	 * @method bool isIblockIdChanged()
-	 * @method \int remindActualIblockId()
-	 * @method \int requireIblockId()
+	 * @method int remindActualIblockId()
+	 * @method int requireIblockId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetIblockId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetIblockId()
-	 * @method \int fillIblockId()
-	 * @method \int getIblockSectionId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setIblockSectionId(\int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
+	 * @method int fillIblockId()
+	 * @method int getIblockSectionId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setIblockSectionId(int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
 	 * @method bool hasIblockSectionId()
 	 * @method bool isIblockSectionIdFilled()
 	 * @method bool isIblockSectionIdChanged()
-	 * @method \int remindActualIblockSectionId()
-	 * @method \int requireIblockSectionId()
+	 * @method int remindActualIblockSectionId()
+	 * @method int requireIblockSectionId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetIblockSectionId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetIblockSectionId()
-	 * @method \int fillIblockSectionId()
-	 * @method \boolean getActive()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method int fillIblockSectionId()
+	 * @method bool getActive()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetActive()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetActive()
-	 * @method \boolean fillActive()
+	 * @method bool fillActive()
 	 * @method \Bitrix\Main\Type\DateTime getActiveFrom()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setActiveFrom(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $activeFrom)
 	 * @method bool hasActiveFrom()
@@ -1715,136 +1715,136 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetActiveTo()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetActiveTo()
 	 * @method \Bitrix\Main\Type\DateTime fillActiveTo()
-	 * @method \int getSort()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method int getSort()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetSort()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetSort()
-	 * @method \int fillSort()
-	 * @method \string getName()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method int fillSort()
+	 * @method string getName()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetName()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetName()
-	 * @method \string fillName()
-	 * @method \int getPreviewPicture()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewPicture(\int|\Bitrix\Main\DB\SqlExpression $previewPicture)
+	 * @method string fillName()
+	 * @method int getPreviewPicture()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewPicture(int|\Bitrix\Main\DB\SqlExpression $previewPicture)
 	 * @method bool hasPreviewPicture()
 	 * @method bool isPreviewPictureFilled()
 	 * @method bool isPreviewPictureChanged()
-	 * @method \int remindActualPreviewPicture()
-	 * @method \int requirePreviewPicture()
+	 * @method int remindActualPreviewPicture()
+	 * @method int requirePreviewPicture()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetPreviewPicture()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetPreviewPicture()
-	 * @method \int fillPreviewPicture()
-	 * @method \string getPreviewText()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewText(\string|\Bitrix\Main\DB\SqlExpression $previewText)
+	 * @method int fillPreviewPicture()
+	 * @method string getPreviewText()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewText(string|\Bitrix\Main\DB\SqlExpression $previewText)
 	 * @method bool hasPreviewText()
 	 * @method bool isPreviewTextFilled()
 	 * @method bool isPreviewTextChanged()
-	 * @method \string remindActualPreviewText()
-	 * @method \string requirePreviewText()
+	 * @method string remindActualPreviewText()
+	 * @method string requirePreviewText()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetPreviewText()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetPreviewText()
-	 * @method \string fillPreviewText()
-	 * @method \string getPreviewTextType()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewTextType(\string|\Bitrix\Main\DB\SqlExpression $previewTextType)
+	 * @method string fillPreviewText()
+	 * @method string getPreviewTextType()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setPreviewTextType(string|\Bitrix\Main\DB\SqlExpression $previewTextType)
 	 * @method bool hasPreviewTextType()
 	 * @method bool isPreviewTextTypeFilled()
 	 * @method bool isPreviewTextTypeChanged()
-	 * @method \string remindActualPreviewTextType()
-	 * @method \string requirePreviewTextType()
+	 * @method string remindActualPreviewTextType()
+	 * @method string requirePreviewTextType()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetPreviewTextType()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetPreviewTextType()
-	 * @method \string fillPreviewTextType()
-	 * @method \int getDetailPicture()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailPicture(\int|\Bitrix\Main\DB\SqlExpression $detailPicture)
+	 * @method string fillPreviewTextType()
+	 * @method int getDetailPicture()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailPicture(int|\Bitrix\Main\DB\SqlExpression $detailPicture)
 	 * @method bool hasDetailPicture()
 	 * @method bool isDetailPictureFilled()
 	 * @method bool isDetailPictureChanged()
-	 * @method \int remindActualDetailPicture()
-	 * @method \int requireDetailPicture()
+	 * @method int remindActualDetailPicture()
+	 * @method int requireDetailPicture()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetDetailPicture()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetDetailPicture()
-	 * @method \int fillDetailPicture()
-	 * @method \string getDetailText()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailText(\string|\Bitrix\Main\DB\SqlExpression $detailText)
+	 * @method int fillDetailPicture()
+	 * @method string getDetailText()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailText(string|\Bitrix\Main\DB\SqlExpression $detailText)
 	 * @method bool hasDetailText()
 	 * @method bool isDetailTextFilled()
 	 * @method bool isDetailTextChanged()
-	 * @method \string remindActualDetailText()
-	 * @method \string requireDetailText()
+	 * @method string remindActualDetailText()
+	 * @method string requireDetailText()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetDetailText()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetDetailText()
-	 * @method \string fillDetailText()
-	 * @method \string getDetailTextType()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailTextType(\string|\Bitrix\Main\DB\SqlExpression $detailTextType)
+	 * @method string fillDetailText()
+	 * @method string getDetailTextType()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setDetailTextType(string|\Bitrix\Main\DB\SqlExpression $detailTextType)
 	 * @method bool hasDetailTextType()
 	 * @method bool isDetailTextTypeFilled()
 	 * @method bool isDetailTextTypeChanged()
-	 * @method \string remindActualDetailTextType()
-	 * @method \string requireDetailTextType()
+	 * @method string remindActualDetailTextType()
+	 * @method string requireDetailTextType()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetDetailTextType()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetDetailTextType()
-	 * @method \string fillDetailTextType()
-	 * @method \string getSearchableContent()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSearchableContent(\string|\Bitrix\Main\DB\SqlExpression $searchableContent)
+	 * @method string fillDetailTextType()
+	 * @method string getSearchableContent()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSearchableContent(string|\Bitrix\Main\DB\SqlExpression $searchableContent)
 	 * @method bool hasSearchableContent()
 	 * @method bool isSearchableContentFilled()
 	 * @method bool isSearchableContentChanged()
-	 * @method \string remindActualSearchableContent()
-	 * @method \string requireSearchableContent()
+	 * @method string remindActualSearchableContent()
+	 * @method string requireSearchableContent()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetSearchableContent()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetSearchableContent()
-	 * @method \string fillSearchableContent()
-	 * @method \int getWfStatusId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfStatusId(\int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
+	 * @method string fillSearchableContent()
+	 * @method int getWfStatusId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfStatusId(int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
 	 * @method bool hasWfStatusId()
 	 * @method bool isWfStatusIdFilled()
 	 * @method bool isWfStatusIdChanged()
-	 * @method \int remindActualWfStatusId()
-	 * @method \int requireWfStatusId()
+	 * @method int remindActualWfStatusId()
+	 * @method int requireWfStatusId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfStatusId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfStatusId()
-	 * @method \int fillWfStatusId()
-	 * @method \int getWfParentElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfParentElementId(\int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
+	 * @method int fillWfStatusId()
+	 * @method int getWfParentElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfParentElementId(int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
 	 * @method bool hasWfParentElementId()
 	 * @method bool isWfParentElementIdFilled()
 	 * @method bool isWfParentElementIdChanged()
-	 * @method \int remindActualWfParentElementId()
-	 * @method \int requireWfParentElementId()
+	 * @method int remindActualWfParentElementId()
+	 * @method int requireWfParentElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfParentElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfParentElementId()
-	 * @method \int fillWfParentElementId()
-	 * @method \string getWfNew()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfNew(\string|\Bitrix\Main\DB\SqlExpression $wfNew)
+	 * @method int fillWfParentElementId()
+	 * @method string getWfNew()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfNew(string|\Bitrix\Main\DB\SqlExpression $wfNew)
 	 * @method bool hasWfNew()
 	 * @method bool isWfNewFilled()
 	 * @method bool isWfNewChanged()
-	 * @method \string remindActualWfNew()
-	 * @method \string requireWfNew()
+	 * @method string remindActualWfNew()
+	 * @method string requireWfNew()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfNew()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfNew()
-	 * @method \string fillWfNew()
-	 * @method \int getWfLockedBy()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfLockedBy(\int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
+	 * @method string fillWfNew()
+	 * @method int getWfLockedBy()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfLockedBy(int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
 	 * @method bool hasWfLockedBy()
 	 * @method bool isWfLockedByFilled()
 	 * @method bool isWfLockedByChanged()
-	 * @method \int remindActualWfLockedBy()
-	 * @method \int requireWfLockedBy()
+	 * @method int remindActualWfLockedBy()
+	 * @method int requireWfLockedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfLockedBy()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfLockedBy()
-	 * @method \int fillWfLockedBy()
+	 * @method int fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime getWfDateLock()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfDateLock(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $wfDateLock)
 	 * @method bool hasWfDateLock()
@@ -1855,76 +1855,76 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfDateLock()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfDateLock()
 	 * @method \Bitrix\Main\Type\DateTime fillWfDateLock()
-	 * @method \string getWfComments()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfComments(\string|\Bitrix\Main\DB\SqlExpression $wfComments)
+	 * @method string getWfComments()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setWfComments(string|\Bitrix\Main\DB\SqlExpression $wfComments)
 	 * @method bool hasWfComments()
 	 * @method bool isWfCommentsFilled()
 	 * @method bool isWfCommentsChanged()
-	 * @method \string remindActualWfComments()
-	 * @method \string requireWfComments()
+	 * @method string remindActualWfComments()
+	 * @method string requireWfComments()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetWfComments()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetWfComments()
-	 * @method \string fillWfComments()
-	 * @method \boolean getInSections()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setInSections(\boolean|\Bitrix\Main\DB\SqlExpression $inSections)
+	 * @method string fillWfComments()
+	 * @method bool getInSections()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setInSections(bool|\Bitrix\Main\DB\SqlExpression $inSections)
 	 * @method bool hasInSections()
 	 * @method bool isInSectionsFilled()
 	 * @method bool isInSectionsChanged()
-	 * @method \boolean remindActualInSections()
-	 * @method \boolean requireInSections()
+	 * @method bool remindActualInSections()
+	 * @method bool requireInSections()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetInSections()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetInSections()
-	 * @method \boolean fillInSections()
-	 * @method \string getXmlId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setXmlId(\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method bool fillInSections()
+	 * @method string getXmlId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setXmlId(string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method \string remindActualXmlId()
-	 * @method \string requireXmlId()
+	 * @method string remindActualXmlId()
+	 * @method string requireXmlId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetXmlId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetXmlId()
-	 * @method \string fillXmlId()
-	 * @method \string getCode()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setCode(\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method string fillXmlId()
+	 * @method string getCode()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setCode(string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method \string remindActualCode()
-	 * @method \string requireCode()
+	 * @method string remindActualCode()
+	 * @method string requireCode()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetCode()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetCode()
-	 * @method \string fillCode()
-	 * @method \string getTags()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTags(\string|\Bitrix\Main\DB\SqlExpression $tags)
+	 * @method string fillCode()
+	 * @method string getTags()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTags(string|\Bitrix\Main\DB\SqlExpression $tags)
 	 * @method bool hasTags()
 	 * @method bool isTagsFilled()
 	 * @method bool isTagsChanged()
-	 * @method \string remindActualTags()
-	 * @method \string requireTags()
+	 * @method string remindActualTags()
+	 * @method string requireTags()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTags()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTags()
-	 * @method \string fillTags()
-	 * @method \string getTmpId()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTmpId(\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method string fillTags()
+	 * @method string getTmpId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTmpId(string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method \string remindActualTmpId()
-	 * @method \string requireTmpId()
+	 * @method string remindActualTmpId()
+	 * @method string requireTmpId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTmpId()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTmpId()
-	 * @method \string fillTmpId()
-	 * @method \int getShowCounter()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setShowCounter(\int|\Bitrix\Main\DB\SqlExpression $showCounter)
+	 * @method string fillTmpId()
+	 * @method int getShowCounter()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setShowCounter(int|\Bitrix\Main\DB\SqlExpression $showCounter)
 	 * @method bool hasShowCounter()
 	 * @method bool isShowCounterFilled()
 	 * @method bool isShowCounterChanged()
-	 * @method \int remindActualShowCounter()
-	 * @method \int requireShowCounter()
+	 * @method int remindActualShowCounter()
+	 * @method int requireShowCounter()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetShowCounter()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetShowCounter()
-	 * @method \int fillShowCounter()
+	 * @method int fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime getShowCounterStart()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setShowCounterStart(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $showCounterStart)
 	 * @method bool hasShowCounterStart()
@@ -2006,69 +2006,180 @@ namespace Bitrix\Iblock\Elements {
 	 * @method void removeAllSections()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetSections()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetSections()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection getMorePhoto()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection requireMorePhoto()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection fillMorePhoto()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 getTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 remindActualTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 requireTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTitle(\Bitrix\Iblock\Elements\EO_IblockProperty2|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTitle()
+	 * @method bool hasTitle()
+	 * @method bool isTitleFilled()
+	 * @method bool isTitleChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 fillTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 getKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 remindActualKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 requireKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setKeywords(\Bitrix\Iblock\Elements\EO_IblockProperty3|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetKeywords()
+	 * @method bool hasKeywords()
+	 * @method bool isKeywordsFilled()
+	 * @method bool isKeywordsChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 fillKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 getMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 remindActualMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 requireMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setMetaDescription(\Bitrix\Iblock\Elements\EO_IblockProperty4|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetMetaDescription()
+	 * @method bool hasMetaDescription()
+	 * @method bool isMetaDescriptionFilled()
+	 * @method bool isMetaDescriptionChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 fillMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection getBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection requireBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection fillBrandRef()
+	 * @method bool hasBrandRef()
+	 * @method bool isBrandRefFilled()
+	 * @method bool isBrandRefChanged()
+	 * @method void addToBrandRef(\Bitrix\Iblock\Elements\EO_IblockProperty5|\Bitrix\Iblock\ORM\PropertyValue|string $iblockProperty5)
+	 * @method void removeFromBrandRef(\Bitrix\Iblock\Elements\EO_IblockProperty5|\Bitrix\Iblock\ORM\PropertyValue|string $iblockProperty5)
+	 * @method void removeAllBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 getNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 remindActualNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 requireNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setNewproduct(\Bitrix\Iblock\Elements\EO_IblockProperty6|\Bitrix\Iblock\ORM\PropertyValue|int $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetNewproduct()
+	 * @method bool hasNewproduct()
+	 * @method bool isNewproductFilled()
+	 * @method bool isNewproductChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 fillNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 getSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 remindActualSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 requireSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSaleleader(\Bitrix\Iblock\Elements\EO_IblockProperty7|\Bitrix\Iblock\ORM\PropertyValue|int $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetSaleleader()
+	 * @method bool hasSaleleader()
+	 * @method bool isSaleleaderFilled()
+	 * @method bool isSaleleaderChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 fillSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 getSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 remindActualSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 requireSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setSpecialoffer(\Bitrix\Iblock\Elements\EO_IblockProperty8|\Bitrix\Iblock\ORM\PropertyValue|int $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetSpecialoffer()
+	 * @method bool hasSpecialoffer()
+	 * @method bool isSpecialofferFilled()
+	 * @method bool isSpecialofferChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 fillSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 getArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 remindActualArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 requireArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setArtnumber(\Bitrix\Iblock\Elements\EO_IblockProperty9|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetArtnumber()
+	 * @method bool hasArtnumber()
+	 * @method bool isArtnumberFilled()
+	 * @method bool isArtnumberChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 fillArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 getManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 remindActualManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 requireManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setManufacturer(\Bitrix\Iblock\Elements\EO_IblockProperty10|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetManufacturer()
+	 * @method bool hasManufacturer()
+	 * @method bool isManufacturerFilled()
+	 * @method bool isManufacturerChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 fillManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection getMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection requireMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection fillMaterial()
+	 * @method bool hasMaterial()
+	 * @method bool isMaterialFilled()
+	 * @method bool isMaterialChanged()
+	 * @method void addToMaterial(\Bitrix\Iblock\Elements\EO_IblockProperty11|\Bitrix\Iblock\ORM\PropertyValue|string $iblockProperty11)
+	 * @method void removeFromMaterial(\Bitrix\Iblock\Elements\EO_IblockProperty11|\Bitrix\Iblock\ORM\PropertyValue|string $iblockProperty11)
+	 * @method void removeAllMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 getColor()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 remindActualColor()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 requireColor()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setColor(\Bitrix\Iblock\Elements\EO_IblockProperty12|\Bitrix\Iblock\ORM\PropertyValue|string $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetColor()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetColor()
+	 * @method bool hasColor()
+	 * @method bool isColorFilled()
+	 * @method bool isColorChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 fillColor()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection getMorePhoto()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection requireMorePhoto()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection fillMorePhoto()
 	 * @method bool hasMorePhoto()
 	 * @method bool isMorePhotoFilled()
 	 * @method bool isMorePhotoChanged()
-	 * @method void addToMorePhoto(\Bitrix\Iblock\Elements\EO_IblockProperty61|\Bitrix\Iblock\ORM\PropertyValue|\int $iblockProperty61)
-	 * @method void removeFromMorePhoto(\Bitrix\Iblock\Elements\EO_IblockProperty61|\Bitrix\Iblock\ORM\PropertyValue|\int $iblockProperty61)
+	 * @method void addToMorePhoto(\Bitrix\Iblock\Elements\EO_IblockProperty13|\Bitrix\Iblock\ORM\PropertyValue|int $iblockProperty13)
+	 * @method void removeFromMorePhoto(\Bitrix\Iblock\Elements\EO_IblockProperty13|\Bitrix\Iblock\ORM\PropertyValue|int $iblockProperty13)
 	 * @method void removeAllMorePhoto()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetMorePhoto()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetMorePhoto()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection getTest()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection requireTest()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection fillTest()
-	 * @method bool hasTest()
-	 * @method bool isTestFilled()
-	 * @method bool isTestChanged()
-	 * @method void addToTest(\Bitrix\Iblock\Elements\EO_IblockProperty64|\Bitrix\Iblock\ORM\PropertyValue|\string $iblockProperty64)
-	 * @method void removeFromTest(\Bitrix\Iblock\Elements\EO_IblockProperty64|\Bitrix\Iblock\ORM\PropertyValue|\string $iblockProperty64)
-	 * @method void removeAllTest()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTest()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTest()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 getTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 remindActualTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 requireTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTmpString(\Bitrix\Iblock\Elements\EO_IblockProperty65|\Bitrix\Iblock\ORM\PropertyValue|\string $object)
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTmpString()
-	 * @method bool hasTmpString()
-	 * @method bool isTmpStringFilled()
-	 * @method bool isTmpStringChanged()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 fillTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 getTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 remindActualTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 requireTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTmpNumber(\Bitrix\Iblock\Elements\EO_IblockProperty66|\Bitrix\Iblock\ORM\PropertyValue|\float $object)
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTmpNumber()
-	 * @method bool hasTmpNumber()
-	 * @method bool isTmpNumberFilled()
-	 * @method bool isTmpNumberChanged()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 fillTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 getTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 remindActualTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 requireTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTmpList(\Bitrix\Iblock\Elements\EO_IblockProperty67|\Bitrix\Iblock\ORM\PropertyValue|\int $object)
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTmpList()
-	 * @method bool hasTmpList()
-	 * @method bool isTmpListFilled()
-	 * @method bool isTmpListChanged()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 fillTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection getTmpListMulti()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection requireTmpListMulti()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection fillTmpListMulti()
-	 * @method bool hasTmpListMulti()
-	 * @method bool isTmpListMultiFilled()
-	 * @method bool isTmpListMultiChanged()
-	 * @method void addToTmpListMulti(\Bitrix\Iblock\Elements\EO_IblockProperty68|\Bitrix\Iblock\ORM\PropertyValue|\int $iblockProperty68)
-	 * @method void removeFromTmpListMulti(\Bitrix\Iblock\Elements\EO_IblockProperty68|\Bitrix\Iblock\ORM\PropertyValue|\int $iblockProperty68)
-	 * @method void removeAllTmpListMulti()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTmpListMulti()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTmpListMulti()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection getRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection requireRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection fillRecommend()
+	 * @method bool hasRecommend()
+	 * @method bool isRecommendFilled()
+	 * @method bool isRecommendChanged()
+	 * @method void addToRecommend(\Bitrix\Iblock\Elements\EO_IblockProperty14|\Bitrix\Iblock\ORM\PropertyValue|int $iblockProperty14)
+	 * @method void removeFromRecommend(\Bitrix\Iblock\Elements\EO_IblockProperty14|\Bitrix\Iblock\ORM\PropertyValue|int $iblockProperty14)
+	 * @method void removeAllRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 getBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 remindActualBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 requireBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setBlogPostId(\Bitrix\Iblock\Elements\EO_IblockProperty15|\Bitrix\Iblock\ORM\PropertyValue|float $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetBlogPostId()
+	 * @method bool hasBlogPostId()
+	 * @method bool isBlogPostIdFilled()
+	 * @method bool isBlogPostIdChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 fillBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 getBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 remindActualBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 requireBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setBlogCommentsCnt(\Bitrix\Iblock\Elements\EO_IblockProperty16|\Bitrix\Iblock\ORM\PropertyValue|float $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetBlogCommentsCnt()
+	 * @method bool hasBlogCommentsCnt()
+	 * @method bool isBlogCommentsCntFilled()
+	 * @method bool isBlogCommentsCntChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 fillBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 getBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 remindActualBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 requireBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setBackgroundImage(\Bitrix\Iblock\Elements\EO_IblockProperty17|\Bitrix\Iblock\ORM\PropertyValue|int $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetBackgroundImage()
+	 * @method bool hasBackgroundImage()
+	 * @method bool isBackgroundImageFilled()
+	 * @method bool isBackgroundImageChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 fillBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 getTrend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 remindActualTrend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 requireTrend()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog setTrend(\Bitrix\Iblock\Elements\EO_IblockProperty18|\Bitrix\Iblock\ORM\PropertyValue|int $object)
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog resetTrend()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog unsetTrend()
+	 * @method bool hasTrend()
+	 * @method bool isTrendFilled()
+	 * @method bool isTrendChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 fillTrend()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -2112,67 +2223,67 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \int[] getModifiedByList()
-	 * @method \int[] fillModifiedBy()
+	 * @method int[] getModifiedByList()
+	 * @method int[] fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getDateCreateList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillDateCreate()
-	 * @method \int[] getCreatedByList()
-	 * @method \int[] fillCreatedBy()
-	 * @method \int[] getIblockIdList()
-	 * @method \int[] fillIblockId()
-	 * @method \int[] getIblockSectionIdList()
-	 * @method \int[] fillIblockSectionId()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
+	 * @method int[] getCreatedByList()
+	 * @method int[] fillCreatedBy()
+	 * @method int[] getIblockIdList()
+	 * @method int[] fillIblockId()
+	 * @method int[] getIblockSectionIdList()
+	 * @method int[] fillIblockSectionId()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveFromList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveFrom()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveToList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveTo()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \int[] getPreviewPictureList()
-	 * @method \int[] fillPreviewPicture()
-	 * @method \string[] getPreviewTextList()
-	 * @method \string[] fillPreviewText()
-	 * @method \string[] getPreviewTextTypeList()
-	 * @method \string[] fillPreviewTextType()
-	 * @method \int[] getDetailPictureList()
-	 * @method \int[] fillDetailPicture()
-	 * @method \string[] getDetailTextList()
-	 * @method \string[] fillDetailText()
-	 * @method \string[] getDetailTextTypeList()
-	 * @method \string[] fillDetailTextType()
-	 * @method \string[] getSearchableContentList()
-	 * @method \string[] fillSearchableContent()
-	 * @method \int[] getWfStatusIdList()
-	 * @method \int[] fillWfStatusId()
-	 * @method \int[] getWfParentElementIdList()
-	 * @method \int[] fillWfParentElementId()
-	 * @method \string[] getWfNewList()
-	 * @method \string[] fillWfNew()
-	 * @method \int[] getWfLockedByList()
-	 * @method \int[] fillWfLockedBy()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method int[] getPreviewPictureList()
+	 * @method int[] fillPreviewPicture()
+	 * @method string[] getPreviewTextList()
+	 * @method string[] fillPreviewText()
+	 * @method string[] getPreviewTextTypeList()
+	 * @method string[] fillPreviewTextType()
+	 * @method int[] getDetailPictureList()
+	 * @method int[] fillDetailPicture()
+	 * @method string[] getDetailTextList()
+	 * @method string[] fillDetailText()
+	 * @method string[] getDetailTextTypeList()
+	 * @method string[] fillDetailTextType()
+	 * @method string[] getSearchableContentList()
+	 * @method string[] fillSearchableContent()
+	 * @method int[] getWfStatusIdList()
+	 * @method int[] fillWfStatusId()
+	 * @method int[] getWfParentElementIdList()
+	 * @method int[] fillWfParentElementId()
+	 * @method string[] getWfNewList()
+	 * @method string[] fillWfNew()
+	 * @method int[] getWfLockedByList()
+	 * @method int[] fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getWfDateLockList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillWfDateLock()
-	 * @method \string[] getWfCommentsList()
-	 * @method \string[] fillWfComments()
-	 * @method \boolean[] getInSectionsList()
-	 * @method \boolean[] fillInSections()
-	 * @method \string[] getXmlIdList()
-	 * @method \string[] fillXmlId()
-	 * @method \string[] getCodeList()
-	 * @method \string[] fillCode()
-	 * @method \string[] getTagsList()
-	 * @method \string[] fillTags()
-	 * @method \string[] getTmpIdList()
-	 * @method \string[] fillTmpId()
-	 * @method \int[] getShowCounterList()
-	 * @method \int[] fillShowCounter()
+	 * @method string[] getWfCommentsList()
+	 * @method string[] fillWfComments()
+	 * @method bool[] getInSectionsList()
+	 * @method bool[] fillInSections()
+	 * @method string[] getXmlIdList()
+	 * @method string[] fillXmlId()
+	 * @method string[] getCodeList()
+	 * @method string[] fillCode()
+	 * @method string[] getTagsList()
+	 * @method string[] fillTags()
+	 * @method string[] getTmpIdList()
+	 * @method string[] fillTmpId()
+	 * @method int[] getShowCounterList()
+	 * @method int[] fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime[] getShowCounterStartList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillShowCounterStart()
 	 * @method \Bitrix\Iblock\Iblock[] getIblockList()
@@ -2196,24 +2307,57 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\EO_Section_Collection[] getSectionsList()
 	 * @method \Bitrix\Iblock\EO_Section_Collection getSectionsCollection()
 	 * @method \Bitrix\Iblock\EO_Section_Collection fillSections()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection[] getMorePhotoList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection getMorePhotoCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection fillMorePhoto()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection[] getTestList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection getTestCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection fillTest()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65[] getTmpStringList()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getTmpStringCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65_Collection fillTmpString()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66[] getTmpNumberList()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getTmpNumberCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66_Collection fillTmpNumber()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67[] getTmpListList()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getTmpListCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67_Collection fillTmpList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection[] getTmpListMultiList()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection getTmpListMultiCollection()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection fillTmpListMulti()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2[] getTitleList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getTitleCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection fillTitle()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3[] getKeywordsList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getKeywordsCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection fillKeywords()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4[] getMetaDescriptionList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getMetaDescriptionCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection fillMetaDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection[] getBrandRefList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection getBrandRefCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection fillBrandRef()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6[] getNewproductList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getNewproductCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection fillNewproduct()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7[] getSaleleaderList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getSaleleaderCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection fillSaleleader()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8[] getSpecialofferList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getSpecialofferCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection fillSpecialoffer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9[] getArtnumberList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getArtnumberCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection fillArtnumber()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10[] getManufacturerList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getManufacturerCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection fillManufacturer()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection[] getMaterialList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection getMaterialCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection fillMaterial()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12[] getColorList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getColorCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection fillColor()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection[] getMorePhotoList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection getMorePhotoCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection fillMorePhoto()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection[] getRecommendList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection getRecommendCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection fillRecommend()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15[] getBlogPostIdList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getBlogPostIdCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection fillBlogPostId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16[] getBlogCommentsCntList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getBlogCommentsCntCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection fillBlogCommentsCnt()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17[] getBackgroundImageList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getBackgroundImageCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection fillBackgroundImage()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18[] getTrendList()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection getTrendCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection fillTrend()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -2294,8 +2438,8 @@ namespace Bitrix\Iblock\ORM {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -2309,16 +2453,16 @@ namespace Bitrix\Iblock\ORM {
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetTimestampX()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \int getModifiedBy()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setModifiedBy(\int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
+	 * @method int getModifiedBy()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setModifiedBy(int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
 	 * @method bool hasModifiedBy()
 	 * @method bool isModifiedByFilled()
 	 * @method bool isModifiedByChanged()
-	 * @method \int remindActualModifiedBy()
-	 * @method \int requireModifiedBy()
+	 * @method int remindActualModifiedBy()
+	 * @method int requireModifiedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetModifiedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetModifiedBy()
-	 * @method \int fillModifiedBy()
+	 * @method int fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime getDateCreate()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDateCreate(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $dateCreate)
 	 * @method bool hasDateCreate()
@@ -2329,46 +2473,46 @@ namespace Bitrix\Iblock\ORM {
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetDateCreate()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetDateCreate()
 	 * @method \Bitrix\Main\Type\DateTime fillDateCreate()
-	 * @method \int getCreatedBy()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setCreatedBy(\int|\Bitrix\Main\DB\SqlExpression $createdBy)
+	 * @method int getCreatedBy()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setCreatedBy(int|\Bitrix\Main\DB\SqlExpression $createdBy)
 	 * @method bool hasCreatedBy()
 	 * @method bool isCreatedByFilled()
 	 * @method bool isCreatedByChanged()
-	 * @method \int remindActualCreatedBy()
-	 * @method \int requireCreatedBy()
+	 * @method int remindActualCreatedBy()
+	 * @method int requireCreatedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetCreatedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetCreatedBy()
-	 * @method \int fillCreatedBy()
-	 * @method \int getIblockId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setIblockId(\int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method int fillCreatedBy()
+	 * @method int getIblockId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
 	 * @method bool hasIblockId()
 	 * @method bool isIblockIdFilled()
 	 * @method bool isIblockIdChanged()
-	 * @method \int remindActualIblockId()
-	 * @method \int requireIblockId()
+	 * @method int remindActualIblockId()
+	 * @method int requireIblockId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetIblockId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetIblockId()
-	 * @method \int fillIblockId()
-	 * @method \int getIblockSectionId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setIblockSectionId(\int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
+	 * @method int fillIblockId()
+	 * @method int getIblockSectionId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setIblockSectionId(int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
 	 * @method bool hasIblockSectionId()
 	 * @method bool isIblockSectionIdFilled()
 	 * @method bool isIblockSectionIdChanged()
-	 * @method \int remindActualIblockSectionId()
-	 * @method \int requireIblockSectionId()
+	 * @method int remindActualIblockSectionId()
+	 * @method int requireIblockSectionId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetIblockSectionId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetIblockSectionId()
-	 * @method \int fillIblockSectionId()
-	 * @method \boolean getActive()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method int fillIblockSectionId()
+	 * @method bool getActive()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetActive()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetActive()
-	 * @method \boolean fillActive()
+	 * @method bool fillActive()
 	 * @method \Bitrix\Main\Type\DateTime getActiveFrom()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setActiveFrom(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $activeFrom)
 	 * @method bool hasActiveFrom()
@@ -2389,136 +2533,136 @@ namespace Bitrix\Iblock\ORM {
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetActiveTo()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetActiveTo()
 	 * @method \Bitrix\Main\Type\DateTime fillActiveTo()
-	 * @method \int getSort()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method int getSort()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetSort()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetSort()
-	 * @method \int fillSort()
-	 * @method \string getName()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method int fillSort()
+	 * @method string getName()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetName()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetName()
-	 * @method \string fillName()
-	 * @method \int getPreviewPicture()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewPicture(\int|\Bitrix\Main\DB\SqlExpression $previewPicture)
+	 * @method string fillName()
+	 * @method int getPreviewPicture()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewPicture(int|\Bitrix\Main\DB\SqlExpression $previewPicture)
 	 * @method bool hasPreviewPicture()
 	 * @method bool isPreviewPictureFilled()
 	 * @method bool isPreviewPictureChanged()
-	 * @method \int remindActualPreviewPicture()
-	 * @method \int requirePreviewPicture()
+	 * @method int remindActualPreviewPicture()
+	 * @method int requirePreviewPicture()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetPreviewPicture()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetPreviewPicture()
-	 * @method \int fillPreviewPicture()
-	 * @method \string getPreviewText()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewText(\string|\Bitrix\Main\DB\SqlExpression $previewText)
+	 * @method int fillPreviewPicture()
+	 * @method string getPreviewText()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewText(string|\Bitrix\Main\DB\SqlExpression $previewText)
 	 * @method bool hasPreviewText()
 	 * @method bool isPreviewTextFilled()
 	 * @method bool isPreviewTextChanged()
-	 * @method \string remindActualPreviewText()
-	 * @method \string requirePreviewText()
+	 * @method string remindActualPreviewText()
+	 * @method string requirePreviewText()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetPreviewText()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetPreviewText()
-	 * @method \string fillPreviewText()
-	 * @method \string getPreviewTextType()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewTextType(\string|\Bitrix\Main\DB\SqlExpression $previewTextType)
+	 * @method string fillPreviewText()
+	 * @method string getPreviewTextType()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setPreviewTextType(string|\Bitrix\Main\DB\SqlExpression $previewTextType)
 	 * @method bool hasPreviewTextType()
 	 * @method bool isPreviewTextTypeFilled()
 	 * @method bool isPreviewTextTypeChanged()
-	 * @method \string remindActualPreviewTextType()
-	 * @method \string requirePreviewTextType()
+	 * @method string remindActualPreviewTextType()
+	 * @method string requirePreviewTextType()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetPreviewTextType()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetPreviewTextType()
-	 * @method \string fillPreviewTextType()
-	 * @method \int getDetailPicture()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailPicture(\int|\Bitrix\Main\DB\SqlExpression $detailPicture)
+	 * @method string fillPreviewTextType()
+	 * @method int getDetailPicture()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailPicture(int|\Bitrix\Main\DB\SqlExpression $detailPicture)
 	 * @method bool hasDetailPicture()
 	 * @method bool isDetailPictureFilled()
 	 * @method bool isDetailPictureChanged()
-	 * @method \int remindActualDetailPicture()
-	 * @method \int requireDetailPicture()
+	 * @method int remindActualDetailPicture()
+	 * @method int requireDetailPicture()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetDetailPicture()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetDetailPicture()
-	 * @method \int fillDetailPicture()
-	 * @method \string getDetailText()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailText(\string|\Bitrix\Main\DB\SqlExpression $detailText)
+	 * @method int fillDetailPicture()
+	 * @method string getDetailText()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailText(string|\Bitrix\Main\DB\SqlExpression $detailText)
 	 * @method bool hasDetailText()
 	 * @method bool isDetailTextFilled()
 	 * @method bool isDetailTextChanged()
-	 * @method \string remindActualDetailText()
-	 * @method \string requireDetailText()
+	 * @method string remindActualDetailText()
+	 * @method string requireDetailText()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetDetailText()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetDetailText()
-	 * @method \string fillDetailText()
-	 * @method \string getDetailTextType()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailTextType(\string|\Bitrix\Main\DB\SqlExpression $detailTextType)
+	 * @method string fillDetailText()
+	 * @method string getDetailTextType()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setDetailTextType(string|\Bitrix\Main\DB\SqlExpression $detailTextType)
 	 * @method bool hasDetailTextType()
 	 * @method bool isDetailTextTypeFilled()
 	 * @method bool isDetailTextTypeChanged()
-	 * @method \string remindActualDetailTextType()
-	 * @method \string requireDetailTextType()
+	 * @method string remindActualDetailTextType()
+	 * @method string requireDetailTextType()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetDetailTextType()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetDetailTextType()
-	 * @method \string fillDetailTextType()
-	 * @method \string getSearchableContent()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setSearchableContent(\string|\Bitrix\Main\DB\SqlExpression $searchableContent)
+	 * @method string fillDetailTextType()
+	 * @method string getSearchableContent()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setSearchableContent(string|\Bitrix\Main\DB\SqlExpression $searchableContent)
 	 * @method bool hasSearchableContent()
 	 * @method bool isSearchableContentFilled()
 	 * @method bool isSearchableContentChanged()
-	 * @method \string remindActualSearchableContent()
-	 * @method \string requireSearchableContent()
+	 * @method string remindActualSearchableContent()
+	 * @method string requireSearchableContent()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetSearchableContent()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetSearchableContent()
-	 * @method \string fillSearchableContent()
-	 * @method \int getWfStatusId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfStatusId(\int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
+	 * @method string fillSearchableContent()
+	 * @method int getWfStatusId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfStatusId(int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
 	 * @method bool hasWfStatusId()
 	 * @method bool isWfStatusIdFilled()
 	 * @method bool isWfStatusIdChanged()
-	 * @method \int remindActualWfStatusId()
-	 * @method \int requireWfStatusId()
+	 * @method int remindActualWfStatusId()
+	 * @method int requireWfStatusId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfStatusId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfStatusId()
-	 * @method \int fillWfStatusId()
-	 * @method \int getWfParentElementId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfParentElementId(\int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
+	 * @method int fillWfStatusId()
+	 * @method int getWfParentElementId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfParentElementId(int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
 	 * @method bool hasWfParentElementId()
 	 * @method bool isWfParentElementIdFilled()
 	 * @method bool isWfParentElementIdChanged()
-	 * @method \int remindActualWfParentElementId()
-	 * @method \int requireWfParentElementId()
+	 * @method int remindActualWfParentElementId()
+	 * @method int requireWfParentElementId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfParentElementId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfParentElementId()
-	 * @method \int fillWfParentElementId()
-	 * @method \string getWfNew()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfNew(\string|\Bitrix\Main\DB\SqlExpression $wfNew)
+	 * @method int fillWfParentElementId()
+	 * @method string getWfNew()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfNew(string|\Bitrix\Main\DB\SqlExpression $wfNew)
 	 * @method bool hasWfNew()
 	 * @method bool isWfNewFilled()
 	 * @method bool isWfNewChanged()
-	 * @method \string remindActualWfNew()
-	 * @method \string requireWfNew()
+	 * @method string remindActualWfNew()
+	 * @method string requireWfNew()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfNew()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfNew()
-	 * @method \string fillWfNew()
-	 * @method \int getWfLockedBy()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfLockedBy(\int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
+	 * @method string fillWfNew()
+	 * @method int getWfLockedBy()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfLockedBy(int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
 	 * @method bool hasWfLockedBy()
 	 * @method bool isWfLockedByFilled()
 	 * @method bool isWfLockedByChanged()
-	 * @method \int remindActualWfLockedBy()
-	 * @method \int requireWfLockedBy()
+	 * @method int remindActualWfLockedBy()
+	 * @method int requireWfLockedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfLockedBy()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfLockedBy()
-	 * @method \int fillWfLockedBy()
+	 * @method int fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime getWfDateLock()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfDateLock(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $wfDateLock)
 	 * @method bool hasWfDateLock()
@@ -2529,76 +2673,76 @@ namespace Bitrix\Iblock\ORM {
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfDateLock()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfDateLock()
 	 * @method \Bitrix\Main\Type\DateTime fillWfDateLock()
-	 * @method \string getWfComments()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfComments(\string|\Bitrix\Main\DB\SqlExpression $wfComments)
+	 * @method string getWfComments()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setWfComments(string|\Bitrix\Main\DB\SqlExpression $wfComments)
 	 * @method bool hasWfComments()
 	 * @method bool isWfCommentsFilled()
 	 * @method bool isWfCommentsChanged()
-	 * @method \string remindActualWfComments()
-	 * @method \string requireWfComments()
+	 * @method string remindActualWfComments()
+	 * @method string requireWfComments()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetWfComments()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetWfComments()
-	 * @method \string fillWfComments()
-	 * @method \boolean getInSections()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setInSections(\boolean|\Bitrix\Main\DB\SqlExpression $inSections)
+	 * @method string fillWfComments()
+	 * @method bool getInSections()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setInSections(bool|\Bitrix\Main\DB\SqlExpression $inSections)
 	 * @method bool hasInSections()
 	 * @method bool isInSectionsFilled()
 	 * @method bool isInSectionsChanged()
-	 * @method \boolean remindActualInSections()
-	 * @method \boolean requireInSections()
+	 * @method bool remindActualInSections()
+	 * @method bool requireInSections()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetInSections()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetInSections()
-	 * @method \boolean fillInSections()
-	 * @method \string getXmlId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setXmlId(\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method bool fillInSections()
+	 * @method string getXmlId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setXmlId(string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method \string remindActualXmlId()
-	 * @method \string requireXmlId()
+	 * @method string remindActualXmlId()
+	 * @method string requireXmlId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetXmlId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetXmlId()
-	 * @method \string fillXmlId()
-	 * @method \string getCode()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setCode(\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method string fillXmlId()
+	 * @method string getCode()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setCode(string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method \string remindActualCode()
-	 * @method \string requireCode()
+	 * @method string remindActualCode()
+	 * @method string requireCode()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetCode()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetCode()
-	 * @method \string fillCode()
-	 * @method \string getTags()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setTags(\string|\Bitrix\Main\DB\SqlExpression $tags)
+	 * @method string fillCode()
+	 * @method string getTags()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setTags(string|\Bitrix\Main\DB\SqlExpression $tags)
 	 * @method bool hasTags()
 	 * @method bool isTagsFilled()
 	 * @method bool isTagsChanged()
-	 * @method \string remindActualTags()
-	 * @method \string requireTags()
+	 * @method string remindActualTags()
+	 * @method string requireTags()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetTags()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetTags()
-	 * @method \string fillTags()
-	 * @method \string getTmpId()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setTmpId(\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method string fillTags()
+	 * @method string getTmpId()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setTmpId(string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method \string remindActualTmpId()
-	 * @method \string requireTmpId()
+	 * @method string remindActualTmpId()
+	 * @method string requireTmpId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetTmpId()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetTmpId()
-	 * @method \string fillTmpId()
-	 * @method \int getShowCounter()
-	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setShowCounter(\int|\Bitrix\Main\DB\SqlExpression $showCounter)
+	 * @method string fillTmpId()
+	 * @method int getShowCounter()
+	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setShowCounter(int|\Bitrix\Main\DB\SqlExpression $showCounter)
 	 * @method bool hasShowCounter()
 	 * @method bool isShowCounterFilled()
 	 * @method bool isShowCounterChanged()
-	 * @method \int remindActualShowCounter()
-	 * @method \int requireShowCounter()
+	 * @method int remindActualShowCounter()
+	 * @method int requireShowCounter()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 resetShowCounter()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 unsetShowCounter()
-	 * @method \int fillShowCounter()
+	 * @method int fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime getShowCounterStart()
 	 * @method \Bitrix\Iblock\ORM\EO_ElementV1 setShowCounterStart(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $showCounterStart)
 	 * @method bool hasShowCounterStart()
@@ -2712,67 +2856,67 @@ namespace Bitrix\Iblock\ORM {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \int[] getModifiedByList()
-	 * @method \int[] fillModifiedBy()
+	 * @method int[] getModifiedByList()
+	 * @method int[] fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getDateCreateList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillDateCreate()
-	 * @method \int[] getCreatedByList()
-	 * @method \int[] fillCreatedBy()
-	 * @method \int[] getIblockIdList()
-	 * @method \int[] fillIblockId()
-	 * @method \int[] getIblockSectionIdList()
-	 * @method \int[] fillIblockSectionId()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
+	 * @method int[] getCreatedByList()
+	 * @method int[] fillCreatedBy()
+	 * @method int[] getIblockIdList()
+	 * @method int[] fillIblockId()
+	 * @method int[] getIblockSectionIdList()
+	 * @method int[] fillIblockSectionId()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveFromList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveFrom()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveToList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveTo()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \int[] getPreviewPictureList()
-	 * @method \int[] fillPreviewPicture()
-	 * @method \string[] getPreviewTextList()
-	 * @method \string[] fillPreviewText()
-	 * @method \string[] getPreviewTextTypeList()
-	 * @method \string[] fillPreviewTextType()
-	 * @method \int[] getDetailPictureList()
-	 * @method \int[] fillDetailPicture()
-	 * @method \string[] getDetailTextList()
-	 * @method \string[] fillDetailText()
-	 * @method \string[] getDetailTextTypeList()
-	 * @method \string[] fillDetailTextType()
-	 * @method \string[] getSearchableContentList()
-	 * @method \string[] fillSearchableContent()
-	 * @method \int[] getWfStatusIdList()
-	 * @method \int[] fillWfStatusId()
-	 * @method \int[] getWfParentElementIdList()
-	 * @method \int[] fillWfParentElementId()
-	 * @method \string[] getWfNewList()
-	 * @method \string[] fillWfNew()
-	 * @method \int[] getWfLockedByList()
-	 * @method \int[] fillWfLockedBy()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method int[] getPreviewPictureList()
+	 * @method int[] fillPreviewPicture()
+	 * @method string[] getPreviewTextList()
+	 * @method string[] fillPreviewText()
+	 * @method string[] getPreviewTextTypeList()
+	 * @method string[] fillPreviewTextType()
+	 * @method int[] getDetailPictureList()
+	 * @method int[] fillDetailPicture()
+	 * @method string[] getDetailTextList()
+	 * @method string[] fillDetailText()
+	 * @method string[] getDetailTextTypeList()
+	 * @method string[] fillDetailTextType()
+	 * @method string[] getSearchableContentList()
+	 * @method string[] fillSearchableContent()
+	 * @method int[] getWfStatusIdList()
+	 * @method int[] fillWfStatusId()
+	 * @method int[] getWfParentElementIdList()
+	 * @method int[] fillWfParentElementId()
+	 * @method string[] getWfNewList()
+	 * @method string[] fillWfNew()
+	 * @method int[] getWfLockedByList()
+	 * @method int[] fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getWfDateLockList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillWfDateLock()
-	 * @method \string[] getWfCommentsList()
-	 * @method \string[] fillWfComments()
-	 * @method \boolean[] getInSectionsList()
-	 * @method \boolean[] fillInSections()
-	 * @method \string[] getXmlIdList()
-	 * @method \string[] fillXmlId()
-	 * @method \string[] getCodeList()
-	 * @method \string[] fillCode()
-	 * @method \string[] getTagsList()
-	 * @method \string[] fillTags()
-	 * @method \string[] getTmpIdList()
-	 * @method \string[] fillTmpId()
-	 * @method \int[] getShowCounterList()
-	 * @method \int[] fillShowCounter()
+	 * @method string[] getWfCommentsList()
+	 * @method string[] fillWfComments()
+	 * @method bool[] getInSectionsList()
+	 * @method bool[] fillInSections()
+	 * @method string[] getXmlIdList()
+	 * @method string[] fillXmlId()
+	 * @method string[] getCodeList()
+	 * @method string[] fillCode()
+	 * @method string[] getTagsList()
+	 * @method string[] fillTags()
+	 * @method string[] getTmpIdList()
+	 * @method string[] fillTmpId()
+	 * @method int[] getShowCounterList()
+	 * @method int[] fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime[] getShowCounterStartList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillShowCounterStart()
 	 * @method \Bitrix\Iblock\Iblock[] getIblockList()
@@ -2873,8 +3017,8 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\EO_Element setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\EO_Element setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
@@ -2888,16 +3032,16 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\EO_Element resetTimestampX()
 	 * @method \Bitrix\Iblock\EO_Element unsetTimestampX()
 	 * @method \Bitrix\Main\Type\DateTime fillTimestampX()
-	 * @method \int getModifiedBy()
-	 * @method \Bitrix\Iblock\EO_Element setModifiedBy(\int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
+	 * @method int getModifiedBy()
+	 * @method \Bitrix\Iblock\EO_Element setModifiedBy(int|\Bitrix\Main\DB\SqlExpression $modifiedBy)
 	 * @method bool hasModifiedBy()
 	 * @method bool isModifiedByFilled()
 	 * @method bool isModifiedByChanged()
-	 * @method \int remindActualModifiedBy()
-	 * @method \int requireModifiedBy()
+	 * @method int remindActualModifiedBy()
+	 * @method int requireModifiedBy()
 	 * @method \Bitrix\Iblock\EO_Element resetModifiedBy()
 	 * @method \Bitrix\Iblock\EO_Element unsetModifiedBy()
-	 * @method \int fillModifiedBy()
+	 * @method int fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime getDateCreate()
 	 * @method \Bitrix\Iblock\EO_Element setDateCreate(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $dateCreate)
 	 * @method bool hasDateCreate()
@@ -2908,46 +3052,46 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\EO_Element resetDateCreate()
 	 * @method \Bitrix\Iblock\EO_Element unsetDateCreate()
 	 * @method \Bitrix\Main\Type\DateTime fillDateCreate()
-	 * @method \int getCreatedBy()
-	 * @method \Bitrix\Iblock\EO_Element setCreatedBy(\int|\Bitrix\Main\DB\SqlExpression $createdBy)
+	 * @method int getCreatedBy()
+	 * @method \Bitrix\Iblock\EO_Element setCreatedBy(int|\Bitrix\Main\DB\SqlExpression $createdBy)
 	 * @method bool hasCreatedBy()
 	 * @method bool isCreatedByFilled()
 	 * @method bool isCreatedByChanged()
-	 * @method \int remindActualCreatedBy()
-	 * @method \int requireCreatedBy()
+	 * @method int remindActualCreatedBy()
+	 * @method int requireCreatedBy()
 	 * @method \Bitrix\Iblock\EO_Element resetCreatedBy()
 	 * @method \Bitrix\Iblock\EO_Element unsetCreatedBy()
-	 * @method \int fillCreatedBy()
-	 * @method \int getIblockId()
-	 * @method \Bitrix\Iblock\EO_Element setIblockId(\int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method int fillCreatedBy()
+	 * @method int getIblockId()
+	 * @method \Bitrix\Iblock\EO_Element setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
 	 * @method bool hasIblockId()
 	 * @method bool isIblockIdFilled()
 	 * @method bool isIblockIdChanged()
-	 * @method \int remindActualIblockId()
-	 * @method \int requireIblockId()
+	 * @method int remindActualIblockId()
+	 * @method int requireIblockId()
 	 * @method \Bitrix\Iblock\EO_Element resetIblockId()
 	 * @method \Bitrix\Iblock\EO_Element unsetIblockId()
-	 * @method \int fillIblockId()
-	 * @method \int getIblockSectionId()
-	 * @method \Bitrix\Iblock\EO_Element setIblockSectionId(\int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
+	 * @method int fillIblockId()
+	 * @method int getIblockSectionId()
+	 * @method \Bitrix\Iblock\EO_Element setIblockSectionId(int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
 	 * @method bool hasIblockSectionId()
 	 * @method bool isIblockSectionIdFilled()
 	 * @method bool isIblockSectionIdChanged()
-	 * @method \int remindActualIblockSectionId()
-	 * @method \int requireIblockSectionId()
+	 * @method int remindActualIblockSectionId()
+	 * @method int requireIblockSectionId()
 	 * @method \Bitrix\Iblock\EO_Element resetIblockSectionId()
 	 * @method \Bitrix\Iblock\EO_Element unsetIblockSectionId()
-	 * @method \int fillIblockSectionId()
-	 * @method \boolean getActive()
-	 * @method \Bitrix\Iblock\EO_Element setActive(\boolean|\Bitrix\Main\DB\SqlExpression $active)
+	 * @method int fillIblockSectionId()
+	 * @method bool getActive()
+	 * @method \Bitrix\Iblock\EO_Element setActive(bool|\Bitrix\Main\DB\SqlExpression $active)
 	 * @method bool hasActive()
 	 * @method bool isActiveFilled()
 	 * @method bool isActiveChanged()
-	 * @method \boolean remindActualActive()
-	 * @method \boolean requireActive()
+	 * @method bool remindActualActive()
+	 * @method bool requireActive()
 	 * @method \Bitrix\Iblock\EO_Element resetActive()
 	 * @method \Bitrix\Iblock\EO_Element unsetActive()
-	 * @method \boolean fillActive()
+	 * @method bool fillActive()
 	 * @method \Bitrix\Main\Type\DateTime getActiveFrom()
 	 * @method \Bitrix\Iblock\EO_Element setActiveFrom(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $activeFrom)
 	 * @method bool hasActiveFrom()
@@ -2968,136 +3112,136 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\EO_Element resetActiveTo()
 	 * @method \Bitrix\Iblock\EO_Element unsetActiveTo()
 	 * @method \Bitrix\Main\Type\DateTime fillActiveTo()
-	 * @method \int getSort()
-	 * @method \Bitrix\Iblock\EO_Element setSort(\int|\Bitrix\Main\DB\SqlExpression $sort)
+	 * @method int getSort()
+	 * @method \Bitrix\Iblock\EO_Element setSort(int|\Bitrix\Main\DB\SqlExpression $sort)
 	 * @method bool hasSort()
 	 * @method bool isSortFilled()
 	 * @method bool isSortChanged()
-	 * @method \int remindActualSort()
-	 * @method \int requireSort()
+	 * @method int remindActualSort()
+	 * @method int requireSort()
 	 * @method \Bitrix\Iblock\EO_Element resetSort()
 	 * @method \Bitrix\Iblock\EO_Element unsetSort()
-	 * @method \int fillSort()
-	 * @method \string getName()
-	 * @method \Bitrix\Iblock\EO_Element setName(\string|\Bitrix\Main\DB\SqlExpression $name)
+	 * @method int fillSort()
+	 * @method string getName()
+	 * @method \Bitrix\Iblock\EO_Element setName(string|\Bitrix\Main\DB\SqlExpression $name)
 	 * @method bool hasName()
 	 * @method bool isNameFilled()
 	 * @method bool isNameChanged()
-	 * @method \string remindActualName()
-	 * @method \string requireName()
+	 * @method string remindActualName()
+	 * @method string requireName()
 	 * @method \Bitrix\Iblock\EO_Element resetName()
 	 * @method \Bitrix\Iblock\EO_Element unsetName()
-	 * @method \string fillName()
-	 * @method \int getPreviewPicture()
-	 * @method \Bitrix\Iblock\EO_Element setPreviewPicture(\int|\Bitrix\Main\DB\SqlExpression $previewPicture)
+	 * @method string fillName()
+	 * @method int getPreviewPicture()
+	 * @method \Bitrix\Iblock\EO_Element setPreviewPicture(int|\Bitrix\Main\DB\SqlExpression $previewPicture)
 	 * @method bool hasPreviewPicture()
 	 * @method bool isPreviewPictureFilled()
 	 * @method bool isPreviewPictureChanged()
-	 * @method \int remindActualPreviewPicture()
-	 * @method \int requirePreviewPicture()
+	 * @method int remindActualPreviewPicture()
+	 * @method int requirePreviewPicture()
 	 * @method \Bitrix\Iblock\EO_Element resetPreviewPicture()
 	 * @method \Bitrix\Iblock\EO_Element unsetPreviewPicture()
-	 * @method \int fillPreviewPicture()
-	 * @method \string getPreviewText()
-	 * @method \Bitrix\Iblock\EO_Element setPreviewText(\string|\Bitrix\Main\DB\SqlExpression $previewText)
+	 * @method int fillPreviewPicture()
+	 * @method string getPreviewText()
+	 * @method \Bitrix\Iblock\EO_Element setPreviewText(string|\Bitrix\Main\DB\SqlExpression $previewText)
 	 * @method bool hasPreviewText()
 	 * @method bool isPreviewTextFilled()
 	 * @method bool isPreviewTextChanged()
-	 * @method \string remindActualPreviewText()
-	 * @method \string requirePreviewText()
+	 * @method string remindActualPreviewText()
+	 * @method string requirePreviewText()
 	 * @method \Bitrix\Iblock\EO_Element resetPreviewText()
 	 * @method \Bitrix\Iblock\EO_Element unsetPreviewText()
-	 * @method \string fillPreviewText()
-	 * @method \string getPreviewTextType()
-	 * @method \Bitrix\Iblock\EO_Element setPreviewTextType(\string|\Bitrix\Main\DB\SqlExpression $previewTextType)
+	 * @method string fillPreviewText()
+	 * @method string getPreviewTextType()
+	 * @method \Bitrix\Iblock\EO_Element setPreviewTextType(string|\Bitrix\Main\DB\SqlExpression $previewTextType)
 	 * @method bool hasPreviewTextType()
 	 * @method bool isPreviewTextTypeFilled()
 	 * @method bool isPreviewTextTypeChanged()
-	 * @method \string remindActualPreviewTextType()
-	 * @method \string requirePreviewTextType()
+	 * @method string remindActualPreviewTextType()
+	 * @method string requirePreviewTextType()
 	 * @method \Bitrix\Iblock\EO_Element resetPreviewTextType()
 	 * @method \Bitrix\Iblock\EO_Element unsetPreviewTextType()
-	 * @method \string fillPreviewTextType()
-	 * @method \int getDetailPicture()
-	 * @method \Bitrix\Iblock\EO_Element setDetailPicture(\int|\Bitrix\Main\DB\SqlExpression $detailPicture)
+	 * @method string fillPreviewTextType()
+	 * @method int getDetailPicture()
+	 * @method \Bitrix\Iblock\EO_Element setDetailPicture(int|\Bitrix\Main\DB\SqlExpression $detailPicture)
 	 * @method bool hasDetailPicture()
 	 * @method bool isDetailPictureFilled()
 	 * @method bool isDetailPictureChanged()
-	 * @method \int remindActualDetailPicture()
-	 * @method \int requireDetailPicture()
+	 * @method int remindActualDetailPicture()
+	 * @method int requireDetailPicture()
 	 * @method \Bitrix\Iblock\EO_Element resetDetailPicture()
 	 * @method \Bitrix\Iblock\EO_Element unsetDetailPicture()
-	 * @method \int fillDetailPicture()
-	 * @method \string getDetailText()
-	 * @method \Bitrix\Iblock\EO_Element setDetailText(\string|\Bitrix\Main\DB\SqlExpression $detailText)
+	 * @method int fillDetailPicture()
+	 * @method string getDetailText()
+	 * @method \Bitrix\Iblock\EO_Element setDetailText(string|\Bitrix\Main\DB\SqlExpression $detailText)
 	 * @method bool hasDetailText()
 	 * @method bool isDetailTextFilled()
 	 * @method bool isDetailTextChanged()
-	 * @method \string remindActualDetailText()
-	 * @method \string requireDetailText()
+	 * @method string remindActualDetailText()
+	 * @method string requireDetailText()
 	 * @method \Bitrix\Iblock\EO_Element resetDetailText()
 	 * @method \Bitrix\Iblock\EO_Element unsetDetailText()
-	 * @method \string fillDetailText()
-	 * @method \string getDetailTextType()
-	 * @method \Bitrix\Iblock\EO_Element setDetailTextType(\string|\Bitrix\Main\DB\SqlExpression $detailTextType)
+	 * @method string fillDetailText()
+	 * @method string getDetailTextType()
+	 * @method \Bitrix\Iblock\EO_Element setDetailTextType(string|\Bitrix\Main\DB\SqlExpression $detailTextType)
 	 * @method bool hasDetailTextType()
 	 * @method bool isDetailTextTypeFilled()
 	 * @method bool isDetailTextTypeChanged()
-	 * @method \string remindActualDetailTextType()
-	 * @method \string requireDetailTextType()
+	 * @method string remindActualDetailTextType()
+	 * @method string requireDetailTextType()
 	 * @method \Bitrix\Iblock\EO_Element resetDetailTextType()
 	 * @method \Bitrix\Iblock\EO_Element unsetDetailTextType()
-	 * @method \string fillDetailTextType()
-	 * @method \string getSearchableContent()
-	 * @method \Bitrix\Iblock\EO_Element setSearchableContent(\string|\Bitrix\Main\DB\SqlExpression $searchableContent)
+	 * @method string fillDetailTextType()
+	 * @method string getSearchableContent()
+	 * @method \Bitrix\Iblock\EO_Element setSearchableContent(string|\Bitrix\Main\DB\SqlExpression $searchableContent)
 	 * @method bool hasSearchableContent()
 	 * @method bool isSearchableContentFilled()
 	 * @method bool isSearchableContentChanged()
-	 * @method \string remindActualSearchableContent()
-	 * @method \string requireSearchableContent()
+	 * @method string remindActualSearchableContent()
+	 * @method string requireSearchableContent()
 	 * @method \Bitrix\Iblock\EO_Element resetSearchableContent()
 	 * @method \Bitrix\Iblock\EO_Element unsetSearchableContent()
-	 * @method \string fillSearchableContent()
-	 * @method \int getWfStatusId()
-	 * @method \Bitrix\Iblock\EO_Element setWfStatusId(\int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
+	 * @method string fillSearchableContent()
+	 * @method int getWfStatusId()
+	 * @method \Bitrix\Iblock\EO_Element setWfStatusId(int|\Bitrix\Main\DB\SqlExpression $wfStatusId)
 	 * @method bool hasWfStatusId()
 	 * @method bool isWfStatusIdFilled()
 	 * @method bool isWfStatusIdChanged()
-	 * @method \int remindActualWfStatusId()
-	 * @method \int requireWfStatusId()
+	 * @method int remindActualWfStatusId()
+	 * @method int requireWfStatusId()
 	 * @method \Bitrix\Iblock\EO_Element resetWfStatusId()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfStatusId()
-	 * @method \int fillWfStatusId()
-	 * @method \int getWfParentElementId()
-	 * @method \Bitrix\Iblock\EO_Element setWfParentElementId(\int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
+	 * @method int fillWfStatusId()
+	 * @method int getWfParentElementId()
+	 * @method \Bitrix\Iblock\EO_Element setWfParentElementId(int|\Bitrix\Main\DB\SqlExpression $wfParentElementId)
 	 * @method bool hasWfParentElementId()
 	 * @method bool isWfParentElementIdFilled()
 	 * @method bool isWfParentElementIdChanged()
-	 * @method \int remindActualWfParentElementId()
-	 * @method \int requireWfParentElementId()
+	 * @method int remindActualWfParentElementId()
+	 * @method int requireWfParentElementId()
 	 * @method \Bitrix\Iblock\EO_Element resetWfParentElementId()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfParentElementId()
-	 * @method \int fillWfParentElementId()
-	 * @method \string getWfNew()
-	 * @method \Bitrix\Iblock\EO_Element setWfNew(\string|\Bitrix\Main\DB\SqlExpression $wfNew)
+	 * @method int fillWfParentElementId()
+	 * @method string getWfNew()
+	 * @method \Bitrix\Iblock\EO_Element setWfNew(string|\Bitrix\Main\DB\SqlExpression $wfNew)
 	 * @method bool hasWfNew()
 	 * @method bool isWfNewFilled()
 	 * @method bool isWfNewChanged()
-	 * @method \string remindActualWfNew()
-	 * @method \string requireWfNew()
+	 * @method string remindActualWfNew()
+	 * @method string requireWfNew()
 	 * @method \Bitrix\Iblock\EO_Element resetWfNew()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfNew()
-	 * @method \string fillWfNew()
-	 * @method \int getWfLockedBy()
-	 * @method \Bitrix\Iblock\EO_Element setWfLockedBy(\int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
+	 * @method string fillWfNew()
+	 * @method int getWfLockedBy()
+	 * @method \Bitrix\Iblock\EO_Element setWfLockedBy(int|\Bitrix\Main\DB\SqlExpression $wfLockedBy)
 	 * @method bool hasWfLockedBy()
 	 * @method bool isWfLockedByFilled()
 	 * @method bool isWfLockedByChanged()
-	 * @method \int remindActualWfLockedBy()
-	 * @method \int requireWfLockedBy()
+	 * @method int remindActualWfLockedBy()
+	 * @method int requireWfLockedBy()
 	 * @method \Bitrix\Iblock\EO_Element resetWfLockedBy()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfLockedBy()
-	 * @method \int fillWfLockedBy()
+	 * @method int fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime getWfDateLock()
 	 * @method \Bitrix\Iblock\EO_Element setWfDateLock(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $wfDateLock)
 	 * @method bool hasWfDateLock()
@@ -3108,76 +3252,76 @@ namespace Bitrix\Iblock {
 	 * @method \Bitrix\Iblock\EO_Element resetWfDateLock()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfDateLock()
 	 * @method \Bitrix\Main\Type\DateTime fillWfDateLock()
-	 * @method \string getWfComments()
-	 * @method \Bitrix\Iblock\EO_Element setWfComments(\string|\Bitrix\Main\DB\SqlExpression $wfComments)
+	 * @method string getWfComments()
+	 * @method \Bitrix\Iblock\EO_Element setWfComments(string|\Bitrix\Main\DB\SqlExpression $wfComments)
 	 * @method bool hasWfComments()
 	 * @method bool isWfCommentsFilled()
 	 * @method bool isWfCommentsChanged()
-	 * @method \string remindActualWfComments()
-	 * @method \string requireWfComments()
+	 * @method string remindActualWfComments()
+	 * @method string requireWfComments()
 	 * @method \Bitrix\Iblock\EO_Element resetWfComments()
 	 * @method \Bitrix\Iblock\EO_Element unsetWfComments()
-	 * @method \string fillWfComments()
-	 * @method \boolean getInSections()
-	 * @method \Bitrix\Iblock\EO_Element setInSections(\boolean|\Bitrix\Main\DB\SqlExpression $inSections)
+	 * @method string fillWfComments()
+	 * @method bool getInSections()
+	 * @method \Bitrix\Iblock\EO_Element setInSections(bool|\Bitrix\Main\DB\SqlExpression $inSections)
 	 * @method bool hasInSections()
 	 * @method bool isInSectionsFilled()
 	 * @method bool isInSectionsChanged()
-	 * @method \boolean remindActualInSections()
-	 * @method \boolean requireInSections()
+	 * @method bool remindActualInSections()
+	 * @method bool requireInSections()
 	 * @method \Bitrix\Iblock\EO_Element resetInSections()
 	 * @method \Bitrix\Iblock\EO_Element unsetInSections()
-	 * @method \boolean fillInSections()
-	 * @method \string getXmlId()
-	 * @method \Bitrix\Iblock\EO_Element setXmlId(\string|\Bitrix\Main\DB\SqlExpression $xmlId)
+	 * @method bool fillInSections()
+	 * @method string getXmlId()
+	 * @method \Bitrix\Iblock\EO_Element setXmlId(string|\Bitrix\Main\DB\SqlExpression $xmlId)
 	 * @method bool hasXmlId()
 	 * @method bool isXmlIdFilled()
 	 * @method bool isXmlIdChanged()
-	 * @method \string remindActualXmlId()
-	 * @method \string requireXmlId()
+	 * @method string remindActualXmlId()
+	 * @method string requireXmlId()
 	 * @method \Bitrix\Iblock\EO_Element resetXmlId()
 	 * @method \Bitrix\Iblock\EO_Element unsetXmlId()
-	 * @method \string fillXmlId()
-	 * @method \string getCode()
-	 * @method \Bitrix\Iblock\EO_Element setCode(\string|\Bitrix\Main\DB\SqlExpression $code)
+	 * @method string fillXmlId()
+	 * @method string getCode()
+	 * @method \Bitrix\Iblock\EO_Element setCode(string|\Bitrix\Main\DB\SqlExpression $code)
 	 * @method bool hasCode()
 	 * @method bool isCodeFilled()
 	 * @method bool isCodeChanged()
-	 * @method \string remindActualCode()
-	 * @method \string requireCode()
+	 * @method string remindActualCode()
+	 * @method string requireCode()
 	 * @method \Bitrix\Iblock\EO_Element resetCode()
 	 * @method \Bitrix\Iblock\EO_Element unsetCode()
-	 * @method \string fillCode()
-	 * @method \string getTags()
-	 * @method \Bitrix\Iblock\EO_Element setTags(\string|\Bitrix\Main\DB\SqlExpression $tags)
+	 * @method string fillCode()
+	 * @method string getTags()
+	 * @method \Bitrix\Iblock\EO_Element setTags(string|\Bitrix\Main\DB\SqlExpression $tags)
 	 * @method bool hasTags()
 	 * @method bool isTagsFilled()
 	 * @method bool isTagsChanged()
-	 * @method \string remindActualTags()
-	 * @method \string requireTags()
+	 * @method string remindActualTags()
+	 * @method string requireTags()
 	 * @method \Bitrix\Iblock\EO_Element resetTags()
 	 * @method \Bitrix\Iblock\EO_Element unsetTags()
-	 * @method \string fillTags()
-	 * @method \string getTmpId()
-	 * @method \Bitrix\Iblock\EO_Element setTmpId(\string|\Bitrix\Main\DB\SqlExpression $tmpId)
+	 * @method string fillTags()
+	 * @method string getTmpId()
+	 * @method \Bitrix\Iblock\EO_Element setTmpId(string|\Bitrix\Main\DB\SqlExpression $tmpId)
 	 * @method bool hasTmpId()
 	 * @method bool isTmpIdFilled()
 	 * @method bool isTmpIdChanged()
-	 * @method \string remindActualTmpId()
-	 * @method \string requireTmpId()
+	 * @method string remindActualTmpId()
+	 * @method string requireTmpId()
 	 * @method \Bitrix\Iblock\EO_Element resetTmpId()
 	 * @method \Bitrix\Iblock\EO_Element unsetTmpId()
-	 * @method \string fillTmpId()
-	 * @method \int getShowCounter()
-	 * @method \Bitrix\Iblock\EO_Element setShowCounter(\int|\Bitrix\Main\DB\SqlExpression $showCounter)
+	 * @method string fillTmpId()
+	 * @method int getShowCounter()
+	 * @method \Bitrix\Iblock\EO_Element setShowCounter(int|\Bitrix\Main\DB\SqlExpression $showCounter)
 	 * @method bool hasShowCounter()
 	 * @method bool isShowCounterFilled()
 	 * @method bool isShowCounterChanged()
-	 * @method \int remindActualShowCounter()
-	 * @method \int requireShowCounter()
+	 * @method int remindActualShowCounter()
+	 * @method int requireShowCounter()
 	 * @method \Bitrix\Iblock\EO_Element resetShowCounter()
 	 * @method \Bitrix\Iblock\EO_Element unsetShowCounter()
-	 * @method \int fillShowCounter()
+	 * @method int fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime getShowCounterStart()
 	 * @method \Bitrix\Iblock\EO_Element setShowCounterStart(\Bitrix\Main\Type\DateTime|\Bitrix\Main\DB\SqlExpression $showCounterStart)
 	 * @method bool hasShowCounterStart()
@@ -3291,67 +3435,67 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
+	 * @method int[] getIdList()
 	 * @method \Bitrix\Main\Type\DateTime[] getTimestampXList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillTimestampX()
-	 * @method \int[] getModifiedByList()
-	 * @method \int[] fillModifiedBy()
+	 * @method int[] getModifiedByList()
+	 * @method int[] fillModifiedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getDateCreateList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillDateCreate()
-	 * @method \int[] getCreatedByList()
-	 * @method \int[] fillCreatedBy()
-	 * @method \int[] getIblockIdList()
-	 * @method \int[] fillIblockId()
-	 * @method \int[] getIblockSectionIdList()
-	 * @method \int[] fillIblockSectionId()
-	 * @method \boolean[] getActiveList()
-	 * @method \boolean[] fillActive()
+	 * @method int[] getCreatedByList()
+	 * @method int[] fillCreatedBy()
+	 * @method int[] getIblockIdList()
+	 * @method int[] fillIblockId()
+	 * @method int[] getIblockSectionIdList()
+	 * @method int[] fillIblockSectionId()
+	 * @method bool[] getActiveList()
+	 * @method bool[] fillActive()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveFromList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveFrom()
 	 * @method \Bitrix\Main\Type\DateTime[] getActiveToList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillActiveTo()
-	 * @method \int[] getSortList()
-	 * @method \int[] fillSort()
-	 * @method \string[] getNameList()
-	 * @method \string[] fillName()
-	 * @method \int[] getPreviewPictureList()
-	 * @method \int[] fillPreviewPicture()
-	 * @method \string[] getPreviewTextList()
-	 * @method \string[] fillPreviewText()
-	 * @method \string[] getPreviewTextTypeList()
-	 * @method \string[] fillPreviewTextType()
-	 * @method \int[] getDetailPictureList()
-	 * @method \int[] fillDetailPicture()
-	 * @method \string[] getDetailTextList()
-	 * @method \string[] fillDetailText()
-	 * @method \string[] getDetailTextTypeList()
-	 * @method \string[] fillDetailTextType()
-	 * @method \string[] getSearchableContentList()
-	 * @method \string[] fillSearchableContent()
-	 * @method \int[] getWfStatusIdList()
-	 * @method \int[] fillWfStatusId()
-	 * @method \int[] getWfParentElementIdList()
-	 * @method \int[] fillWfParentElementId()
-	 * @method \string[] getWfNewList()
-	 * @method \string[] fillWfNew()
-	 * @method \int[] getWfLockedByList()
-	 * @method \int[] fillWfLockedBy()
+	 * @method int[] getSortList()
+	 * @method int[] fillSort()
+	 * @method string[] getNameList()
+	 * @method string[] fillName()
+	 * @method int[] getPreviewPictureList()
+	 * @method int[] fillPreviewPicture()
+	 * @method string[] getPreviewTextList()
+	 * @method string[] fillPreviewText()
+	 * @method string[] getPreviewTextTypeList()
+	 * @method string[] fillPreviewTextType()
+	 * @method int[] getDetailPictureList()
+	 * @method int[] fillDetailPicture()
+	 * @method string[] getDetailTextList()
+	 * @method string[] fillDetailText()
+	 * @method string[] getDetailTextTypeList()
+	 * @method string[] fillDetailTextType()
+	 * @method string[] getSearchableContentList()
+	 * @method string[] fillSearchableContent()
+	 * @method int[] getWfStatusIdList()
+	 * @method int[] fillWfStatusId()
+	 * @method int[] getWfParentElementIdList()
+	 * @method int[] fillWfParentElementId()
+	 * @method string[] getWfNewList()
+	 * @method string[] fillWfNew()
+	 * @method int[] getWfLockedByList()
+	 * @method int[] fillWfLockedBy()
 	 * @method \Bitrix\Main\Type\DateTime[] getWfDateLockList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillWfDateLock()
-	 * @method \string[] getWfCommentsList()
-	 * @method \string[] fillWfComments()
-	 * @method \boolean[] getInSectionsList()
-	 * @method \boolean[] fillInSections()
-	 * @method \string[] getXmlIdList()
-	 * @method \string[] fillXmlId()
-	 * @method \string[] getCodeList()
-	 * @method \string[] fillCode()
-	 * @method \string[] getTagsList()
-	 * @method \string[] fillTags()
-	 * @method \string[] getTmpIdList()
-	 * @method \string[] fillTmpId()
-	 * @method \int[] getShowCounterList()
-	 * @method \int[] fillShowCounter()
+	 * @method string[] getWfCommentsList()
+	 * @method string[] fillWfComments()
+	 * @method bool[] getInSectionsList()
+	 * @method bool[] fillInSections()
+	 * @method string[] getXmlIdList()
+	 * @method string[] fillXmlId()
+	 * @method string[] getCodeList()
+	 * @method string[] fillCode()
+	 * @method string[] getTagsList()
+	 * @method string[] fillTags()
+	 * @method string[] getTmpIdList()
+	 * @method string[] fillTmpId()
+	 * @method int[] getShowCounterList()
+	 * @method int[] fillShowCounter()
 	 * @method \Bitrix\Main\Type\DateTime[] getShowCounterStartList()
 	 * @method \Bitrix\Main\Type\DateTime[] fillShowCounterStart()
 	 * @method \Bitrix\Iblock\Iblock[] getIblockList()
@@ -3452,26 +3596,26 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getIblockSectionId()
-	 * @method \Bitrix\Iblock\EO_SectionElement setIblockSectionId(\int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
+	 * @method int getIblockSectionId()
+	 * @method \Bitrix\Iblock\EO_SectionElement setIblockSectionId(int|\Bitrix\Main\DB\SqlExpression $iblockSectionId)
 	 * @method bool hasIblockSectionId()
 	 * @method bool isIblockSectionIdFilled()
 	 * @method bool isIblockSectionIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\EO_SectionElement setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\EO_SectionElement setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int getAdditionalPropertyId()
-	 * @method \Bitrix\Iblock\EO_SectionElement setAdditionalPropertyId(\int|\Bitrix\Main\DB\SqlExpression $additionalPropertyId)
+	 * @method int getAdditionalPropertyId()
+	 * @method \Bitrix\Iblock\EO_SectionElement setAdditionalPropertyId(int|\Bitrix\Main\DB\SqlExpression $additionalPropertyId)
 	 * @method bool hasAdditionalPropertyId()
 	 * @method bool isAdditionalPropertyIdFilled()
 	 * @method bool isAdditionalPropertyIdChanged()
-	 * @method \int remindActualAdditionalPropertyId()
-	 * @method \int requireAdditionalPropertyId()
+	 * @method int remindActualAdditionalPropertyId()
+	 * @method int requireAdditionalPropertyId()
 	 * @method \Bitrix\Iblock\EO_SectionElement resetAdditionalPropertyId()
 	 * @method \Bitrix\Iblock\EO_SectionElement unsetAdditionalPropertyId()
-	 * @method \int fillAdditionalPropertyId()
+	 * @method int fillAdditionalPropertyId()
 	 * @method \Bitrix\Iblock\EO_Section getIblockSection()
 	 * @method \Bitrix\Iblock\EO_Section remindActualIblockSection()
 	 * @method \Bitrix\Iblock\EO_Section requireIblockSection()
@@ -3492,16 +3636,16 @@ namespace Bitrix\Iblock {
 	 * @method bool isIblockElementFilled()
 	 * @method bool isIblockElementChanged()
 	 * @method \Bitrix\Iblock\EO_Element fillIblockElement()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getRegularElement14()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualRegularElement14()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireRegularElement14()
-	 * @method \Bitrix\Iblock\EO_SectionElement setRegularElement14(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
-	 * @method \Bitrix\Iblock\EO_SectionElement resetRegularElement14()
-	 * @method \Bitrix\Iblock\EO_SectionElement unsetRegularElement14()
-	 * @method bool hasRegularElement14()
-	 * @method bool isRegularElement14Filled()
-	 * @method bool isRegularElement14Changed()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillRegularElement14()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getRegularElement2()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualRegularElement2()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireRegularElement2()
+	 * @method \Bitrix\Iblock\EO_SectionElement setRegularElement2(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\EO_SectionElement resetRegularElement2()
+	 * @method \Bitrix\Iblock\EO_SectionElement unsetRegularElement2()
+	 * @method bool hasRegularElement2()
+	 * @method bool isRegularElement2Filled()
+	 * @method bool isRegularElement2Changed()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillRegularElement2()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -3545,19 +3689,19 @@ namespace Bitrix\Iblock {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIblockSectionIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] getAdditionalPropertyIdList()
-	 * @method \int[] fillAdditionalPropertyId()
+	 * @method int[] getIblockSectionIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] getAdditionalPropertyIdList()
+	 * @method int[] fillAdditionalPropertyId()
 	 * @method \Bitrix\Iblock\EO_Section[] getIblockSectionList()
 	 * @method \Bitrix\Iblock\EO_SectionElement_Collection getIblockSectionCollection()
 	 * @method \Bitrix\Iblock\EO_Section_Collection fillIblockSection()
 	 * @method \Bitrix\Iblock\EO_Element[] getIblockElementList()
 	 * @method \Bitrix\Iblock\EO_SectionElement_Collection getIblockElementCollection()
 	 * @method \Bitrix\Iblock\EO_Element_Collection fillIblockElement()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getRegularElement14List()
-	 * @method \Bitrix\Iblock\EO_SectionElement_Collection getRegularElement14Collection()
-	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillRegularElement14()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getRegularElement2List()
+	 * @method \Bitrix\Iblock\EO_SectionElement_Collection getRegularElement2Collection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillRegularElement2()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -3638,41 +3782,41 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \int getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setValue(\int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \int remindActualValue()
-	 * @method \int requireValue()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 unsetValue()
-	 * @method \int fillValue()
+	 * @method int fillValue()
 	 * @method \Bitrix\Main\EO_File getFile()
 	 * @method \Bitrix\Main\EO_File remindActualFile()
 	 * @method \Bitrix\Main\EO_File requireFile()
@@ -3683,26 +3827,26 @@ namespace Bitrix\Iblock\Elements {
 	 * @method bool isFileFilled()
 	 * @method bool isFileChanged()
 	 * @method \Bitrix\Main\EO_File fillFile()
-	 * @method \string getIblockGenericValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockGenericValue(\string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
 	 * @method bool hasIblockGenericValue()
 	 * @method bool isIblockGenericValueFilled()
 	 * @method bool isIblockGenericValueChanged()
-	 * @method \string remindActualIblockGenericValue()
-	 * @method \string requireIblockGenericValue()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 resetIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 unsetIblockGenericValue()
-	 * @method \string fillIblockGenericValue()
-	 * @method \string getDescription()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setDescription(\string|\Bitrix\Main\DB\SqlExpression $description)
+	 * @method string fillIblockGenericValue()
+	 * @method string getDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 setDescription(string|\Bitrix\Main\DB\SqlExpression $description)
 	 * @method bool hasDescription()
 	 * @method bool isDescriptionFilled()
 	 * @method bool isDescriptionChanged()
-	 * @method \string remindActualDescription()
-	 * @method \string requireDescription()
+	 * @method string remindActualDescription()
+	 * @method string requireDescription()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 resetDescription()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61 unsetDescription()
-	 * @method \string fillDescription()
+	 * @method string fillDescription()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
@@ -3756,20 +3900,20 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \int[] getValueList()
-	 * @method \int[] fillValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
 	 * @method \Bitrix\Main\EO_File[] getFileList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection getFileCollection()
 	 * @method \Bitrix\Main\EO_File_Collection fillFile()
-	 * @method \string[] getIblockGenericValueList()
-	 * @method \string[] fillIblockGenericValue()
-	 * @method \string[] getDescriptionList()
-	 * @method \string[] fillDescription()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 * @method string[] getDescriptionList()
+	 * @method string[] fillDescription()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty61_Collection getSrcElementCollection()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
@@ -3853,41 +3997,41 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \string getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setValue(\string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \string remindActualValue()
-	 * @method \string requireValue()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64 unsetValue()
-	 * @method \string fillValue()
+	 * @method string fillValue()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
@@ -3941,13 +4085,13 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \string[] getValueList()
-	 * @method \string[] fillValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty64_Collection getSrcElementCollection()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
@@ -4031,41 +4175,41 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \string getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setValue(\string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \string remindActualValue()
-	 * @method \string requireValue()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty65 unsetValue()
-	 * @method \string fillValue()
+	 * @method string fillValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4109,13 +4253,13 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \string[] getValueList()
-	 * @method \string[] fillValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4196,51 +4340,51 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \float getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setValue(\float|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method float getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setValue(float|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \float remindActualValue()
-	 * @method \float requireValue()
+	 * @method float remindActualValue()
+	 * @method float requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 unsetValue()
-	 * @method \float fillValue()
-	 * @method \string getIblockGenericValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockGenericValue(\string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method float fillValue()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
 	 * @method bool hasIblockGenericValue()
 	 * @method bool isIblockGenericValueFilled()
 	 * @method bool isIblockGenericValueChanged()
-	 * @method \string remindActualIblockGenericValue()
-	 * @method \string requireIblockGenericValue()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 resetIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty66 unsetIblockGenericValue()
-	 * @method \string fillIblockGenericValue()
+	 * @method string fillIblockGenericValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4284,15 +4428,15 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \float[] getValueList()
-	 * @method \float[] fillValue()
-	 * @method \string[] getIblockGenericValueList()
-	 * @method \string[] fillIblockGenericValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method float[] getValueList()
+	 * @method float[] fillValue()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4373,41 +4517,41 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \int getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setValue(\int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \int remindActualValue()
-	 * @method \int requireValue()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 unsetValue()
-	 * @method \int fillValue()
+	 * @method int fillValue()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
@@ -4418,16 +4562,16 @@ namespace Bitrix\Iblock\Elements {
 	 * @method bool isItemFilled()
 	 * @method bool isItemChanged()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
-	 * @method \string getIblockGenericValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockGenericValue(\string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
 	 * @method bool hasIblockGenericValue()
 	 * @method bool isIblockGenericValueFilled()
 	 * @method bool isIblockGenericValueChanged()
-	 * @method \string remindActualIblockGenericValue()
-	 * @method \string requireIblockGenericValue()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 resetIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67 unsetIblockGenericValue()
-	 * @method \string fillIblockGenericValue()
+	 * @method string fillIblockGenericValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4471,18 +4615,18 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \int[] getValueList()
-	 * @method \int[] fillValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty67_Collection getItemCollection()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
-	 * @method \string[] getIblockGenericValueList()
-	 * @method \string[] fillIblockGenericValue()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
 	 *
 	 * Common methods:
 	 * ---------------
@@ -4563,41 +4707,41 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int getId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setId(\int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setId(int|\Bitrix\Main\DB\SqlExpression $id)
 	 * @method bool hasId()
 	 * @method bool isIdFilled()
 	 * @method bool isIdChanged()
-	 * @method \int getIblockElementId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockElementId(\int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
 	 * @method bool hasIblockElementId()
 	 * @method bool isIblockElementIdFilled()
 	 * @method bool isIblockElementIdChanged()
-	 * @method \int remindActualIblockElementId()
-	 * @method \int requireIblockElementId()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 resetIblockElementId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 unsetIblockElementId()
-	 * @method \int fillIblockElementId()
-	 * @method \int getIblockPropertyId()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockPropertyId(\int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
 	 * @method bool hasIblockPropertyId()
 	 * @method bool isIblockPropertyIdFilled()
 	 * @method bool isIblockPropertyIdChanged()
-	 * @method \int remindActualIblockPropertyId()
-	 * @method \int requireIblockPropertyId()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 resetIblockPropertyId()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 unsetIblockPropertyId()
-	 * @method \int fillIblockPropertyId()
-	 * @method \int getValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setValue(\int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
 	 * @method bool hasValue()
 	 * @method bool isValueFilled()
 	 * @method bool isValueChanged()
-	 * @method \int remindActualValue()
-	 * @method \int requireValue()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 resetValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 unsetValue()
-	 * @method \int fillValue()
+	 * @method int fillValue()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
@@ -4608,16 +4752,16 @@ namespace Bitrix\Iblock\Elements {
 	 * @method bool isItemFilled()
 	 * @method bool isItemChanged()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
-	 * @method \string getIblockGenericValue()
-	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockGenericValue(\string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
 	 * @method bool hasIblockGenericValue()
 	 * @method bool isIblockGenericValueFilled()
 	 * @method bool isIblockGenericValueChanged()
-	 * @method \string remindActualIblockGenericValue()
-	 * @method \string requireIblockGenericValue()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 resetIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68 unsetIblockGenericValue()
-	 * @method \string fillIblockGenericValue()
+	 * @method string fillIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
@@ -4671,18 +4815,18 @@ namespace Bitrix\Iblock\Elements {
 	 * Custom methods:
 	 * ---------------
 	 *
-	 * @method \int[] getIdList()
-	 * @method \int[] getIblockElementIdList()
-	 * @method \int[] fillIblockElementId()
-	 * @method \int[] getIblockPropertyIdList()
-	 * @method \int[] fillIblockPropertyId()
-	 * @method \int[] getValueList()
-	 * @method \int[] fillValue()
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection getItemCollection()
 	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
-	 * @method \string[] getIblockGenericValueList()
-	 * @method \string[] fillIblockGenericValue()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection getSrcElementCollection()
 	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
@@ -4756,4 +4900,3276 @@ namespace Bitrix\Iblock\Elements {
 	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty68_Collection wakeUpCollection($rows)
 	 */
 	class EO_IblockProperty68_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\IblockSiteTable */
+namespace Bitrix\Iblock {
+	/**
+	 * EO_IblockSite
+	 * @see \Bitrix\Iblock\IblockSiteTable
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getIblockId()
+	 * @method \Bitrix\Iblock\EO_IblockSite setIblockId(int|\Bitrix\Main\DB\SqlExpression $iblockId)
+	 * @method bool hasIblockId()
+	 * @method bool isIblockIdFilled()
+	 * @method bool isIblockIdChanged()
+	 * @method string getSiteId()
+	 * @method \Bitrix\Iblock\EO_IblockSite setSiteId(string|\Bitrix\Main\DB\SqlExpression $siteId)
+	 * @method bool hasSiteId()
+	 * @method bool isSiteIdFilled()
+	 * @method bool isSiteIdChanged()
+	 * @method \Bitrix\Iblock\Iblock getIblock()
+	 * @method \Bitrix\Iblock\Iblock remindActualIblock()
+	 * @method \Bitrix\Iblock\Iblock requireIblock()
+	 * @method \Bitrix\Iblock\EO_IblockSite setIblock(\Bitrix\Iblock\Iblock $object)
+	 * @method \Bitrix\Iblock\EO_IblockSite resetIblock()
+	 * @method \Bitrix\Iblock\EO_IblockSite unsetIblock()
+	 * @method bool hasIblock()
+	 * @method bool isIblockFilled()
+	 * @method bool isIblockChanged()
+	 * @method \Bitrix\Iblock\Iblock fillIblock()
+	 * @method \Bitrix\Main\EO_Site getSite()
+	 * @method \Bitrix\Main\EO_Site remindActualSite()
+	 * @method \Bitrix\Main\EO_Site requireSite()
+	 * @method \Bitrix\Iblock\EO_IblockSite setSite(\Bitrix\Main\EO_Site $object)
+	 * @method \Bitrix\Iblock\EO_IblockSite resetSite()
+	 * @method \Bitrix\Iblock\EO_IblockSite unsetSite()
+	 * @method bool hasSite()
+	 * @method bool isSiteFilled()
+	 * @method bool isSiteChanged()
+	 * @method \Bitrix\Main\EO_Site fillSite()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\EO_IblockSite set($fieldName, $value)
+	 * @method \Bitrix\Iblock\EO_IblockSite reset($fieldName)
+	 * @method \Bitrix\Iblock\EO_IblockSite unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\EO_IblockSite wakeUp($data)
+	 */
+	class EO_IblockSite extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\IblockSiteTable */
+		static public $dataClass = '\Bitrix\Iblock\IblockSiteTable';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock {
+	/**
+	 * EO_IblockSite_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIblockIdList()
+	 * @method string[] getSiteIdList()
+	 * @method \Bitrix\Iblock\Iblock[] getIblockList()
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection getIblockCollection()
+	 * @method \Bitrix\Iblock\EO_Iblock_Collection fillIblock()
+	 * @method \Bitrix\Main\EO_Site[] getSiteList()
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection getSiteCollection()
+	 * @method \Bitrix\Main\EO_Site_Collection fillSite()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\EO_IblockSite $object)
+	 * @method bool has(\Bitrix\Iblock\EO_IblockSite $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\EO_IblockSite getByPrimary($primary)
+	 * @method \Bitrix\Iblock\EO_IblockSite[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\EO_IblockSite $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\EO_IblockSite_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\EO_IblockSite current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection merge(?\Bitrix\Iblock\EO_IblockSite_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\EO_IblockSite|null find(callable $callback)
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection filter(callable $callback)
+	 */
+	class EO_IblockSite_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\IblockSiteTable */
+		static public $dataClass = '\Bitrix\Iblock\IblockSiteTable';
+	}
+}
+namespace Bitrix\Iblock {
+	/**
+	 * @method static EO_IblockSite_Query query()
+	 * @method static EO_IblockSite_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockSite_Result getById($id)
+	 * @method static EO_IblockSite_Result getList(array $parameters = [])
+	 * @method static EO_IblockSite_Entity getEntity()
+	 * @method static \Bitrix\Iblock\EO_IblockSite createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\EO_IblockSite_Collection createCollection()
+	 * @method static \Bitrix\Iblock\EO_IblockSite wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\EO_IblockSite_Collection wakeUpCollection($rows)
+	 */
+	class IblockSiteTable extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockSite_Result exec()
+	 * @method \Bitrix\Iblock\EO_IblockSite fetchObject()
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection fetchCollection()
+	 */
+	class EO_IblockSite_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\EO_IblockSite fetchObject()
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection fetchCollection()
+	 */
+	class EO_IblockSite_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\EO_IblockSite createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection createCollection()
+	 * @method \Bitrix\Iblock\EO_IblockSite wakeUpObject($row)
+	 * @method \Bitrix\Iblock\EO_IblockSite_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockSite_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty2Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty2
+	 * @see \Bitrix\Iblock\Elements\IblockProperty2Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2 wakeUp($data)
+	 */
+	class EO_IblockProperty2 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty2Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty2Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty2_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty2 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty2 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty2 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty2_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty2_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty2Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty2Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty2_Query query()
+	 * @method static EO_IblockProperty2_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty2_Result getById($id)
+	 * @method static EO_IblockProperty2_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty2_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty2Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty2_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection fetchCollection()
+	 */
+	class EO_IblockProperty2_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection fetchCollection()
+	 */
+	class EO_IblockProperty2_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty2_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty2_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty3Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty3
+	 * @see \Bitrix\Iblock\Elements\IblockProperty3Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3 wakeUp($data)
+	 */
+	class EO_IblockProperty3 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty3Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty3Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty3_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty3 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty3 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty3 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty3_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty3_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty3Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty3Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty3_Query query()
+	 * @method static EO_IblockProperty3_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty3_Result getById($id)
+	 * @method static EO_IblockProperty3_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty3_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty3Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty3_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection fetchCollection()
+	 */
+	class EO_IblockProperty3_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection fetchCollection()
+	 */
+	class EO_IblockProperty3_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty3_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty3_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty4Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty4
+	 * @see \Bitrix\Iblock\Elements\IblockProperty4Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4 wakeUp($data)
+	 */
+	class EO_IblockProperty4 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty4Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty4Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty4_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty4 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty4 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty4 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty4_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty4_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty4Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty4Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty4_Query query()
+	 * @method static EO_IblockProperty4_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty4_Result getById($id)
+	 * @method static EO_IblockProperty4_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty4_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty4Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty4_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection fetchCollection()
+	 */
+	class EO_IblockProperty4_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection fetchCollection()
+	 */
+	class EO_IblockProperty4_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty4_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty4_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty5Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty5
+	 * @see \Bitrix\Iblock\Elements\IblockProperty5Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 unsetValue()
+	 * @method string fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 setSrcElement(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 resetSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 unsetSrcElement()
+	 * @method bool hasSrcElement()
+	 * @method bool isSrcElementFilled()
+	 * @method bool isSrcElementChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5 wakeUp($data)
+	 */
+	class EO_IblockProperty5 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty5Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty5Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty5_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection getSrcElementCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty5 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty5 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty5 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty5_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty5_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty5Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty5Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty5_Query query()
+	 * @method static EO_IblockProperty5_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty5_Result getById($id)
+	 * @method static EO_IblockProperty5_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty5_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty5Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty5_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection fetchCollection()
+	 */
+	class EO_IblockProperty5_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection fetchCollection()
+	 */
+	class EO_IblockProperty5_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty5_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty5_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty6Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty6
+	 * @see \Bitrix\Iblock\Elements\IblockProperty6Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setItem(\Bitrix\Iblock\EO_PropertyEnumeration $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 resetItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unsetItem()
+	 * @method bool hasItem()
+	 * @method bool isItemFilled()
+	 * @method bool isItemChanged()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6 wakeUp($data)
+	 */
+	class EO_IblockProperty6 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty6Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty6Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty6_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection getItemCollection()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty6 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty6 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty6 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty6_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty6_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty6Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty6Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty6_Query query()
+	 * @method static EO_IblockProperty6_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty6_Result getById($id)
+	 * @method static EO_IblockProperty6_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty6_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty6Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty6_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection fetchCollection()
+	 */
+	class EO_IblockProperty6_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection fetchCollection()
+	 */
+	class EO_IblockProperty6_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty6_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty6_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty7Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty7
+	 * @see \Bitrix\Iblock\Elements\IblockProperty7Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setItem(\Bitrix\Iblock\EO_PropertyEnumeration $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 resetItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unsetItem()
+	 * @method bool hasItem()
+	 * @method bool isItemFilled()
+	 * @method bool isItemChanged()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7 wakeUp($data)
+	 */
+	class EO_IblockProperty7 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty7Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty7Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty7_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection getItemCollection()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty7 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty7 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty7 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty7_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty7_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty7Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty7Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty7_Query query()
+	 * @method static EO_IblockProperty7_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty7_Result getById($id)
+	 * @method static EO_IblockProperty7_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty7_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty7Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty7_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection fetchCollection()
+	 */
+	class EO_IblockProperty7_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection fetchCollection()
+	 */
+	class EO_IblockProperty7_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty7_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty7_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty8Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty8
+	 * @see \Bitrix\Iblock\Elements\IblockProperty8Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setItem(\Bitrix\Iblock\EO_PropertyEnumeration $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 resetItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unsetItem()
+	 * @method bool hasItem()
+	 * @method bool isItemFilled()
+	 * @method bool isItemChanged()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8 wakeUp($data)
+	 */
+	class EO_IblockProperty8 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty8Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty8Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty8_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection getItemCollection()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty8 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty8 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty8 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty8_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty8_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty8Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty8Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty8_Query query()
+	 * @method static EO_IblockProperty8_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty8_Result getById($id)
+	 * @method static EO_IblockProperty8_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty8_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty8Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty8_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection fetchCollection()
+	 */
+	class EO_IblockProperty8_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection fetchCollection()
+	 */
+	class EO_IblockProperty8_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty8_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty8_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty9Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty9
+	 * @see \Bitrix\Iblock\Elements\IblockProperty9Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9 wakeUp($data)
+	 */
+	class EO_IblockProperty9 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty9Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty9Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty9_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty9 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty9 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty9 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty9_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty9_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty9Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty9Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty9_Query query()
+	 * @method static EO_IblockProperty9_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty9_Result getById($id)
+	 * @method static EO_IblockProperty9_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty9_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty9Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty9_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection fetchCollection()
+	 */
+	class EO_IblockProperty9_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection fetchCollection()
+	 */
+	class EO_IblockProperty9_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty9_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty9_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty10Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty10
+	 * @see \Bitrix\Iblock\Elements\IblockProperty10Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10 wakeUp($data)
+	 */
+	class EO_IblockProperty10 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty10Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty10Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty10_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty10 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty10 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty10 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty10_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty10_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty10Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty10Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty10_Query query()
+	 * @method static EO_IblockProperty10_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty10_Result getById($id)
+	 * @method static EO_IblockProperty10_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty10_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty10Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty10_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection fetchCollection()
+	 */
+	class EO_IblockProperty10_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection fetchCollection()
+	 */
+	class EO_IblockProperty10_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty10_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty10_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty11Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty11
+	 * @see \Bitrix\Iblock\Elements\IblockProperty11Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 unsetValue()
+	 * @method string fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 setSrcElement(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 resetSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 unsetSrcElement()
+	 * @method bool hasSrcElement()
+	 * @method bool isSrcElementFilled()
+	 * @method bool isSrcElementChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11 wakeUp($data)
+	 */
+	class EO_IblockProperty11 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty11Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty11Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty11_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection getSrcElementCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty11 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty11 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty11 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty11_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty11_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty11Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty11Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty11_Query query()
+	 * @method static EO_IblockProperty11_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty11_Result getById($id)
+	 * @method static EO_IblockProperty11_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty11_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty11Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty11_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection fetchCollection()
+	 */
+	class EO_IblockProperty11_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection fetchCollection()
+	 */
+	class EO_IblockProperty11_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty11_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty11_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty12Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty12
+	 * @see \Bitrix\Iblock\Elements\IblockProperty12Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method string getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 setValue(string|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method string remindActualValue()
+	 * @method string requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 unsetValue()
+	 * @method string fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12 wakeUp($data)
+	 */
+	class EO_IblockProperty12 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty12Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty12Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty12_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method string[] getValueList()
+	 * @method string[] fillValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty12 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty12 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty12 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty12_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty12_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty12Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty12Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty12_Query query()
+	 * @method static EO_IblockProperty12_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty12_Result getById($id)
+	 * @method static EO_IblockProperty12_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty12_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty12Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty12_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection fetchCollection()
+	 */
+	class EO_IblockProperty12_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection fetchCollection()
+	 */
+	class EO_IblockProperty12_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty12_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty12_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty13Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty13
+	 * @see \Bitrix\Iblock\Elements\IblockProperty13Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Main\EO_File getFile()
+	 * @method \Bitrix\Main\EO_File remindActualFile()
+	 * @method \Bitrix\Main\EO_File requireFile()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setFile(\Bitrix\Main\EO_File $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetFile()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetFile()
+	 * @method bool hasFile()
+	 * @method bool isFileFilled()
+	 * @method bool isFileChanged()
+	 * @method \Bitrix\Main\EO_File fillFile()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 * @method string getDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setDescription(string|\Bitrix\Main\DB\SqlExpression $description)
+	 * @method bool hasDescription()
+	 * @method bool isDescriptionFilled()
+	 * @method bool isDescriptionChanged()
+	 * @method string remindActualDescription()
+	 * @method string requireDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetDescription()
+	 * @method string fillDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 setSrcElement(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 resetSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unsetSrcElement()
+	 * @method bool hasSrcElement()
+	 * @method bool isSrcElementFilled()
+	 * @method bool isSrcElementChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13 wakeUp($data)
+	 */
+	class EO_IblockProperty13 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty13Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty13Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty13_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Main\EO_File[] getFileList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection getFileCollection()
+	 * @method \Bitrix\Main\EO_File_Collection fillFile()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 * @method string[] getDescriptionList()
+	 * @method string[] fillDescription()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection getSrcElementCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty13 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty13 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty13 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty13_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty13_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty13Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty13Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty13_Query query()
+	 * @method static EO_IblockProperty13_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty13_Result getById($id)
+	 * @method static EO_IblockProperty13_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty13_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty13Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty13_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection fetchCollection()
+	 */
+	class EO_IblockProperty13_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection fetchCollection()
+	 */
+	class EO_IblockProperty13_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty13_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty13_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty14Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty14
+	 * @see \Bitrix\Iblock\Elements\IblockProperty14Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setElement(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetElement()
+	 * @method bool hasElement()
+	 * @method bool isElementFilled()
+	 * @method bool isElementChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillElement()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog getSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog remindActualSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog requireSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 setSrcElement(\Bitrix\Iblock\Elements\EO_ElementCatalog $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 resetSrcElement()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unsetSrcElement()
+	 * @method bool hasSrcElement()
+	 * @method bool isSrcElementFilled()
+	 * @method bool isSrcElementChanged()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14 wakeUp($data)
+	 */
+	class EO_IblockProperty14 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty14Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty14Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty14_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getElementList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection getElementCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillElement()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog[] getSrcElementList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection getSrcElementCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_ElementCatalog_Collection fillSrcElement()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty14 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty14 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty14 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty14_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty14_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty14Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty14Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty14_Query query()
+	 * @method static EO_IblockProperty14_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty14_Result getById($id)
+	 * @method static EO_IblockProperty14_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty14_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty14Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty14_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection fetchCollection()
+	 */
+	class EO_IblockProperty14_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection fetchCollection()
+	 */
+	class EO_IblockProperty14_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty14_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty14_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty15Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty15
+	 * @see \Bitrix\Iblock\Elements\IblockProperty15Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method float getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 setValue(float|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method float remindActualValue()
+	 * @method float requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 unsetValue()
+	 * @method float fillValue()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15 wakeUp($data)
+	 */
+	class EO_IblockProperty15 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty15Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty15Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty15_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method float[] getValueList()
+	 * @method float[] fillValue()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty15 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty15 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty15 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty15_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty15_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty15Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty15Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty15_Query query()
+	 * @method static EO_IblockProperty15_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty15_Result getById($id)
+	 * @method static EO_IblockProperty15_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty15_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty15Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty15_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection fetchCollection()
+	 */
+	class EO_IblockProperty15_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection fetchCollection()
+	 */
+	class EO_IblockProperty15_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty15_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty15_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty16Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty16
+	 * @see \Bitrix\Iblock\Elements\IblockProperty16Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method float getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 setValue(float|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method float remindActualValue()
+	 * @method float requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 unsetValue()
+	 * @method float fillValue()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16 wakeUp($data)
+	 */
+	class EO_IblockProperty16 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty16Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty16Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty16_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method float[] getValueList()
+	 * @method float[] fillValue()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty16 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty16 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty16 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty16_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty16_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty16Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty16Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty16_Query query()
+	 * @method static EO_IblockProperty16_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty16_Result getById($id)
+	 * @method static EO_IblockProperty16_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty16_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty16Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty16_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection fetchCollection()
+	 */
+	class EO_IblockProperty16_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection fetchCollection()
+	 */
+	class EO_IblockProperty16_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty16_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty16_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty17Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty17
+	 * @see \Bitrix\Iblock\Elements\IblockProperty17Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Main\EO_File getFile()
+	 * @method \Bitrix\Main\EO_File remindActualFile()
+	 * @method \Bitrix\Main\EO_File requireFile()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setFile(\Bitrix\Main\EO_File $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 resetFile()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unsetFile()
+	 * @method bool hasFile()
+	 * @method bool isFileFilled()
+	 * @method bool isFileChanged()
+	 * @method \Bitrix\Main\EO_File fillFile()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17 wakeUp($data)
+	 */
+	class EO_IblockProperty17 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty17Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty17Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty17_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Main\EO_File[] getFileList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection getFileCollection()
+	 * @method \Bitrix\Main\EO_File_Collection fillFile()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty17 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty17 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty17 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty17_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty17_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty17Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty17Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty17_Query query()
+	 * @method static EO_IblockProperty17_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty17_Result getById($id)
+	 * @method static EO_IblockProperty17_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty17_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty17Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty17_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection fetchCollection()
+	 */
+	class EO_IblockProperty17_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection fetchCollection()
+	 */
+	class EO_IblockProperty17_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty17_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty17_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Iblock\Elements\IblockProperty18Table */
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty18
+	 * @see \Bitrix\Iblock\Elements\IblockProperty18Table
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setId(int|\Bitrix\Main\DB\SqlExpression $id)
+	 * @method bool hasId()
+	 * @method bool isIdFilled()
+	 * @method bool isIdChanged()
+	 * @method int getIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setIblockElementId(int|\Bitrix\Main\DB\SqlExpression $iblockElementId)
+	 * @method bool hasIblockElementId()
+	 * @method bool isIblockElementIdFilled()
+	 * @method bool isIblockElementIdChanged()
+	 * @method int remindActualIblockElementId()
+	 * @method int requireIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 resetIblockElementId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unsetIblockElementId()
+	 * @method int fillIblockElementId()
+	 * @method int getIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setIblockPropertyId(int|\Bitrix\Main\DB\SqlExpression $iblockPropertyId)
+	 * @method bool hasIblockPropertyId()
+	 * @method bool isIblockPropertyIdFilled()
+	 * @method bool isIblockPropertyIdChanged()
+	 * @method int remindActualIblockPropertyId()
+	 * @method int requireIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 resetIblockPropertyId()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unsetIblockPropertyId()
+	 * @method int fillIblockPropertyId()
+	 * @method int getValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setValue(int|\Bitrix\Main\DB\SqlExpression $value)
+	 * @method bool hasValue()
+	 * @method bool isValueFilled()
+	 * @method bool isValueChanged()
+	 * @method int remindActualValue()
+	 * @method int requireValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 resetValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unsetValue()
+	 * @method int fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration getItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration remindActualItem()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration requireItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setItem(\Bitrix\Iblock\EO_PropertyEnumeration $object)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 resetItem()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unsetItem()
+	 * @method bool hasItem()
+	 * @method bool isItemFilled()
+	 * @method bool isItemChanged()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration fillItem()
+	 * @method string getIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 setIblockGenericValue(string|\Bitrix\Main\DB\SqlExpression $iblockGenericValue)
+	 * @method bool hasIblockGenericValue()
+	 * @method bool isIblockGenericValueFilled()
+	 * @method bool isIblockGenericValueChanged()
+	 * @method string remindActualIblockGenericValue()
+	 * @method string requireIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 resetIblockGenericValue()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unsetIblockGenericValue()
+	 * @method string fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @property-read array $primary
+	 * @property-read int $state @see \Bitrix\Main\ORM\Objectify\State
+	 * @property-read \Bitrix\Main\Type\Dictionary $customData
+	 * @property \Bitrix\Main\Authentication\Context $authContext
+	 * @method mixed get($fieldName)
+	 * @method mixed remindActual($fieldName)
+	 * @method mixed require($fieldName)
+	 * @method bool has($fieldName)
+	 * @method bool isFilled($fieldName)
+	 * @method bool isChanged($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 set($fieldName, $value)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 reset($fieldName)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 unset($fieldName)
+	 * @method void addTo($fieldName, $value)
+	 * @method void removeFrom($fieldName, $value)
+	 * @method void removeAll($fieldName)
+	 * @method \Bitrix\Main\ORM\Data\Result delete()
+	 * @method mixed fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method mixed[] collectValues($valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL)
+	 * @method \Bitrix\Main\ORM\Data\AddResult|\Bitrix\Main\ORM\Data\UpdateResult|\Bitrix\Main\ORM\Data\Result save()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18 wakeUp($data)
+	 */
+	class EO_IblockProperty18 extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty18Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty18Table';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * EO_IblockProperty18_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getIdList()
+	 * @method int[] getIblockElementIdList()
+	 * @method int[] fillIblockElementId()
+	 * @method int[] getIblockPropertyIdList()
+	 * @method int[] fillIblockPropertyId()
+	 * @method int[] getValueList()
+	 * @method int[] fillValue()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration[] getItemList()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection getItemCollection()
+	 * @method \Bitrix\Iblock\EO_PropertyEnumeration_Collection fillItem()
+	 * @method string[] getIblockGenericValueList()
+	 * @method string[] fillIblockGenericValue()
+	 *
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @property-read \Bitrix\Main\ORM\Entity $entity
+	 * @method void add(\Bitrix\Iblock\Elements\EO_IblockProperty18 $object)
+	 * @method bool has(\Bitrix\Iblock\Elements\EO_IblockProperty18 $object)
+	 * @method bool hasByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 getByPrimary($primary)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18[] getAll()
+	 * @method bool remove(\Bitrix\Iblock\Elements\EO_IblockProperty18 $object)
+	 * @method void removeByPrimary($primary)
+	 * @method array|\Bitrix\Main\ORM\Objectify\Collection|null fill($fields = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL) flag or array of field names
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection wakeUp($data)
+	 * @method \Bitrix\Main\ORM\Data\Result save($ignoreEvents = false)
+	 * @method void offsetSet() ArrayAccess
+	 * @method void offsetExists() ArrayAccess
+	 * @method void offsetUnset() ArrayAccess
+	 * @method void offsetGet() ArrayAccess
+	 * @method void rewind() Iterator
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 current() Iterator
+	 * @method mixed key() Iterator
+	 * @method void next() Iterator
+	 * @method bool valid() Iterator
+	 * @method int count() Countable
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection merge(?\Bitrix\Iblock\Elements\EO_IblockProperty18_Collection $collection)
+	 * @method bool isEmpty()
+	 * @method array collectValues(int $valuesType = \Bitrix\Main\ORM\Objectify\Values::ALL, int $fieldsMask = \Bitrix\Main\ORM\Fields\FieldTypeMask::ALL, bool $recursive = false)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18|null find(callable $callback)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection filter(callable $callback)
+	 */
+	class EO_IblockProperty18_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Iblock\Elements\IblockProperty18Table */
+		static public $dataClass = '\Bitrix\Iblock\Elements\IblockProperty18Table';
+	}
+}
+namespace Bitrix\Iblock\Elements {
+	/**
+	 * @method static EO_IblockProperty18_Query query()
+	 * @method static EO_IblockProperty18_Result getByPrimary($primary, array $parameters = [])
+	 * @method static EO_IblockProperty18_Result getById($id)
+	 * @method static EO_IblockProperty18_Result getList(array $parameters = [])
+	 * @method static EO_IblockProperty18_Entity getEntity()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18 createObject($setDefaultValues = true)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection createCollection()
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18 wakeUpObject($row)
+	 * @method static \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection wakeUpCollection($rows)
+	 */
+	class IblockProperty18Table extends \Bitrix\Main\ORM\Data\DataManager {}
+	/**
+	 * Common methods:
+	 * ---------------
+	 *
+	 * @method EO_IblockProperty18_Result exec()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection fetchCollection()
+	 */
+	class EO_IblockProperty18_Query extends \Bitrix\Main\ORM\Query\Query {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 fetchObject()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection fetchCollection()
+	 */
+	class EO_IblockProperty18_Result extends \Bitrix\Main\ORM\Query\Result {}
+	/**
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 createObject($setDefaultValues = true)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection createCollection()
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18 wakeUpObject($row)
+	 * @method \Bitrix\Iblock\Elements\EO_IblockProperty18_Collection wakeUpCollection($rows)
+	 */
+	class EO_IblockProperty18_Entity extends \Bitrix\Main\ORM\Entity {}
+}
+/* ORMENTITYANNOTATION:Bitrix\Catalog\ProductTable */
+namespace Bitrix\Catalog {
+	/**
+	 * EO_Product
+	 * @see \Bitrix\Catalog\ProductTable
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int getUfProductGroup()
+	 * @method int remindActualUfProductGroup()
+	 * @method int requireUfProductGroup()
+	 * @method bool hasUfProductGroup()
+	 * @method bool isUfProductGroupFilled()
+	 * @method \Bitrix\Catalog\EO_Product unsetUfProductGroup()
+	 * @method int fillUfProductGroup()
+	 * @method \Bitrix\Catalog\EO_Product setUfProductGroup(int $ufProductGroup)
+	 * @method bool isUfProductGroupChanged()
+	 */
+	class EO_Product extends \Bitrix\Main\ORM\Objectify\EntityObject {
+		/* @var \Bitrix\Catalog\ProductTable */
+		static public $dataClass = '\Bitrix\Catalog\ProductTable';
+		/**
+		 * @param bool|array $setDefaultValues
+		 */
+		public function __construct($setDefaultValues = true) {}
+	}
+}
+namespace Bitrix\Catalog {
+	/**
+	 * EO_Product_Collection
+	 *
+	 * Custom methods:
+	 * ---------------
+	 *
+	 * @method int[] getUfProductGroupList()
+	 * @method int[] fillUfProductGroup()
+	 */
+	class EO_Product_Collection extends \Bitrix\Main\ORM\Objectify\Collection implements \ArrayAccess, \Iterator, \Countable {
+		/* @var \Bitrix\Catalog\ProductTable */
+		static public $dataClass = '\Bitrix\Catalog\ProductTable';
+	}
 }

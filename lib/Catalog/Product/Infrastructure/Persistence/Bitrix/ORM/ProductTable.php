@@ -46,6 +46,8 @@ class ProductTable extends Elements\ElementCatalogTable
     /**
      * Override getMap to include product meta reference.
      * Need to generate map for ORM to recognize the relation and allow fetching related data.
+     *
+     * @return array<int|string, mixed>
     */
     public static function getMap(): array
     {
